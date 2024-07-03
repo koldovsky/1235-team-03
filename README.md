@@ -20,4 +20,6 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
     loadedPartialsCount++;
     if (loadedPartialsCount === totalPartials) init();
 });
-```
+``
+# Team 3
+Olesia Yemets
