@@ -23,3 +23,4 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
 ``
 # Team 3
 Olesia Yemets
+Tetiana Kalinovska
