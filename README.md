@@ -26,3 +26,4 @@ Olesia Yemets
 Tetiana Kalinovska
 Rostyslav Zadyraichuk
 Artem Yashchenko
+Viktoria Stolz
