@@ -1,0 +1,13 @@
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0.5em; /* Space between icon and text */
+}
