@@ -1,33 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head class="header">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head class="header">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacts</title>
-    <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
-    <script src="https://unpkg.com/htmx.org@1.9.10"
-        integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
-        crossorigin="anonymous"></script>
+    <link
+      rel="shortcut icon"
+      href="https://placekitten.com/96/139"
+      type="image/x-icon"
+    />
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
     <div
-    data-hx-trigger="load"
-    data-hx-swap="outerHTML"
-    data-hx-get="contacts.header-hero.partial.html"
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="contacts.header-hero.partial.html"
     ></div>
-</head>
+  </head>
 
-<body>
+  <body>
+    <h1>test</h1>
     <section>
-        <div
-            data-hx-trigger="load"
-            data-hx-swap="outerHTML"
-            data-hx-get="contacts.contact-form.partial.html"
-        ></div>
+      <div
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="contacts.contact-form.partial.html"
+      ></div>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21075.29423728743!2d-121.7216698679833!3d48.67849131335027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5484e4a314d33881%3A0xf787c4b2030f68cd!2sNF-1118%2C%20Washington%2098237%2C%20USA!5e0!3m2!1sen!2spl!4v1720099063177!5m2!1sen!2spl"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </section>
     <footer>
-        <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.footer-nav.partial.html"> </nav>
+      <nav
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.footer-nav.partial.html"
+      ></nav>
     </footer>
-</body>
-
+  </body>
 </html>
