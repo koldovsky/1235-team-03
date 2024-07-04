@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gampling | Habitations</title>
+    <link rel="shortcut icon" type="image/png" href="https://res2.weblium.site/res/65a4dd651ae638000e4a167b/65c5f7ddbd7a9b000f341560_optimized" sizes="16x16">
+    <script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <nav 
+            class="header__nav"
+            data-hx-trigger="load" 
+            data-hx-swap="outerHTML" 
+            data-hx-get="global.header-nav.partial.html">
+        </nav>
+        <div class="header__intro">
+            <h1 class="header__title">Habitations</h1>
+            <p class="header__description">Explore our accommodation options and make your choice for your perfect stay at Hidden Heaven!</p>
+        </div>
+    </header>
+    <main class="main">
+        <section class="habitations">
+            <div class="habitations__item">
+                <picture 
+                    class="habitations__picture" 
+                    style="padding-top:64.44%" 
+                    data-wrapper-id="daf80666-f83c-4edd-8d71-c39c03fb0edf" 
+                    data-component="picture" 
+                    data-images="[]" 
+                    data-fallbackurl="https://res2.weblium.site/res/65a4dd651ae638000e4a167b/65c4a3d379999b000f59baf5_optimized_1400_c1196x797-0x93" 
+                    data-was-processed="true">
+                    <source 
+                        media="(min-width: 768px) and (max-width: 991px)" 
+                        srcset="https://res2.weblium.site/res/65a4dd651ae638000e4a167b/65c4a3d379999b000f59baf5_optimized_1400_c1196x797-0x93">
+                    <source 
+                        media="(max-width: 767px)" 
+                        srcset="https://res2.weblium.site/res/65a4dd651ae638000e4a167b/65c4a3d379999b000f59baf5_optimized_1400_c1196x797-0x93">
+                    <img 
+                        alt="Illustration" 
+                        data-fallback-url="https://res2.weblium.site/res/65a4dd651ae638000e4a167b/65c4a3d379999b000f59baf5_optimized_1400_c1196x797-0x93" 
+                        class="habitations__image" 
+                        src="https://res2.weblium.site/res/65a4dd651ae638000e4a167b/65c4a3d379999b000f59baf5_optimized_1400_c1196x797-0x93.webp">
+                </picture>
+            </div>
+            <p class="habitations__capacity">1-2 PERSONS | 25M<sup>2</sup></p>
+            <h2 class="habitations__name">Geodesic Dome →</h2>
+            <div class="habitations__amenities">
+                <div class="amenity">
+                    <img class="amenity__icon" src="img/habitations/pet_paw_icon.svg" alt="Pets allowed">
+                    <p class="amenity__description">Pets allowed</p>
+                </div>
+                <div class="amenity">
+                    <img class="amenity__icon" src="img/habitations/wi-fi_icon.svg" alt="Wi-fi">
+                    <p class="amenity__description">Wi-fi</p>
+                </div>
+                <div class="amenity">
+                    <img class="amenity__icon" src="img/habitations/bonfire_icon.svg" alt="Bonfire">
+                    <p class="amenity__description">Bonfire</p>
+                </div>
+                <div class="amenity">
+                    <img class="amenity__icon" src="img/habitations/separator.svg" alt="Separator">
+                </div>
+            </div>
+            <div class="habitations__description">
+                <p>Experience unique accommodation in our cozy geodesic domes, offering panoramic views and modern comforts nestled within nature.</p>
+                <button class="habitations__button">Book Now</button>
+            </div>
+        </section>
+        <section class="habitations__section"></section>
+    </main>
+    <footer class="footer">
+    </footer>
+</body>
+</html>

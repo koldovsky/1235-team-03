@@ -1,0 +1,38 @@
+<svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    data-name="Layer 1" 
+    viewBox="0 0 16 16" 
+    x="0px" 
+    y="0px" 
+    style="max-width:100%" 
+    height="100%">
+
+    <title style="" fill="currentColor">bonfire</title>
+
+    <g style="" fill="currentColor">
+        <path 
+            d="M8.011,10A3.758,3.758,0,0,0,12,6.1C12,3.644,10,3.611,8.56,0c0,0-2.847,1.667-1.132,5.556,0,0-1.715.313-2.836-2.067
+               C2.9,7.522,5.1,10.011,8.011,10Z" 
+            style="" 
+            fill="currentColor">
+        </path>
+
+        <path 
+            d="M15.274,14.04l-14-4A1.034,1.034,0,0,0,1,10a1,1,0,0,0-.274,1.962l14,4a1,1,0,0,0,.549-1.924Z" 
+            style="" 
+            fill="currentColor">
+        </path>
+
+        <path 
+            d="M13.458,12.481l1.816-.519a1,1,0,0,0-.549-1.924l-4.909,1.4Z" 
+            style="" 
+            fill="currentColor">
+        </path>
+
+        <path 
+            d="M.725,14.038A1,1,0,0,0,1,16a1.034,1.034,0,0,0,.275-.038l4.9-1.4-3.642-1.04Z" 
+            style="" 
+            fill="currentColor">
+        </path>
+    </g>
+</svg>
