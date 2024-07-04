@@ -27,3 +27,4 @@ Tetiana Kalinovska
 Rostyslav Zadyraichuk
 Artem Yashchenko
 Viktoria Stolz
+Marian Shtangret
