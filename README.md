@@ -25,3 +25,4 @@ document.body.addEventListener('htmx:afterOnLoad', () => {
 Olesia Yemets
 Tetiana Kalinovska
 Rostyslav Zadyraichuk
+Artem Yashchenko
