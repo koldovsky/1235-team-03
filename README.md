@@ -29,3 +29,4 @@ Artem Yashchenko
 Viktoria Stolz
 Marian Shtangret
 Robert Hubskyi
+Natalia Zaretska
