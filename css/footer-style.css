@@ -1,13 +1,131 @@
-.footer-social {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
+.footer-main {
+    padding-left: 22%;
+    padding-right: 22%;
+    padding-top: 2%;
+    background-color: #302c2c; 
+}
+
+.footer-url-color a {
+    color: #e48f4a; 
+}
+
+.svg-style{
+    max-width: 100%;
+    width: 45;
+}
+
+    
+.footer-social a{
+    color: #fff; 
+    font-size: 1.3em;
+}
+
+.footer-social-name {
+    color: #c3c3c3; 
+    font-size: 0.7em;
 }
 
 .footer-social-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 0.5em; /* Space between icon and text */
+    padding-right: 0.5em; 
+    color: #e48f4a;
 }
+
+.footer-urls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 1em;
+    background-color: #302c2c; 
+    color: #fff; 
+    font-size: 1em;
+}
+
+.footer-copyrights {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.footer-menu {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+}
+
+.social-cont{
+    display: flex; 
+    flex-direction: 
+    row; 
+    align-items: center;
+}
+
+.social-name{
+    display: flex; 
+    flex-direction: 
+    column; 
+    color: #fff;
+}
+
+.footer-menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu li {
+    margin: 0 0.5em;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #fff; 
+    font-size: 1em; 
+}
+
+.footer-menu a:hover {
+    text-decoration: underline;
+}
+
+
+.footer-upperblock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 1em;
+
+    color: #fff; 
+    font-size: 1em;
+}
+
+.footer-socialurls{
+    text-decoration: none;
+    color: #fff; 
+    font-size: 1em; 
+    padding-right: 25%;
+}
+
+.footer-socialurls ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+ 
+}
+
+.footer-socialurls li{
+    margin: 0 0.5em;
+}
+
+.footer-main-text{
+    align-items: center;
+    flex: 2;
+    padding-right: 26%;
+    
+}
+
+

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gampling | Habitations</title>
     <link rel="shortcut icon" type="image/png" href="https://res2.weblium.site/res/65a4dd651ae638000e4a167b/65c5f7ddbd7a9b000f341560_optimized" sizes="16x16">
+    <link rel="stylesheet" href="css/footer-style.css">
     <script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -72,6 +73,7 @@
         <section class="habitations__section"></section>
     </main>
     <footer class="footer">
+        <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.footer-nav.partial.html"> </nav>
     </footer>
 </body>
 </html>
