@@ -4,77 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Big Wood Cabin</title>
-    <script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
     <style>
-        .carousel {
-            display: flex;
-            overflow: hidden;
-            width: 100%;
-        }
-        .carousel__item {
-            min-width: 25%;
-            box-sizing: border-box;
-            padding: 16px;
-            text-align: center;
-        }
-        .carousel__item img {
-            max-width: 100%;
-            height: auto;
-        }
-        .carousel__nav {
-            display: flex;
-            justify-content: space-between;
-            position: relative;
-            top: -200px;
-        }
-        .carousel__nav button {
-            background-color: rgba(0, 0, 0, 0.5);
-            border: none;
-            color: white;
-            font-size: 24px;
-            padding: 8px 16px;
-            cursor: pointer;
-        }
+      .carousel {
+        display: flex;
+        overflow: hidden;
+        width: 100%;
+      }
+      .carousel__item {
+        min-width: 25%;
+        box-sizing: border-box;
+        padding: 16px;
+        text-align: center;
+      }
+      .carousel__item img {
+        max-width: 100%;
+        height: auto;
+      }
+      .carousel__nav {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        top: -200px;
+      }
+      .carousel__nav button {
+        background-color: rgba(0, 0, 0, 0.5);
+        border: none;
+        color: white;
+        font-size: 24px;
+        padding: 8px 16px;
+        cursor: pointer;
+      }
     </style>
   </head>
   <body>
     <header class="header">
       <nav
-        class="header__nav"
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
         data-hx-get="global.header-nav.partial.html"
       ></nav>
+      <div
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="big-wood-cabin.header-hero.partial.html"
+      ></div>
     </header>
     <main>
-      <h1>Big Wood Cabin</h1>
-      <p>1-6 PERSONS | 60M2 | FROM $250</p>
-      <p>
-        Enjoy quiet days with your family or friends in our big wood cabin in
-        the Washington wilderness.
-      </p>
-      <div>
-        <img
-          width="400"
-          src="img/bid-wood-cabin/photo/room.jpg"
-          alt="room with table and stairs"
-        />
-        <img
-          width="400"
-          src="img/bid-wood-cabin/photo/kitchen.jpg"
-          alt="kitchen"
-        />
-        <img
-          width="400"
-          src="img/bid-wood-cabin/photo/stairs.jpg"
-          alt="room with table and stairs"
-        />
-        <img
-          width="400"
-          src="img/bid-wood-cabin/photo/bedroom.jpg"
-          alt="bedroom"
-        />
-      </div>
+      <div
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="big-wood-cabin.gallery.partial.html"
+      ></div>
       <div>
         <h2>Amenities</h2>
         <img src="img/bid-wood-cabin/icons/icon-line.svg" alt="black line" />
@@ -248,7 +233,7 @@
           <p>$10 P.P.</p>
           <p>The late checkout is possible from 2 p.m. till 8 p.m.</p>
         </div>
-        <div> 
+        <div>
           <p>CLEANING FEE</p>
           <p>$20</p>
           <p>Don't want to clean the place on your own? No worries!</p>
@@ -259,12 +244,13 @@
           <p>Please contact us in advance if you need one.</p>
         </div>
       </section>
-      <section> 
+      <section>
         <div>
           <div>
-           <p><strong>Seasonal Pricing</strong></p>
-           <img src="img/bid-wood-cabin/icons/icon-line.svg" alt="line">
-        </div>  
+            <p><strong>Seasonal Pricing</strong></p>
+            <img src="img/bid-wood-cabin/icons/icon-line.svg" alt="line" />
+          </div>
+        </div>
         <div>
           <p>01 JAN - 15 APRIL</p>
           <p>$250</p>
@@ -279,65 +265,88 @@
       </section>
       <section>
         <p><strong>Related Habitations</strong></p>
-        <img src="img/bid-wood-cabin/icons/icon-line.svg" alt="black line">
+        <img src="img/bid-wood-cabin/icons/icon-line.svg" alt="black line" />
       </section>
       <section>
         <div class="carousel">
           <div class="carousel__item">
-              <img width="150"
-                src="img/bid-wood-cabin/photo/geodesic-dome.webp"
-                alt="geodesic-dome">
-                <p>1-2 PERSONS | 25m2</p>
-                <p><strong>Geodesic Dome</strong></p>
-                <p>Experience unique accommodation in our cozy geodesic domes, offering panoramic views and modern comforts.</p>
+            <img
+              width="150"
+              src="img/bid-wood-cabin/photo/geodesic-dome.webp"
+              alt="geodesic-dome"
+            />
+            <p>1-2 PERSONS | 25m2</p>
+            <p><strong>Geodesic Dome</strong></p>
+            <p>
+              Experience unique accommodation in our cozy geodesic domes,
+              offering panoramic views and modern comforts.
+            </p>
           </div>
           <div class="carousel__item">
-              <img width="150"
-                 src="img/bid-wood-cabin/photo/glamping-tent.webp" 
-                 alt="glamping-tent">
-              <p>1-4 PERSONS | 45M2</p>
-              <p><strong>Glamping Tent</strong></p>
-              <p>Embrace the outdoors without sacrificing comfort in our glamping tents, featuring plush bedding and stylish decor.</p>
+            <img
+              width="150"
+              src="img/bid-wood-cabin/photo/glamping-tent.webp"
+              alt="glamping-tent"
+            />
+            <p>1-4 PERSONS | 45M2</p>
+            <p><strong>Glamping Tent</strong></p>
+            <p>
+              Embrace the outdoors without sacrificing comfort in our glamping
+              tents, featuring plush bedding and stylish decor.
+            </p>
           </div>
           <div class="carousel__item">
-              <img width="150"
-                src="img/bid-wood-cabin/photo/balloon tent.webp" 
-                alt="balloon tent">
-             <p>1-6 PERSONS | 18 M2</p>
-             <p><strong>Balloon Tent</strong></p>
-             <p>Elevate your experience in our balloon tents, offering whimsical accommodations with stunning views and modern conveniences.</p>
+            <img
+              width="150"
+              src="img/bid-wood-cabin/photo/balloon-tent.webp"
+              alt="balloon tent"
+            />
+            <p>1-6 PERSONS | 18 M2</p>
+            <p><strong>Balloon Tent</strong></p>
+            <p>
+              Elevate your experience in our balloon tents, offering whimsical
+              accommodations with stunning views and modern conveniences.
+            </p>
           </div>
           <div class="carousel__item">
-              <img width="150"
-                src="img/bid-wood-cabin/photo/retro-luxury-tent.webp" 
-                alt="retro-luxury-tent">
-              <p>1-6 PERSONS | 125M2</p>
-              <p><strong>Retro Luxury Tent</strong></p>
-              <p>Step back in time with a touch of luxury in our retro-style big tents, blending vintage charm with modern comforts.</p>
+            <img
+              width="150"
+              src="img/bid-wood-cabin/photo/retro-luxury-tent.webp"
+              alt="retro-luxury-tent"
+            />
+            <p>1-6 PERSONS | 125M2</p>
+            <p><strong>Retro Luxury Tent</strong></p>
+            <p>
+              Step back in time with a touch of luxury in our retro-style big
+              tents, blending vintage charm with modern comforts.
+            </p>
           </div>
-      </div>
-      <div class="carousel__nav">
+        </div>
+        <div class="carousel__nav">
           <button onclick="moveCarousel(-1)">&#10094;</button>
           <button onclick="moveCarousel(1)">&#10095;</button>
-      </div>
-      <script>
-        let currentIndex = 0;
+        </div>
+        <script>
+          let currentIndex = 0;
 
-        function moveCarousel(direction) {
-            const carousel = document.querySelector('.carousel');
-            const items = document.querySelectorAll('.carousel__item');
-            currentIndex = (currentIndex + direction + items.length) % items.length;
-            carousel.style.transform = `translateX(-${currentIndex * 100 / items.length}%)`;
-        }
-      </script>
+          function moveCarousel(direction) {
+            const carousel = document.querySelector(".carousel");
+            const items = document.querySelectorAll(".carousel__item");
+            currentIndex =
+              (currentIndex + direction + items.length) % items.length;
+            carousel.style.transform = `translateX(-${
+              (currentIndex * 100) / items.length
+            }%)`;
+          }
+        </script>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <nav
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="global.footer-nav.partial.html"
-    ></nav>
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.footer-nav.partial.html"
+      ></nav>
     </footer>
   </body>
 </html>
