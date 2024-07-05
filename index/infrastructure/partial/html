@@ -1,0 +1,63 @@
+<div>
+    <section>
+        <video autoplay muted>
+            <source src= "link" type="video/mp4" />
+        </video>
+  </section>
+</div>
+
+<div class="video-section">
+    <h2>Watch Our Camp Video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div class="carousel-section">
+    <h2>What Our Guests Say</h2>
+    <div class="carousel-item">
+        <p>"The glamping experience was incredible! We felt so close to nature while enjoying all the comforts of home."</p>
+        <p><strong>Chris Thompson, Ohio</strong></p>
+    </div>
+    <div class="carousel-item">
+        <p>"A perfect getaway from the city. The serene environment and luxurious accommodation made our stay unforgettable."</p>
+        <p><strong>Laura Williams, Texas</strong></p>
+    </div>
+    <div class="carousel-item">
+        <p>"I loved the campfire nights and the beautiful starry skies. Truly a unique experience that I would highly recommend."</p>
+        <p><strong>Mike Johnson, Nevada</strong></p>
+    </div>
+</div>
+
+<div class="infrastructure-section">
+            <h2>Camp Infrastructure</h2>
+            <div class="infrastructure-items">
+                <div class="infrastructure-item">
+                    <h3>Fast Internet</h3>
+                    <p>Stay connected with high-speed internet access available throughout the glamping site.</p>
+                </div>
+                <div class="infrastructure-item">
+                    <h3>Electrical Cabinets</h3>
+                    <p>Electrical cabinets are located across the site, ensuring access to power for charging devices.</p>
+                </div>
+                <div class="infrastructure-item">
+                    <h3>Parking</h3>
+                    <p>Ample parking spaces are provided for guests, allowing for hassle-free arrival and departure.</p>
+                </div>
+                <div class="infrastructure-item">
+                    <h3>Sanitary Facilities</h3>
+                    <p>Clean and well-maintained sanitary facilities are available, including modern bathrooms and showers.</p>
+                </div>
+                <div class="infrastructure-item">
+                    <h3>Washing Machines</h3>
+                    <p>Guests have access to washing machines on-site, making it easy to keep clothes fresh and clean.</p>
+                </div>
+                <div class="infrastructure-item">
+                    <h3>First Aid / Ambulance</h3>
+                    <p>Our glamping site is equipped with first aid kits and access to medical assistance in case of emergencies.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <h2>Ignite Your Passion: Campfire Dreams</h2>
+            <button>Learn More</button>
+        </div>
