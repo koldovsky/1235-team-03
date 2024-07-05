@@ -1,28 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
-    <link rel="shortcut icon" type="image/png" href="https://res2.weblium.site/res/65a4dd651ae638000e4a167b/65c5f7ddbd7a9b000f341560_optimized" sizes="16x16">
-    <link rel="stylesheet" href="css/footer-style.css">
-    <script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/png" href="https://res2.weblium.site/res/65a4dd651ae638000e4a167b/65c5f7ddbd7a9b000f341560_optimized" sizes="16x16"><!--Andrew Tandyriak-->
+    <link rel="stylesheet" href="css/footer-style.css"> <!--Andrew Tandyriak--> 
+
+    <script src="https://unpkg.com/htmx.org@1.9.10"
+        integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.header.partial.html"></header>
+
+    <header 
+    <div
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="global.header-nav.partial.html"
+    ></div>
+    <div class="header__intro">
+      <h1 class="header__title">About Us</h1>
+      <p class="header__description">
+          Welcome to your home away from home, the Hidden Heaven glamping.
+      </p>
+     
+    </div>
     <main>
-      <section class="about">
-        <img class="about__image" src="img/about-us/foto1-about.jpeg" alt="people" width="400">
-        <h1 class="about__title">About Us</h1>
-        <h2 class="about__subtitle">Allow yourself a refined and relaxing holiday.</h2>
-        <p class="about__description">
-          With nature right at your doorstep, our glamping provides a tranquil escape from the hustle and bustle of everyday life, inviting you to reconnect with the great outdoors in style and comfort.
-        </p>
+      <section>
+        <img src="img/about-us/foto1-about.jpeg" alt="people">
+        <h1>About Us</h1>
+        <h2>Allow yourself a refined and relaxing holiday.</h2>
+        <p>With nature right at your doorstep, our glamping provides a tranquil escape from the hustle and bustle of everyday life, inviting you to reconnect with the great outdoors in style and comfort.</p>
       </section>
     </main>
+    ></header>
+
+
+  
     <footer>
-      <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.footer-nav.partial.html"></nav>
+        <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.footer-nav.partial.html"> </nav>
     </footer>
+ 
 </body>
+
 </html>
