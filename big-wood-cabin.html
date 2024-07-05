@@ -43,41 +43,23 @@
   </head>
   <body>
     <header class="header">
-      <div
+      <nav
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
         data-hx-get="global.header-nav.partial.html"
+      ></nav>
+      <div
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="big-wood-cabin.header-hero.partial.html"
       ></div>
     </header>
     <main>
-      <h1>Big Wood Cabin</h1>
-      <p>1-6 PERSONS | 60M2 | FROM $250</p>
-      <p>
-        Enjoy quiet days with your family or friends in our big wood cabin in
-        the Washington wilderness.
-      </p>
-      <div>
-        <img
-          width="400"
-          src="img/bid-wood-cabin/photo/room.jpg"
-          alt="room with table and stairs"
-        />
-        <img
-          width="400"
-          src="img/bid-wood-cabin/photo/kitchen.jpg"
-          alt="kitchen"
-        />
-        <img
-          width="400"
-          src="img/bid-wood-cabin/photo/stairs.jpg"
-          alt="room with table and stairs"
-        />
-        <img
-          width="400"
-          src="img/bid-wood-cabin/photo/bedroom.jpg"
-          alt="bedroom"
-        />
-      </div>
+      <div
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="big-wood-cabin.gallery.partial.html"
+      ></div>
       <div>
         <h2>Amenities</h2>
         <img src="img/bid-wood-cabin/icons/icon-line.svg" alt="black line" />
