@@ -11,114 +11,120 @@
       integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
       crossorigin="anonymous"
     ></script>
-    <div
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="global.header-nav.partial.html"
-    ></div>
-    <div
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="contacts.header-hero.partial.html"
-    ></div>
   </head>
 
   <body>
-    <section class="contacts">
-      <!--contact form-->
+    <header>
       <div
-        class="contacts__form-container"
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
-        data-hx-get="contacts.contact-form.partial.html"
+        data-hx-get="global.header-nav.partial.html"
       ></div>
-      <!--Illustration-->
-      <img
-        class="contacts__illustration"
-        src="img/contacts/illustration.jpg"
-        width="100%"
-        alt="Illustration"
-      />
-      <!--faq cards-->
-      <div class="contacts__card">
-        <h3 class="card__title">
-          What Types of Accommodations does Hidden Heaven Offer?
-        </h3>
-        <img class="card__divider" src="img/contacts/line.svg" alt="---" />
-        <div class="card__description">
-          We offer a variety of unique accommodations, including geodesic domes,
-          wood cabins, glamping tents, and retro luxury tents, providing options
-          for every type of traveler.
+      <div
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="contacts.header-hero.partial.html"
+      ></div>
+    </header>
+    <main>
+      <section class="contacts">
+        <!--contact form-->
+        <div
+          class="contacts__form-container"
+          data-hx-trigger="load"
+          data-hx-swap="outerHTML"
+          data-hx-get="contacts.contact-form.partial.html"
+        ></div>
+        <!--Illustration-->
+        <img
+          class="contacts__illustration"
+          src="img/contacts/illustration.jpg"
+          width="100%"
+          alt="Illustration"
+        />
+        <!--faq cards-->
+        <div class="contacts__cards-container">
+          <div class="contacts__card">
+            <h3 class="card__title">
+              What Types of Accommodations does Hidden Heaven Offer?
+            </h3>
+            <img class="card__divider" src="img/contacts/line.svg" alt="---" />
+            <div class="card__description">
+              We offer a variety of unique accommodations, including geodesic
+              domes, wood cabins, glamping tents, and retro luxury tents,
+              providing options for every type of traveler.
+            </div>
+          </div>
+          <div class="contacts__card">
+            <h3 class="card__title">
+              Are Any Pets Allowed at Hidden Heaven Glamping? Is It Free?
+            </h3>
+            <img class="card__divider" src="img/contacts/line.svg" alt="---" />
+            <div class="card__description">
+              Yes, we welcome well-behaved pets at Hidden Heaven Glamping. We
+              understand that pets are part of the family and offer
+              accommodations that cater to their needs as well.
+            </div>
+          </div>
+          <div class="contacts__card">
+            <h3 class="card__title">
+              What Amenities Are Included in the Accommodations?
+            </h3>
+            <img class="card__divider" src="img/contacts/line.svg" alt="---" />
+            <div class="card__description">
+              Our accommodations come equipped with essential amenities such as
+              comfortable beds, electricity, heating, bathrooms, and often
+              private outdoor seating areas.
+            </div>
+          </div>
+          <div class="contacts__card">
+            <h3 class="card__title">
+              Is There Electricity and Wi-Fi Available at the Glamping Site?
+            </h3>
+            <img class="card__divider" src="img/contacts/line.svg" alt="---" />
+            <div class="card__description">
+              Yes, Hidden Heaven Glamping provides electricity and Wi-Fi access
+              to ensure guests can stay connected during their stay while still
+              enjoying the beauty of nature.
+            </div>
+          </div>
+          <div class="contacts__card">
+            <h3 class="card__title">
+              What Outdoor Activities Are Available Near Hidden Heaven Glamping?
+            </h3>
+            <img class="card__divider" src="img/contacts/line.svg" alt="---" />
+            <div class="card__description">
+              Our glamping is surrounded by natural beauty, offering a wide
+              range of outdoor activities such as hiking, mountain biking,
+              fishing, rafting, and wildlife watching.
+            </div>
+          </div>
+          <div class="contacts__card">
+            <h3 class="card__title">
+              How Can I Make a Reservation at Hidden Heaven Glamping?
+            </h3>
+            <img class="card__divider" src="img/contacts/line.svg" alt="---" />
+            <div class="card__description">
+              Reservations can be made by contacting our team. Select your
+              desired dates and accommodations, and we'll handle the rest to
+              ensure you have a memorable experience.
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="contacts__card">
-        <h3 class="card__title">
-          Are Any Pets Allowed at Hidden Heaven Glamping? Is It Free?
-        </h3>
-        <img class="card__divider" src="img/contacts/line.svg" alt="---" />
-        <div class="card__description">
-          Yes, we welcome well-behaved pets at Hidden Heaven Glamping. We
-          understand that pets are part of the family and offer accommodations
-          that cater to their needs as well.
+        <!--map-->
+        <div class="contacts-section__map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21075.29423728743!2d-121.7216698679833!3d48.67849131335027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5484e4a314d33881%3A0xf787c4b2030f68cd!2sNF-1118%2C%20Washington%2098237%2C%20USA!5e0!3m2!1sen!2spl!4v1720099063177!5m2!1sen!2spl"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
-      </div>
-      <div class="contacts__card">
-        <h3 class="card__title">
-          What Amenities Are Included in the Accommodations?
-        </h3>
-        <img class="card__divider" src="img/contacts/line.svg" alt="---" />
-        <div class="card__description">
-          Our accommodations come equipped with essential amenities such as
-          comfortable beds, electricity, heating, bathrooms, and often private
-          outdoor seating areas.
-        </div>
-      </div>
-      <div class="contacts__card">
-        <h3 class="card__title">
-          Is There Electricity and Wi-Fi Available at the Glamping Site?
-        </h3>
-        <img class="card__divider" src="img/contacts/line.svg" alt="---" />
-        <div class="card__description">
-          Yes, Hidden Heaven Glamping provides electricity and Wi-Fi access to
-          ensure guests can stay connected during their stay while still
-          enjoying the beauty of nature.
-        </div>
-      </div>
-      <div class="contacts__card">
-        <h3 class="card__title">
-          What Outdoor Activities Are Available Near Hidden Heaven Glamping?
-        </h3>
-        <img class="card__divider" src="img/contacts/line.svg" alt="---" />
-        <div class="card__description">
-          Our glamping is surrounded by natural beauty, offering a wide range of
-          outdoor activities such as hiking, mountain biking, fishing, rafting,
-          and wildlife watching.
-        </div>
-      </div>
-      <div class="contacts__card">
-        <h3 class="card__title">
-          How Can I Make a Reservation at Hidden Heaven Glamping?
-        </h3>
-        <img class="card__divider" src="img/contacts/line.svg" alt="---" />
-        <div class="card__description">
-          Reservations can be made by contacting our team. Select your desired
-          dates and accommodations, and we'll handle the rest to ensure you have
-          a memorable experience.
-        </div>
-      </div>
-      <!--map-->
-      <div class="contacts-section__map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21075.29423728743!2d-121.7216698679833!3d48.67849131335027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5484e4a314d33881%3A0xf787c4b2030f68cd!2sNF-1118%2C%20Washington%2098237%2C%20USA!5e0!3m2!1sen!2spl!4v1720099063177!5m2!1sen!2spl"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </div>
-    </section>
+      </section>
+    </main>
     <footer>
       <nav
         data-hx-trigger="load"
