@@ -1,0 +1,77 @@
+<section class="related-habitations">
+    <p><strong>Related Habitations</strong></p>
+    <img src="img/bid-wood-cabin/icons/icon-line.svg" alt="black line" />
+  </section>
+  
+  <section class="habitations-carousel">
+    <div class="carousel">
+      <div class="carousel__item">
+        <img
+          width="150"
+          src="img/bid-wood-cabin/photo/geodesic-dome.webp"
+          alt="geodesic-dome"
+        />
+        <p>1-2 PERSONS | 25m2</p>
+        <p><strong>Geodesic Dome</strong></p>
+        <p>
+          Experience unique accommodation in our cozy geodesic domes,
+          offering panoramic views and modern comforts.
+        </p>
+      </div>
+      <div class="carousel__item">
+        <img
+          width="150"
+          src="img/bid-wood-cabin/photo/glamping-tent.webp"
+          alt="glamping-tent"
+        />
+        <p>1-4 PERSONS | 45M2</p>
+        <p><strong>Glamping Tent</strong></p>
+        <p>
+          Embrace the outdoors without sacrificing comfort in our glamping
+          tents, featuring plush bedding and stylish decor.
+        </p>
+      </div>
+      <div class="carousel__item">
+        <img
+          width="150"
+          src="img/bid-wood-cabin/photo/balloon-tent.webp"
+          alt="balloon tent"
+        />
+        <p>1-6 PERSONS | 18 M2</p>
+        <p><strong>Balloon Tent</strong></p>
+        <p>
+          Elevate your experience in our balloon tents, offering whimsical
+          accommodations with stunning views and modern conveniences.
+        </p>
+      </div>
+      <div class="carousel__item">
+        <img
+          width="150"
+          src="img/bid-wood-cabin/photo/retro-luxury-tent.webp"
+          alt="retro-luxury-tent"
+        />
+        <p>1-6 PERSONS | 125M2</p>
+        <p><strong>Retro Luxury Tent</strong></p>
+        <p>
+          Step back in time with a touch of luxury in our retro-style big
+          tents, blending vintage charm with modern comforts.
+        </p>
+      </div>
+    </div>
+    <div class="carousel__nav">
+      <button class="carousel__prev" onclick="moveCarousel(-1)">&#10094;</button>
+      <button class="carousel__next" onclick="moveCarousel(1)">&#10095;</button>
+    </div>
+  </section>
+  
+  <script>
+    let currentIndex = 0;
+  
+    function moveCarousel(direction) {
+      const carousel = document.querySelector(".carousel");
+      const items = document.querySelectorAll(".carousel__item");
+      currentIndex = (currentIndex + direction + items.length) % items.length;
+      carousel.style.transform = `translateX(-${(currentIndex * 100) / items.length}%)`;
+    }
+  </script>
+  
