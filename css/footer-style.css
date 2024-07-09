@@ -22,9 +22,7 @@
 .svg-style {
     max-width: 100%;
     width: 45px;
-    /* Fixing the width */
     height: 45px;
-    /* Fixing the height */
 }
 
 .footer-social a {
@@ -32,7 +30,6 @@
     color: #fff;
     font-size: 1.5em;
     text-decoration: none;
-
 }
 
 .footer-social-name {
@@ -50,9 +47,7 @@
     padding-right: 0.5em;
     color: #e48f4a;
     width: 45px;
-    /* Fixing the width */
     height: 45px;
-    /* Fixing the height */
 }
 
 .footer-urls {
@@ -63,7 +58,6 @@
     background-color: #302c2c;
     color: #fff;
     font-size: 0.6em;
-
 }
 
 .footer-copyrights {
@@ -83,7 +77,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
 
 .social-name {
@@ -128,14 +121,12 @@
     text-decoration: none;
     color: #fff;
     font-size: 1em;
-    /*padding-right: 25%;*/
 }
 
 .footer-socialurls ul {
     list-style: none;
     margin: 0;
     padding: 0;
-
     align-items: center;
 }
 
