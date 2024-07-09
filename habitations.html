@@ -20,121 +20,88 @@
   </head>
   <body>
     <header class="header">
-        <div
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="global.header-nav.partial.html"
-    ></div>
-    <div
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="habitations.header-hero.partial.html"
-    ></div>
+      <div
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.header-nav.partial.html"
+      ></div>
+      <div
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="habitations.header-hero.partial.html"
+      ></div>
     </header>
     <main class="main">
-      <section class="habitations">
-        <div class="habitations__item">
-          <img
-            class="contacts__illustration"
-            src="img/habitations/prev/habitations-img-prev-1.webp"
-            width="500"
-            alt="Habitations prev type 1"
-          />
-        </div>
-        <p class="habitations__capacity">1-2 PERSONS | 25M<sup>2</sup></p>
-        <h2 class="habitations__name"><a href="https://bookish-space-garbanzo-4jqrpx997g6qfw4-3000.app.github.dev/big-wood-cabin">Geodesic Dome →</a></h2>
-        <div class="habitations__amenities">
-          <div class="amenity">
-            <img
-              class="amenity__icon"
-              src="img/habitations/icons/pet_paw_icon.svg"
-              width="50"
-              alt="Pets allowed"
-            />
-            <p class="amenity__description">Pets allowed</p>
-          </div>
-          <div class="amenity">
-            <img
-              class="amenity__icon"
-              src="img/habitations/icons/wi-fi_icon.svg"
-              width="50"
-              alt="Wi-fi"
-            />
-            <p class="amenity__description">Wi-fi</p>
-          </div>
-          <div class="amenity">
-            <img
-              class="amenity__icon"
-              src="img/habitations/icons/bonfire_icon.svg"
-              width="50"
-              alt="Bonfire"
-            />
-            <p class="amenity__description">Bonfire</p>
-          </div>
-          <div class="amenity">
-            <img
-              class="amenity__icon"
-              src="img/habitations/separator.svg"
-              alt="Separator"
-            />
-          </div>
-        </div>
-        <div class="habitations__description">
-          <p>
-            Experience unique accommodation in our cozy geodesic domes, offering
-            panoramic views and modern comforts nestled within nature.
-          </p>
-          <button class="habitations__button">Book Now</button>
-        </div>
-      </section>
+      <div
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="habitations.cards.partial.html"
+      ></div>
       <section class="special-offers">
         <div class="special-offers__container">
-            <img
-              class="amenity__icon"
-              src="img/global/tree.svg"
-              width="50"
-              alt="tree"
-            />
-            <h2 class="special-offers__title">Special Offers</h2>
-            <p class="special-offers__description">Get advantage of our special offers for your stay. </p>
-            <p class="special-offers__description_continue">Explore our current promotions with three unbeatable discounts that will elevate your glamping experience even further.</p>
-            <div class="special-offers__items">
-                <div class="special-offers__item">
-                    <h3 class="special-offers__item-title">SAVE $50</h3>
-                    <h4 class="special-offers__item-name">Starry Nights Package</h4>
-                    <ul class="special-offers__item-features">
-                        <li>Complimentary stargazing tour;</li>
-                        <li>Upgraded tent amenities;</li>
-                        <li>Campfire exclusive access;</li>
-                        <li>Free souvenir Camp mug.</li>
-                    </ul>
-                    <a href="https://bookish-space-garbanzo-4jqrpx997g6qfw4-3000.app.github.dev/contacts" class="special-offers__button">Request</a>
-                </div>
-                <div class="special-offers__item">
-                    <h3 class="special-offers__item-title">FREE ACTIVITIES</h3>
-                    <h4 class="special-offers__item-name">Nature Explorer Deal</h4>
-                    <ul class="special-offers__item-features">
-                        <li>2 complimentary activities;</li>
-                        <li>Morning yoga lessons;</li>
-                        <li>Breakfast included;</li>
-                        <li>Free souvenir Camp mug.</li>
-                    </ul>
-                    <a href="https://bookish-space-garbanzo-4jqrpx997g6qfw4-3000.app.github.dev/contacts" class="special-offers__button">Request</a>
-                </div>
-                <div class="special-offers__item">
-                    <h3 class="special-offers__item-title">ENJOY 15% OFF</h3>
-                    <h4 class="special-offers__item-name">Weekday Serenity</h4>
-                    <ul class="special-offers__item-features">
-                        <li>Valid Friday to Sunday only;</li>
-                        <li>Tent Upgrade;</li>
-                        <li>Campfire access;</li>
-                        <li>Breakfast included.</li>
-                    </ul>
-                    <a href="https://bookish-space-garbanzo-4jqrpx997g6qfw4-3000.app.github.dev/contacts" class="special-offers__button">Request</a>
-                </div>
+          <img
+            class="amenity__icon"
+            src="img/global/tree.svg"
+            width="50"
+            alt="tree"
+          />
+          <h2 class="special-offers__title">Special Offers</h2>
+          <p class="special-offers__description">
+            Get advantage of our special offers for your stay.
+          </p>
+          <p class="special-offers__description_continue">
+            Explore our current promotions with three unbeatable discounts that
+            will elevate your glamping experience even further.
+          </p>
+          <div class="special-offers__items">
+            <div class="special-offers__item">
+              <h3 class="special-offers__item-title">SAVE $50</h3>
+              <h4 class="special-offers__item-name">Starry Nights Package</h4>
+              <ul class="special-offers__item-features">
+                <li>Complimentary stargazing tour;</li>
+                <li>Upgraded tent amenities;</li>
+                <li>Campfire exclusive access;</li>
+                <li>Free souvenir Camp mug.</li>
+              </ul>
+              <a
+                href="https://bookish-space-garbanzo-4jqrpx997g6qfw4-3000.app.github.dev/contacts"
+                class="special-offers__button"
+                >Request</a
+              >
             </div>
+            <div class="special-offers__item">
+              <h3 class="special-offers__item-title">FREE ACTIVITIES</h3>
+              <h4 class="special-offers__item-name">Nature Explorer Deal</h4>
+              <ul class="special-offers__item-features">
+                <li>2 complimentary activities;</li>
+                <li>Morning yoga lessons;</li>
+                <li>Breakfast included;</li>
+                <li>Free souvenir Camp mug.</li>
+              </ul>
+              <a
+                href="https://bookish-space-garbanzo-4jqrpx997g6qfw4-3000.app.github.dev/contacts"
+                class="special-offers__button"
+                >Request</a
+              >
+            </div>
+            <div class="special-offers__item">
+              <h3 class="special-offers__item-title">ENJOY 15% OFF</h3>
+              <h4 class="special-offers__item-name">Weekday Serenity</h4>
+              <ul class="special-offers__item-features">
+                <li>Valid Friday to Sunday only;</li>
+                <li>Tent Upgrade;</li>
+                <li>Campfire access;</li>
+                <li>Breakfast included.</li>
+              </ul>
+              <a
+                href="https://bookish-space-garbanzo-4jqrpx997g6qfw4-3000.app.github.dev/contacts"
+                class="special-offers__button"
+                >Request</a
+              >
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
     </main>
     <footer class="footer">
       <nav
