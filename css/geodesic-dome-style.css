@@ -63,3 +63,24 @@ html {
   .header__menu-link:hover {
     color: #f58134;
   }
+
+  .header__tagline {
+    color: #e2e2e2;
+    font-family: inherit;
+    font-style: italic;
+    margin-left: 6%;
+    white-space: nowrap;
+  }
+
+  .header__social {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 24px;
+    margin-left: 6%;
+  }
+
+
+  .header__social-link img {
+    width: 20px;
+  }
