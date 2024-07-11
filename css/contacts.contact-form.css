@@ -1,19 +1,20 @@
-@import "global.css";
-@import "contacts.css";
-
 .contact-form__container {
-    display: flex;
-    flex-direction: column;
+
 }
 .contact-form__details-container {
-    flex: 1;
+
 }
-.contact-form__illustration {}
+.contact-form__icon {
+
+}
 .contact-form__title {
     color: var(--dark-shade-color);
 }
 .contact-form__text {
     color: var(--subtitle-color);
+}
+.contact-form__address-container {
+
 }
 .contact-form__address {}
 .contact-form__address-label {
@@ -21,6 +22,9 @@
 }
 .contact-form__address-text {
     color: var(--dark-text-color);
+}
+.contact-form__contacts-container {
+
 }
 .contact-form__contacts {}
 .contact-form__contacts-label {
@@ -36,7 +40,6 @@
 .contact-form__form-container {
     display: flex;
     flex-direction: column;
-    flex: 1;
 }
 .contact-form__input {}
 .contact-form__button {}
