@@ -1,5 +1,7 @@
 .header-nav {
+    max-width: 1200px;
     height: 103px;
+    margin: auto;
     padding: 0 24px;
     display: flex;
     justify-content: space-between;

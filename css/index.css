@@ -11,4 +11,8 @@
     background-size: 1700px;
     background-clip: padding-box;
     background-position-x: 40%;
+
+    @media (min-width: 1700px) {
+        background-size: cover;
+    }
 }
