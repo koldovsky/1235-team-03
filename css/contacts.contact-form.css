@@ -25,8 +25,16 @@
     color: var(--content-text-color)
 }
 .contact-form__contacts-link {
-    color: var(--content-text-color)
+    color: var(--content-text-color);
+    text-decoration: none;
 }
 .contact-form__input {}
 .contact-form__button {}
+
+@media (min-width: 768px) {
+    .contact-form__container {
+      display: flex;
+      align-items: center;
+    }
+}
 
