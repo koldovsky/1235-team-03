@@ -1,0 +1,122 @@
+.header__hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 24px 90px 24px;
+}
+
+.header-hero__tree-image {
+    width: 50px;
+    margin-top: 50px;
+    fill: var(--accent-color);
+}
+
+.header-hero__coordinates {
+    margin-top: 20px;
+    color: var(--light-text-color);
+    font-family: Inter, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+}
+
+.header-hero__title {
+    margin-top: 20px;
+    color: var(--light-text-color);
+    font-size: 2.8rem;
+    line-height: 3.1rem;
+    font-family: Work Sans, sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.header-hero__actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 35px;
+
+    .header-actions__action {
+        width: fit-content;
+        padding: 18px 30px;
+        margin: 10px;
+        font-family: Inter, sans-serif;
+        font-size: 0.8rem;
+        font-weight: bold;
+        color: var(--light-text-color);
+        position: relative;
+
+        &:first-child {
+            background-color: var(--dark-accent-color);
+            align-content: center;
+        }
+
+        &:last-child {
+            background-color: transparent;
+            border: 2px solid var(--light-text-color);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .header-actions__paragraph {
+                padding-left: 32px;
+            }
+
+            .header-actions__phone-image {
+                width: 24px;
+                position: absolute;
+                fill: var(--light-text-color);
+            }
+        }
+    }
+}
+
+.header-hero__additions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+    gap: 50px;
+
+    & > * {
+        flex-grow: 1;
+    }
+
+    .header-additions__price-list {
+        font-family: Inter, sans-serif;
+        font-weight: 600;
+        font-size: 0.75rem;
+        text-decoration: underline;
+        letter-spacing: 0.15rem;
+        color: var(--light-text-color);
+    }
+
+    .header-additions__arrow-down-image {
+        width: 50px;
+        fill: var(--light-accent-color);
+    }
+
+    .header-additions__phrase-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+        .header-additions__quote-image {
+            width: 50px;
+            height: 50px;
+            fill: var(--accent-color);
+        }
+
+        .header-additions__phrase {
+            font-family: Inter, sans-serif;
+            font-style: italic;
+            font-size: 1.07rem;
+            font-weight: 600;
+            line-height: 1.6rem;
+            color: var(--light-text-color);
+            text-align: center;
+        }
+    }
+}
