@@ -17,6 +17,11 @@ html {
     box-sizing: border-box;
   }
   
+  .header {
+    background-image: url('img/geodesic_dome/pictures/geodesic_dome.jpg'); 
+    background-size: cover;
+  }
+
  .header__nav {
     box-sizing: border-box;
     width: 100%;
@@ -24,8 +29,7 @@ html {
     flex-direction: row;
     align-items: center;
     padding-right: 15%;
-    padding-left: 13%;
-    padding-top: 30px;
+    padding-left: 19%;
     padding-bottom: 30px;
     height: 135px;
   }
@@ -38,19 +42,15 @@ html {
   }
   
   .header__menu {
-    margin-left: 5%;
+    margin-left: 3%;
     margin-right: 5%;
     height: 100%;
     display: flex;
     align-items: center;
     list-style-type: none;
+    gap: 5%;
   }
   
-  .header__menu-item {
-    margin-right: 2%;
-    margin-left: 2%;
-    width: 98px;
-  }
   
   .header__menu-link {
     font-size: 13px;
@@ -58,6 +58,7 @@ html {
     text-decoration: none;
     font-family: sans-serif;
     font-weight: bolder;
+    white-space: nowrap;
   }
   
   .header__menu-link:hover {
@@ -68,7 +69,7 @@ html {
     color: #e2e2e2;
     font-family: inherit;
     font-style: italic;
-    margin-left: 6%;
+    margin-left: 17%;
     white-space: nowrap;
   }
 
@@ -76,11 +77,11 @@ html {
     display: flex;
     align-items: center;
     list-style-type: none;
-    gap: 24px;
-    margin-left: 6%;
+    gap: 26px;
+    margin-left: 7%;
   }
 
 
   .header__social-link img {
-    width: 20px;
+    width: 16px;
   }
