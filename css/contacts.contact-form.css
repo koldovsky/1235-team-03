@@ -1,8 +1,13 @@
 @import "global.css";
 @import "contacts.css";
 
-.contact-form__container {}
-.contact-form__details {}
+.contact-form__container {
+    display: flex;
+    flex-direction: column;
+}
+.contact-form__details-container {
+    flex: 1;
+}
 .contact-form__illustration {}
 .contact-form__title {
     color: var(--dark-shade-color);
@@ -28,12 +33,18 @@
     color: var(--content-text-color);
     text-decoration: none;
 }
+.contact-form__form-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
 .contact-form__input {}
 .contact-form__button {}
 
 @media (min-width: 768px) {
     .contact-form__container {
       display: flex;
+      flex-direction: row;
       align-items: center;
     }
 }
