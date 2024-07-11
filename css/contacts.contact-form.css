@@ -20,17 +20,17 @@
     color: var(--dark-accent-color);
 }
 .contact-form__address-text {
-    color: var(--content-text-color);
+    color: var(--dark-text-color);
 }
 .contact-form__contacts {}
 .contact-form__contacts-label {
     color: var(--dark-accent-color);
 }
 .contact-form__contacts-item {
-    color: var(--content-text-color)
+    color: var(--dark-text-color)
 }
 .contact-form__contacts-link {
-    color: var(--content-text-color);
+    color: var(--dark-text-color);
     text-decoration: none;
 }
 .contact-form__form-container {
