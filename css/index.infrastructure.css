@@ -119,6 +119,8 @@
 .camp-infrastructure__icon {
   display: block;
   margin: 0 auto 10px;
+  width: 40px; 
+  height: 40px;
 }
 
 .camp-infrastructure__title {
@@ -151,6 +153,8 @@
 .camp-infrastructure__mail-icon {
   vertical-align: middle;
   margin: 0 5px;
+  width: 20px; 
+  height: 20px;
 }
 
 .camp-infrastructure__email {
