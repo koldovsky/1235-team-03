@@ -16,23 +16,7 @@
   border: 0;
 }
 
-/* CSS for the video section */
-.video-section {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
-  height: 0;
-  overflow: hidden;
-}
-
-.video-section__iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
+/* CSS for the reviews section */
 .reviews {
   position: relative;
   background-image: url('img/infrastructure/picture/background.png');
@@ -81,19 +65,19 @@
 
 .reviews__rating {
   font-size: 20px;
-  color: #8B8D4A; 
+  color: #8B8D4A;
 }
 
 .reviews__text {
   font-size: 16px;
   margin: 10px 0;
-  color: #777; 
+  color: #777;
 }
 
 .reviews__author {
   font-size: 14px;
-  color: #333; 
-  font-weight: bold; 
+  color: #333;
+  font-weight: bold;
 }
 
 .reviews__button {
@@ -106,6 +90,12 @@
   padding: 10px;
   cursor: pointer;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.reviews__button img {
+  display: block;
+  width: 24px;
+  height: 24px;
 }
 
 .reviews__button--left {
