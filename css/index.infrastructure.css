@@ -205,7 +205,7 @@
 .cta-section {
   position: relative;
   width: 100%;
-  padding: 50px 0;
+  height: 100vh; /* Висота секції */
   color: #fff;
   text-align: left;
   display: flex;
@@ -220,19 +220,20 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
 }
 
 .cta-section__title {
   font-size: 48px;
   margin-bottom: 20px;
   font-weight: bold;
-  line-height: 1.2;
 }
 
 .cta-section__button {
   display: inline-block;
   padding: 15px 30px;
-  background-color: #8B8D4A; 
+  background-color: #8B8D4A;
   color: #fff;
   text-decoration: none;
   font-size: 18px;
