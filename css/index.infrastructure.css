@@ -36,7 +36,7 @@
 /* CSS for the reviews section */
 .reviews {
   position: relative;
-  background-image: url('img/infrastructure/picture/background.webp'); /* Замінити на правильний шлях до фону */
+  background-image: url('img/infrastructure/picture/background.webp');
   background-size: cover;
   background-position: center;
   padding: 50px 0;
