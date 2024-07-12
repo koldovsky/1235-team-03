@@ -17,99 +17,76 @@
 }
 
 /* CSS for the reviews section */
-.reviews {
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  padding: 50px 0;
+.slider-wrapper_1r3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
 }
 
-.reviews__carousel {
-  max-width: 1200px;
-  margin: 0 auto;
-  overflow: hidden;
-  position: relative;
-}
-
-.reviews__track-container {
-  overflow: hidden;
+.slider_2N3 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
   width: 100%;
 }
 
-.reviews__track {
-  display: flex;
-  transition: transform 0.5s ease;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.slider-arrow_Yvf {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
 }
 
-.reviews__slide {
-  flex: 0 0 33.3333%; /* Три слайда в ряд */
-  box-sizing: border-box;
-}
-
-.reviews__item {
-  background: rgba(255, 255, 255, 0.8);
-  padding: 20px;
-  margin: 0 10px;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.reviews__rating {
-  font-size: 20px;
-  color: #ffcc00; /* Зірки золотистого кольору */
-}
-
-.reviews__text {
-  font-size: 16px;
-  margin: 10px 0;
-}
-
-.reviews__author {
-  font-size: 14px;
-  color: #555;
-}
-
-.reviews__button {
+.slider-arrow--prev_Eis,
+.slider-arrow--next_3Hr {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(255, 255, 255, 0.8);
-  border: none;
-  border-radius: 50%;
-  padding: 10px;
-  cursor: pointer;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  z-index: 1;
 }
 
-.reviews__button--left {
+.slider-arrow--prev_Eis {
   left: 10px;
 }
 
-.reviews__button--right {
+.slider-arrow--next_3Hr {
   right: 10px;
 }
 
-.reviews__nav {
+.slick-slide {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.server-render__collection-item-wrapper_ixe {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  background-color: var(--light-accent-color);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
 }
 
-.reviews__indicator {
-  background: #ddd;
-  border: none;
-  border-radius: 50%;
-  width: 10px;
-  height: 10px;
-  margin: 0 5px;
-  cursor: pointer;
-  transition: background 0.3s;
+.w-text-content {
+  color: var(--ui-dark-shade-color);
 }
 
-.reviews__indicator--active {
-  background: #333;
+.w-icon-panel--sm {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 991px) {
+  .slick-slide {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .slick-slide {
+    width: 100%;
+  }
 }
