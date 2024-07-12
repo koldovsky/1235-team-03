@@ -15,22 +15,22 @@
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1;
+    z-index: -1; 
     overflow: hidden;
+    pointer-events: none; 
   }
   
   .video-section__iframe {
     width: 100%;
     height: 100%;
     border: none;
-    object-fit: cover; 
   }
-
+  
   .video-section__content {
     position: relative;
     z-index: 1; 
-    color: #fff; 
-    text-align: center;
+    color: #000;
+    text-align: center; 
   }
   
   
