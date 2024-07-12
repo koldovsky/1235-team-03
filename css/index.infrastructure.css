@@ -36,7 +36,7 @@
 /* CSS for the reviews section */
 .reviews {
   position: relative;
-  background-image: url('img/infrastructure/picture/background.webp');
+  background-image: url('img/infrastructure/picture/background.webp'); 
   background-size: cover;
   background-position: center;
   padding: 50px 0;
@@ -85,51 +85,10 @@
 .reviews__text {
   font-size: 16px;
   margin: 10px 0;
-  color: #777; /* Оновлений колір шрифту */
+  color: #777;
 }
 
 .reviews__author {
   font-size: 14px;
   color: #555;
-}
-
-.reviews__button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: rgba(255, 255, 255, 0.8);
-  border: none;
-  border-radius: 50%;
-  padding: 10px;
-  cursor: pointer;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-.reviews__button--left {
-  left: 10px;
-}
-
-.reviews__button--right {
-  right: 10px;
-}
-
-.reviews__nav {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.reviews__indicator {
-  background: #ddd;
-  border: none;
-  border-radius: 50%;
-  width: 10px;
-  height: 10px;
-  margin: 0 5px;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-.reviews__indicator--active {
-  background: #333;
 }
