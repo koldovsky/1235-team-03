@@ -36,7 +36,7 @@
 /* CSS for the reviews section */
 .reviews {
   position: relative;
-  background-image: url('img/infrastructure/picture/background.webp'); 
+  background-image: url('img/infrastructure/picture/background.png');
   background-size: cover;
   background-position: center;
   padding: 50px 0;
@@ -64,17 +64,20 @@
 }
 
 .reviews__slide {
+  display: flex;
   flex: 0 0 100%;
+  justify-content: space-between;
   box-sizing: border-box;
 }
 
 .reviews__item {
   background: rgba(255, 255, 255, 0.8);
   padding: 20px;
-  margin: 0 10px;
+  margin: 0 5px;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
+  flex: 1;
 }
 
 .reviews__rating {
@@ -90,7 +93,8 @@
 
 .reviews__author {
   font-size: 14px;
-  color: #555;
+  color: #333; 
+  font-weight: bold; 
 }
 
 .reviews__button {
