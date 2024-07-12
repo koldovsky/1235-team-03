@@ -19,6 +19,7 @@
 /* CSS for the reviews section */
 .reviews {
   position: relative;
+  background-image: url('img/reviews-background.png');
   background-size: cover;
   background-position: center;
   padding: 50px 0;
@@ -114,4 +115,3 @@
 .reviews__indicator--active {
   background: #333;
 }
-  
