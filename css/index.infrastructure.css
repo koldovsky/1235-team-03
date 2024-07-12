@@ -114,12 +114,13 @@
 .camp-infrastructure__header {
   text-align: center;
   margin-bottom: 30px;
+  position: relative;
 }
 
 .camp-infrastructure__icon {
   display: block;
   margin: 0 auto 10px;
-  width: 40px; 
+  width: 40px;
   height: 40px;
 }
 
@@ -144,22 +145,27 @@
   margin-top: 20px;
   font-size: 16px;
   color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .camp-infrastructure__contact-title {
   font-weight: bold;
+  margin-right: 5px;
 }
 
 .camp-infrastructure__mail-icon {
   vertical-align: middle;
   margin: 0 5px;
-  width: 20px; 
+  width: 20px;
   height: 20px;
 }
 
 .camp-infrastructure__email {
   color: #d35400;
   text-decoration: none;
+  margin-left: 5px;
 }
 
 .camp-infrastructure__grid {
@@ -170,8 +176,8 @@
 }
 
 .camp-infrastructure__item {
-  flex: 1 1 30%;
-  max-width: 30%;
+  flex: 1 1 calc(33.333% - 20px);
+  max-width: calc(33.333% - 20px);
   background: #fff;
   padding: 20px;
   text-align: center;
