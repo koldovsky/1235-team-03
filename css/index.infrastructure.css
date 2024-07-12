@@ -33,11 +33,10 @@
   height: 100%;
   border: 0;
 }
-
 /* CSS for the reviews section */
 .reviews {
   position: relative;
-  background-image: url('img/background.png'); /* Замінити на правильний шлях до фону */
+  background-image: url('img/infrastructure/picture/background.webp'); /* Замінити на правильний шлях до фону */
   background-size: cover;
   background-position: center;
   padding: 50px 0;
@@ -86,12 +85,12 @@
 .reviews__text {
   font-size: 16px;
   margin: 10px 0;
-  color: #333; /* Оновлений колір шрифту */
+  color: #777; /* Оновлений колір шрифту */
 }
 
 .reviews__author {
   font-size: 14px;
-  color: #333; /* Оновлений колір шрифту */
+  color: #555;
 }
 
 .reviews__button {
