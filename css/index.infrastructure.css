@@ -26,6 +26,12 @@
     object-fit: cover; 
   }
 
+  .video-section__content {
+    position: relative;
+    z-index: 1; 
+    color: #fff; 
+    text-align: center;
+  }
   
   
   
