@@ -86,12 +86,12 @@
 .reviews__text {
   font-size: 16px;
   margin: 10px 0;
-  color: #555;
+  color: #333; /* Оновлений колір шрифту */
 }
 
 .reviews__author {
   font-size: 14px;
-  color: #555;
+  color: #333; /* Оновлений колір шрифту */
 }
 
 .reviews__button {
