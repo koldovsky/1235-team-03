@@ -3,8 +3,9 @@
 @import "global.header-nav.css";
 @import "index.header-hero.css";
 @import "index.infrastructure.css";
+
 /*Andrew Tandyriak*/
-@import "footer-style.css";
+@import "footer.css";
 
 .header {
     background-image: url("../img/index/intro.png");
