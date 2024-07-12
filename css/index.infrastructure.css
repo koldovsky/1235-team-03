@@ -37,9 +37,11 @@
 /* CSS for the reviews section */
 .reviews {
   position: relative;
+  background-image: url('img/background.png'); /* Замінити на правильний шлях до фону */
   background-size: cover;
   background-position: center;
   padding: 50px 0;
+  font-family: Arial, sans-serif;
 }
 
 .reviews__carousel {
@@ -63,7 +65,7 @@
 }
 
 .reviews__slide {
-  flex: 0 0 33.3333%; /* Три слайда в ряд */
+  flex: 0 0 33.3333%;
   box-sizing: border-box;
 }
 
@@ -84,6 +86,7 @@
 .reviews__text {
   font-size: 16px;
   margin: 10px 0;
+  color: #555;
 }
 
 .reviews__author {
@@ -130,16 +133,4 @@
 
 .reviews__indicator--active {
   background: #333;
-}
-
-.testimonial__text {
-  font-size: 1rem;
-  color: #555;
-}
-
-.testimonial__author {
-  font-size: 1rem;
-  font-weight: bold;
-  color: #333;
-  margin-top: 10px;
 }
