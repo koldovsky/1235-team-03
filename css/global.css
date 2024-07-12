@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+    outline: 1px solid red;
+}
+
 *,
 *::before,
 *::after {
@@ -31,6 +35,13 @@
 .container {
     max-width: 1200px;
     margin: auto;
+}
+
+body,
+header, 
+footer,
+section {
+    overflow-x: hidden;
 }
 
 img {

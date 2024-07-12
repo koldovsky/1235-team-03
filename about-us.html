@@ -11,13 +11,12 @@
       href="https://res2.weblium.site/res/65a4dd651ae638000e4a167b/65c5f7ddbd7a9b000f341560_optimized"
       sizes="16x16"
     />
-    <link rel="stylesheet" href="css/footer-style.css" />
+    <link rel="stylesheet" href="css/about-us.css" />
     <script
       src="https://unpkg.com/htmx.org@1.9.10"
       integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="css/footer-style.css">
   </head>
 
   <body>
@@ -27,12 +26,11 @@
         data-hx-swap="outerHTML"
         data-hx-get="global.header-nav.partial.html"
       ></div>
-      <div class="header__intro">
-        <h1 class="header__title">About Us</h1>
-        <p class="header__description">
-          Welcome to your home away from home, the Hidden Heaven glamping
-        </p>
-      </div>
+      <div
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="about-us.header.partial.html"
+      ></div>
     </header>
     <main>
       <section>
