@@ -1,1 +1,23 @@
-
+.video-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa; /* світлий фон для контрасту */
+  }
+  
+  .video-section__container {
+    max-width: 800px; /* максимальна ширина контейнера */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .video-section__iframe {
+    width: 100%;
+    height: 450px; /* висота iframe */
+    border: none; /* прибирає рамку */
+    border-radius: 8px; /* заокруглені кути */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* легка тінь для об'єму */
+  }
+  
