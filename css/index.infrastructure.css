@@ -3,11 +3,11 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: #f8f9fa; /* світлий фон для контрасту */
+    background-color: #f8f9fa;
   }
   
   .video-section__container {
-    max-width: 800px; /* максимальна ширина контейнера */
+    max-width: 800px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -15,9 +15,9 @@
   
   .video-section__iframe {
     width: 100%;
-    height: 450px; /* висота iframe */
-    border: none; /* прибирає рамку */
-    border-radius: 8px; /* заокруглені кути */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* легка тінь для об'єму */
+    height: 100%; 
+    border: none; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
