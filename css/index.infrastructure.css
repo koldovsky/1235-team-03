@@ -105,3 +105,89 @@
 .reviews__button--right {
   right: 10px;
 }
+/* CSS for the Camp Infrastructure section */
+.camp-infrastructure {
+  padding: 50px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.camp-infrastructure__header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.camp-infrastructure__icon {
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.camp-infrastructure__title {
+  font-size: 36px;
+  margin: 0;
+  position: relative;
+}
+
+.camp-infrastructure__title::before {
+  content: 'Infrastructure';
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 72px;
+  color: rgba(0, 0, 0, 0.05);
+  z-index: -1;
+}
+
+.camp-infrastructure__contact {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.camp-infrastructure__contact-title {
+  font-weight: bold;
+}
+
+.camp-infrastructure__mail-icon {
+  vertical-align: middle;
+  margin: 0 5px;
+}
+
+.camp-infrastructure__email {
+  color: #d35400;
+  text-decoration: none;
+}
+
+.camp-infrastructure__grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.camp-infrastructure__item {
+  flex: 1 1 30%;
+  max-width: 30%;
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.camp-infrastructure__subtitle {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.camp-infrastructure__text {
+  font-size: 16px;
+  color: #777;
+}
+
+.camp-infrastructure__icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
