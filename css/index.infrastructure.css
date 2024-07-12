@@ -16,52 +16,120 @@
   border: 0;
 }
 
-/* CSS for the reviews section */
-body {
-  font-family: Arial, sans-serif;
+/* CSS for the video section */
+.video-section {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
 }
 
-.testimonials {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #f8f8f8;
-  padding: 20px;
+.video-section__iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* CSS for the reviews section */
+.reviews {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+}
+
+.reviews__carousel {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
   position: relative;
 }
 
-.testimonials__arrow {
-  background: none;
-  border: none;
-  font-size: 2rem;
-  cursor: pointer;
-  color: #333;
+.reviews__track-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.reviews__track {
+  display: flex;
+  transition: transform 0.5s ease;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reviews__slide {
+  flex: 0 0 33.3333%; /* Три слайда в ряд */
+  box-sizing: border-box;
+}
+
+.reviews__item {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  margin: 0 10px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.reviews__rating {
+  font-size: 20px;
+  color: #ffcc00; /* Зірки золотистого кольору */
+}
+
+.reviews__text {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.reviews__author {
+  font-size: 14px;
+  color: #555;
+}
+
+.reviews__button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.testimonials__arrow--left {
+.reviews__button--left {
   left: 10px;
 }
 
-.testimonials__arrow--right {
+.reviews__button--right {
   right: 10px;
 }
 
-.testimonials__content {
+.reviews__nav {
   display: flex;
   justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  width: 80%;
+  margin-top: 20px;
 }
 
-.testimonial {
-  min-width: 300px;
-  max-width: 300px;
-  margin: 0 15px;
-  text-align: center;
+.reviews__indicator {
+  background: #ddd;
+  border: none;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.reviews__indicator--active {
+  background: #333;
 }
 
 .testimonial__text {
