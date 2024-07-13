@@ -18,8 +18,19 @@ html {
   }
   
   .header {
-    background-image: url('img/geodesic_dome/pictures/geodesic_dome.jpg'); 
+    background-image: url("/img/geodesic_dome/pictures/geodesic_dome.jpg"); 
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 432px;
+    width: 100%;
+  }
+
+  .header__background-color {
+    display: flex;
+    width: 100%;
+    height: 432px;
+    background-color: rgba(45, 45, 45, 0.4);
   }
 
  .header__nav {
@@ -29,7 +40,7 @@ html {
     flex-direction: row;
     align-items: center;
     padding-right: 15%;
-    padding-left: 19%;
+    padding-left: 11.5%;
     padding-bottom: 30px;
     height: 135px;
   }
@@ -48,7 +59,8 @@ html {
     display: flex;
     align-items: center;
     list-style-type: none;
-    gap: 5%;
+    gap: 4%;
+    letter-spacing: 1px;
   }
   
   
@@ -69,7 +81,7 @@ html {
     color: #e2e2e2;
     font-family: inherit;
     font-style: italic;
-    margin-left: 17%;
+    margin-left: 15%;
     white-space: nowrap;
   }
 
@@ -78,10 +90,26 @@ html {
     align-items: center;
     list-style-type: none;
     gap: 26px;
-    margin-left: 7%;
+    margin-left: 7.5%;
   }
 
 
   .header__social-link img {
     width: 16px;
+  }
+
+  .header__hero {
+    position: absolute;
+    top: 28%;
+    right: 47%;
+    width: 42%;
+    white-space: nowrap;
+  }
+
+  .header__hero-content {
+    color: #ffffff
+  }
+
+  .header__hero-title {
+    font-size: 48px;
   }
