@@ -108,6 +108,7 @@
 .camp-infrastructure {
   padding: 50px 20px;
   font-family: Arial, sans-serif;
+  overflow-x: hidden;
 }
 
 .camp-infrastructure__header {

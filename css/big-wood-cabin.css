@@ -1,7 +1,5 @@
 @import "global.css";
-@import "index.header.css";
 @import "global.header-nav.css";
-@import "index.header-hero.css";
-@import "index.infrastructure.css";
+@import "big-wood-cabin.carousel.css";
 @import "footer.css";
 @import "footer-style.css";

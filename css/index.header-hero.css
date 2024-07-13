@@ -47,6 +47,7 @@
     font-weight: bold;
     color: var(--light-text-color);
     position: relative;
+    color: var(--light-text-color);
 
     &:first-child {
         background-color: var(--dark-accent-color);

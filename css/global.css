@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-* {
-    outline: 1px solid red;
-}
-
 *,
 *::before,
 *::after {
@@ -30,18 +26,12 @@
     --light-text-color: #ffffff;
   scroll-behavior: smooth;
   font-family: "Work Sans", sans-serif;
+  min-width: 320px;
 }
 
 .container {
     max-width: 1200px;
     margin: auto;
-}
-
-body,
-header, 
-footer,
-section {
-    overflow-x: hidden;
 }
 
 img {
@@ -53,7 +43,6 @@ a,
 a:hover,
 a:visited {
     text-decoration: none;
-    color: black;
 }
 
 ul,
