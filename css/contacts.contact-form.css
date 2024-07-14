@@ -1,8 +1,8 @@
 .contact-form__container {
-
+background-color: var(--block-title-color);
+padding-top: 90px;
 }
 .contact-form__background-container{
-    margin-top: 90px;
     margin-left: 24px;
     margin-right: 24px;
     margin-bottom: 30px;
@@ -26,41 +26,56 @@
     color: var(--subtitle-color);
     font-weight: 500;
     line-height: 150%;
-    margin-top: 25px;
-}
-.contact-form__address-container {
-    display: flex;
-}
-.contact-form__icon-decorator {
-    border-radius: 50%;
-    background-color: var(--light-shade-color);
-    align-content: center;
-}
-.contact-form__icon {
-    width: 24px;
-}
-.contact-form__address {}
-.contact-form__address-label {
-    color: var(--dark-accent-color);
-}
-.contact-form__address-text {
-    color: var(--dark-text-color);
+    margin-top: 50px;
 }
 .contact-form__contacts-container {
     display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.contact-form__icon-decorator {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 12px;
+    margin-right: 7.5px;
+    background-color: var(--light-shade-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form__icon {
+    color: var(--accent-color);/* <--- cannot change the color*/
+    fill: var(--accent-color);/* <--- cannot change the color*/
+    width: 26px;
+    height: 26px;
 }
 .contact-form__contacts {
-
+    margin-left: 7.5px;
 }
 .contact-form__contacts-label {
     color: var(--dark-accent-color);
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    line-height: 150%;
 }
-.contact-form__contacts-item {
-    color: var(--dark-text-color)
+.contact-form__contacts-text {
+    color: var(--dark-text-color);
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
 }
 .contact-form__contacts-link {
     color: var(--dark-text-color);
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
     text-decoration: none;
+    line-height: 150%;
+    overflow-wrap: anywhere;
 }
 .contact-form__form-container {}
 .contact-form__form {
