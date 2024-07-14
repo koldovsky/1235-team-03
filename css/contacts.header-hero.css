@@ -1,0 +1,33 @@
+.contacts-header {
+    background: linear-gradient(rgba(45, 45, 45, 0.56), rgba(0, 0, 0, 0.5)), url(../img/contacts/contacts-header.jpg);
+    background-size: cover;
+    background-position: 50% 75%;
+}
+
+.contacts-hero__container {
+ /*   display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap; */
+}
+.contacts {
+    padding-left: 15;
+    padding-right: 15;
+}
+.contacts__title {
+    font-size: 34px;
+    text-align: left;
+    font-weight: 600;
+    color: var(--light-accent-color);
+}
+.contacts__description {
+    padding-left: 15;
+    padding-right: 15;
+    margin-top: 50;
+}
+.contacts__subtitle {
+    font-size: 19px;
+    text-align: left;
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+    color: var(--block-subtitle-color);
+}
