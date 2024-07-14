@@ -4,6 +4,10 @@
     background-clip: padding-box;
     background-position-x: 40%;
 
+    * {
+        font-family: Inter, sans-serif;
+    }
+
     @media (min-width: 1700px) {
         background-size: cover;
     }
