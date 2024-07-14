@@ -13,7 +13,6 @@ html {
   body {
     width: 100%;
     min-height: 100vh;
-    overflow: hidden;
     box-sizing: border-box;
   }
   
@@ -131,6 +130,26 @@ html {
     bottom: 70px;
   }
 
+  .main__photo-block {
+    padding: 120px 0px 60px;
+    position: static;
+    display: flex;
+    justify-content: center;
+    height: 735px;
+  }
+
+  .main__photo-block-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 570px);
+    grid-gap: 30px;
+    height: 100px;
+  }
+
+  .main__photo {
+    width: 570px;
+    height: 351px;
+  }
+
   @media (max-width: 1550px) {
     .header__nav {
         padding-left: 180px;
@@ -141,5 +160,6 @@ html {
         left: 170px;
         width: 90%;
     }
+
 
 }
