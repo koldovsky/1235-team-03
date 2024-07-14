@@ -1,0 +1,44 @@
+.image-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 90px 22px;
+    padding-top: 50px;
+}
+
+.image-gallery__item {
+    width: 100%;
+    max-width: 178px; /* Зменшуємо максимальну ширину */
+    height: 178px; /* Зменшуємо висоту */
+    object-fit: cover;
+}
+
+.logo-line{
+    box-sizing: border-box; 
+    margin: 0px 18px;
+}
+
+/*.articles__carousel{
+    width: 50%;
+    max-width: 1800px;
+} */
+
+.articles{
+    display: flex;
+    justify-content: space-between; /* Розташування елементів з максимальною відстанню між ними */
+    /*align-items: center; /* Вирівнювання елементів по вертикалі */
+    width: 100%; /* Ширина контейнера */
+
+}
+
+.articles__news, .articles__carousel{
+    padding: 10px;
+    padding-top: 125px;
+}
+
+
