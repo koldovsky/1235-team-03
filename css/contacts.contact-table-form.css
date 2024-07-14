@@ -1,9 +1,11 @@
+.contacts__table-form-background-container {
+  background-color: var(--block-title-color);
+}
 .contacts__table-form-container {
   display: flex;
   flex-direction: column;
 }
 .contact-table__container {
-  background-color: var(--block-title-color);
   padding-top: 90px;
   padding-bottom: 30px;
 }
@@ -13,8 +15,7 @@
   background: url(../img/contacts/background.png) no-repeat;
   background-size: contain;
 }
-.contact-table__details-container {
-}
+.contact-table__details-container {}
 .contact-table__logo {
   width: 50px;
 }
@@ -82,20 +83,13 @@
   overflow-wrap: anywhere;
 }
 
-.contact-form__container {
-  background-color: var(--block-title-color);
-  padding-top: 90px;
-}
-.contact-form__background-container {
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-bottom: 30px;
-  background-size: contain;
-}
+.contact-form__container {}
+.contact-form__background-container {}
 .contact-form__form-container {
+  padding-top: 90px;
+  padding-bottom: 30px;
 }
 .contact-form__form {
-  margin-left: 33%;
   display: flex;
   flex-direction: column;
 }
@@ -117,7 +111,7 @@
   .contact-form__container {
     flex: 1;
   }
-  .contact-form__form {
+  .contact-form__background-container {
     padding-left: 33%;
   }
 }
