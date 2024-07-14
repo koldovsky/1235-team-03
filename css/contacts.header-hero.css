@@ -3,7 +3,6 @@
     background-size: cover;
     background-position: 50% 75%;
 }
-
 .contacts-hero__container {
     display: flex;
     flex-direction: column;
@@ -13,9 +12,6 @@
     padding-top: 90px;
     padding-bottom: 90px;
     min-height: fit-content;
-}
-.contacts {
-
 }
 .contacts__title {
     font-size: 34px;
