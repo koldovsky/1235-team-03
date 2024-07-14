@@ -8,6 +8,22 @@
         font-family: Inter, sans-serif;
     }
 
+    @media (min-width: 370px) {
+        background-size: 1650px;
+    }
+
+    @media (min-width: 415px) {
+        background-size: 1580px;
+    }
+
+    @media (min-width: 800px) {
+        background-size: 1700px;
+    }
+
+    @media (min-width: 1070px) {
+        background-size: 1800px;
+    }
+
     @media (min-width: 1700px) {
         background-size: cover;
     }
