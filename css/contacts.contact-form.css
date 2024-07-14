@@ -28,9 +28,7 @@
 
 }
 .contact-form__contacts {
-/*    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;*/
+
 }
 .contact-form__contacts-label {
     color: var(--dark-accent-color);
@@ -43,18 +41,14 @@
     text-decoration: none;
 }
 .contact-form__form-container {
- /*   display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;*/
+
 }
 .contact-form__input {}
 .contact-form__button {}
 
 @media (min-width: 768px) {
     .contact-form__container {
-/*      display: flex;
-      flex-direction: row;
-      align-items: center;*/
+
     }
 }
 
