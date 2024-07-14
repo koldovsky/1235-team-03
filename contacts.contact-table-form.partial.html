@@ -1,4 +1,4 @@
-<section class="contact-table">
+<section class="contacts__table-form-container container">
   <div class="contact-table__container">
     <div class="contact-table__background-container">
       <div class="contact-table__details-container">
@@ -47,6 +47,48 @@
             </p>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+  <div class="contact-form__container">
+    <div class="contact-form__background-container">
+      <div class="contact-form__form-container">
+        <form
+          class="contact-form__form"
+          action="https://formspree.io/f/xpwazjbr"
+          method="post"
+        >
+          <input
+            class="contact-form__input"
+            type="text"
+            name="name"
+            required
+            placeholder="Enter your full name*"
+          />
+          <input
+            class="contact-form__input"
+            type="phone"
+            name="phone"
+            required
+            placeholder="Enter your phone number*"
+          />
+          <input
+            class="contact-form__input"
+            type="email"
+            name="email"
+            required
+            placeholder="Enter your e-mail*"
+          />
+          <input
+            class="contact-form__input"
+            type="text"
+            name="message"
+            placeholder="Your Message"
+            value
+            maxlength="2000"
+          />
+          <input class="contact-form__button" type="submit" value="SEND" />
+        </form>
       </div>
     </div>
   </div>

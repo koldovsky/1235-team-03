@@ -27,21 +27,15 @@
       ></div>
     </header>
     <main>
-      <section class="contacts">
-        <!--contact table-->
+      <section class="contacts__table-form-container container">
+        <!--contact table and form-->
         <div
-          class="contacts__form-container"
+          class="contacts__table-container"
           data-hx-trigger="load"
           data-hx-swap="outerHTML"
-          data-hx-get="contacts.contact-table.partial.html"
+          data-hx-get="contacts.contact-table-form.partial.html"
         ></div>
-        <!--contact form-->
-        <div
-          class="contacts__form-container"
-          data-hx-trigger="load"
-          data-hx-swap="outerHTML"
-          data-hx-get="contacts.contact-form.partial.html"
-        ></div>
+        </section>
         <!--Illustration-->
         <img
           class="contacts__illustration container"
