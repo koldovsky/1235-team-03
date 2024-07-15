@@ -15,8 +15,6 @@
   background: url(../img/contacts/background.png) no-repeat;
   background-size: contain;
 }
-.contact-table__details-container {
-}
 .contact-table__logo {
   width: 50px;
 }
@@ -84,10 +82,6 @@
   overflow-wrap: anywhere;
 }
 
-.contact-form__container {
-}
-.contact-form__background-container {
-}
 .contact-form__form-container {
   padding-top: 90px;
   padding-bottom: 30px;
@@ -95,10 +89,6 @@
 .contact-form__form {
   display: flex;
   flex-direction: column;
-}
-.contact-form__input {
-}
-.contact-form__button {
 }
 
 .contacts__illustration-container {
@@ -109,7 +99,6 @@
 
 @media (min-width: 768px) {
   .contacts__table-form-background-container {
-    
   }
   .contacts__table-form-container {
     padding-left: 32px;
@@ -129,4 +118,3 @@
     padding-left: 33%;
   }
 }
-
