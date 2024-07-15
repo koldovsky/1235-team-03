@@ -21,6 +21,7 @@
   font-weight: 600;
   color: var(--dark-shade-color);
   line-height: 150%;
+  overflow-wrap: anywhere;
 }
 .card__divider {
   padding-right: 80%;
