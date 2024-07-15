@@ -221,26 +221,29 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  max-width: 900px;
-  padding: 60px;
+  height: 500px; 
+  padding: 40px; 
   color: white;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .cta-section__title {
-  font-size: 2em; 
+  font-size: 2.5em; 
   margin-bottom: 20px;
 }
 
 .cta-section__button {
   background-color: #6b6e00;
   color: white;
-  padding: 10px 20px;
+  padding: 15px 30px; 
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1em; 
   display: inline-block;
   border: none; 
-  text-transform: uppercase;
+  text-transform: uppercase; 
   transition: background-color 0.3s ease;
 }
 
