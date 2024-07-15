@@ -1,5 +1,7 @@
 .contacts__table-form-background-container {
   background-color: var(--block-title-color);
+  padding-left: 24px;
+  padding-right: 24px;
 }
 .contacts__table-form-container {
   display: flex;
@@ -10,8 +12,7 @@
   padding-bottom: 30px;
 }
 .contact-table__background-container {
-  margin-left: 24px;
-  margin-right: 24px;
+
   background: url(../img/contacts/background.png) no-repeat;
   background-size: contain;
 }
@@ -96,6 +97,10 @@
 .contact-form__input {
 }
 .contact-form__button {
+}
+
+.contacts__illustration-container {
+padding-bottom: 30px;
 }
 
 @media (min-width: 768px) {
