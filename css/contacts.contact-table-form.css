@@ -1,9 +1,9 @@
 .contacts__table-form-background-container {
   background-color: var(--block-title-color);
-  padding-left: 24px;
-  padding-right: 24px;
 }
 .contacts__table-form-container {
+  padding-left: 24px;
+  padding-right: 24px;
   display: flex;
   flex-direction: column;
 }
@@ -12,11 +12,11 @@
   padding-bottom: 30px;
 }
 .contact-table__background-container {
-
   background: url(../img/contacts/background.png) no-repeat;
   background-size: contain;
 }
-.contact-table__details-container {}
+.contact-table__details-container {
+}
 .contact-table__logo {
   width: 50px;
 }
@@ -84,8 +84,10 @@
   overflow-wrap: anywhere;
 }
 
-.contact-form__container {}
-.contact-form__background-container {}
+.contact-form__container {
+}
+.contact-form__background-container {
+}
 .contact-form__form-container {
   padding-top: 90px;
   padding-bottom: 30px;
@@ -100,11 +102,18 @@
 }
 
 .contacts__illustration-container {
-padding-bottom: 30px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 30px;
 }
 
 @media (min-width: 768px) {
+  .contacts__table-form-background-container {
+    
+  }
   .contacts__table-form-container {
+    padding-left: 32px;
+    padding-right: 32px;
     flex-direction: row;
   }
   .contact-table__container {
@@ -120,3 +129,4 @@ padding-bottom: 30px;
     padding-left: 33%;
   }
 }
+
