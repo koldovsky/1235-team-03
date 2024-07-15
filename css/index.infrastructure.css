@@ -202,23 +202,43 @@
 }
 
 .cta-section {
-  background: url("../img/infrastructure/picture/background1.png") no-repeat center center;
-  background-size: cover;
   padding: 100px 0;
   text-align: left;
   color: white;
   display: flex;
   align-items: center;
+  justify-content: center;
+  position: relative;
 }
+
 .cta-section__container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  position: relative;
+  z-index: 2;
 }
+
+.cta-section__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.cta-section__content {
+  position: relative;
+  z-index: 2;
+}
+
 .cta-section__title {
   font-size: 2.5em;
   margin-bottom: 20px;
 }
+
 .cta-section__button {
   background-color: #6b6e00;
   color: white;
