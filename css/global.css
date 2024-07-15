@@ -1,31 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --accent-color: #ea9449;
-    --dark-accent-color: #7c782f;
-    --light-accent-color: #f9f9f7;
+  --accent-color: #ea9449;
+  --dark-accent-color: #7c782f;
+  --light-accent-color: #f9f9f7;
 
-    --dark-shade-color: #2d2d2d;
-    --light-shade-color: #FFFFFF;
+  --dark-shade-color: #2d2d2d;
+  --light-shade-color: #ffffff;
 
-    --link-color: #2d2d2d;
-    --link-color-light: #FFFFFF;
-    --link-hover-color: #7c782f;
+  --link-color: #2d2d2d;
+  --link-color-light: #ffffff;
+  --link-hover-color: #7c782f;
 
-    --block-title-color: #f9f9f7;
-    --block-subtitle-color: #e2e0dd;
-    --subtitle-color: #686868;
-    --dark-text-color: #808080;
-    --light-text-color: #ffffff;
+  --block-title-color: #f9f9f7;
+  --block-subtitle-color: #e2e0dd;
+  --subtitle-color: #686868;
+  --dark-text-color: #808080;
+  --light-text-color: #ffffff;
   scroll-behavior: smooth;
   font-family: "Work Sans", sans-serif;
   word-wrap: break-word;
@@ -33,8 +33,8 @@
 }
 
 .container {
-    max-width: 1200px;
-    margin: auto;
+  max-width: 1200px;
+  margin: auto;
 }
 
 img {
@@ -45,10 +45,10 @@ img {
 a,
 a:hover,
 a:visited {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul,
 ol {
-    list-style: none;
+  list-style: none;
 }
