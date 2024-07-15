@@ -221,8 +221,8 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 500px; 
-  padding: 40px; 
+  height: 500px; /* Висота для внутрішнього блоку */
+  padding: 40px; /* Відступи */
   color: white;
   text-align: left;
   display: flex;
@@ -234,26 +234,26 @@
   font-size: 2.5em; 
   margin-bottom: 20px;
   line-height: 1.2; 
-  max-width: 500px;
+  max-width: 500px; 
   font-family: 'Roboto', sans-serif; 
 }
 
 .cta-section__button {
   background-color: #787036; 
   color: white;
-  padding: 10px 20px; 
+  padding: 5px 15px; 
   text-decoration: none;
-  font-size: 1em; 
+  font-size: 0.875em; 
   display: inline-block;
   border: none; 
   transition: background-color 0.3s ease;
   text-align: center; 
-  width: auto; 
+  width: auto;
   font-family: 'Roboto', sans-serif; 
   font-weight: 700;
-  line-height: 1; 
+  line-height: normal; 
 }
 
 .cta-section__button:hover {
-  background-color: #d0844b;
+  background-color: #d0844b; 
 }
