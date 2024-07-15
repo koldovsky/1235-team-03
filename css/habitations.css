@@ -1,4 +1,6 @@
 @import "global.css";
 @import "global.header-nav.css";
+@import "habitations.header.css";
+@import "habitations.header-hero.css";
 @import "footer.css";
 @import "footer-style.css";
