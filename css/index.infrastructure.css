@@ -221,14 +221,14 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  max-width: 800px; /* Ширина для внутрішнього блоку */
-  padding: 40px;
+  max-width: 900px;
+  padding: 60px;
   color: white;
   text-align: left;
 }
 
 .cta-section__title {
-  font-size: 2.5em;
+  font-size: 2em; 
   margin-bottom: 20px;
 }
 
@@ -239,5 +239,11 @@
   text-decoration: none;
   font-size: 1.2em;
   display: inline-block;
-  border: none; /* Квадратні кути */
+  border: none; 
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.cta-section__button:hover {
+  background-color: #d0844b; 
 }
