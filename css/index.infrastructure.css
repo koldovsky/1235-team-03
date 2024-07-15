@@ -225,7 +225,6 @@
   padding: 40px;
   color: white;
   text-align: left;
-  border-radius: 10px;
 }
 
 .cta-section__title {
@@ -239,6 +238,6 @@
   padding: 10px 20px;
   text-decoration: none;
   font-size: 1.2em;
-  border-radius: 5px;
   display: inline-block;
+  border: none; /* Квадратні кути */
 }
