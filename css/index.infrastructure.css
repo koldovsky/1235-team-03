@@ -231,10 +231,11 @@
 }
 
 .cta-section__title {
-  font-size: 2.5em;
+  font-size: 2.5em; 
   margin-bottom: 20px;
   line-height: 1.2; 
-  max-width: 500px; 
+  max-width: 500px;
+  font-family: 'Roboto', sans-serif; 
 }
 
 .cta-section__button {
@@ -247,9 +248,9 @@
   border: none; 
   text-transform: uppercase; 
   transition: background-color 0.3s ease;
-  text-align: center;
-  width: fit-content;
-  font-family: Arial, sans-serif;
+  text-align: center; 
+  width: fit-content; 
+  font-family: 'Roboto', sans-serif; 
 }
 
 .cta-section__button:hover {
