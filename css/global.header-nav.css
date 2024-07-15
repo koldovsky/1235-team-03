@@ -39,6 +39,12 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: transparent;
+
+    &:hover {
+        .header-burger__line {
+            background-color: var(--accent-color);
+        }
+    }
 }
 
 .header-burger__line {
@@ -74,6 +80,13 @@
 .header-socials__social-item {
     width: 30px;
     height: 30px;
+
+    &:hover {
+        .header-socials__social-image {
+            cursor: pointer;
+            fill: var(--accent-color);
+        }
+    }
 
     .header-socials__social-image {
         fill: var(--light-accent-color);
