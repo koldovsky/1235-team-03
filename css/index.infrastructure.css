@@ -241,16 +241,16 @@
 .cta-section__button {
   background-color: #787036; 
   color: white;
-  padding: 10px 20px;
+  padding: 10px 20px; 
   text-decoration: none;
-  font-size: 1em;
+  font-size: 0.875em; 
   display: inline-block;
-  border: none; 
+  border: none;
   transition: background-color 0.3s ease;
   text-align: center; 
-  width: fit-content; 
-  font-family: 'Roboto', sans-serif; 
-  font-weight: 700; 
+  width: auto; 
+  font-family: Arial, sans-serif;
+  font-weight: bold; 
 }
 
 .cta-section__button:hover {
