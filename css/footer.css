@@ -1,9 +1,16 @@
+:root {
+  --background-color: #302c2c;
+  --accent-color: #ea9449; /* Припустимо, що це значення змінної */
+  --text-color: #fff;
+  --secondary-text-color: #c3c3c3;
+}
+
 .footer-main {
   max-width: 100%;
   padding: 2%;
   padding-right: 15%;
   padding-left: 15%;
-  background-color: #302c2c;
+  background-color: var(--background-color);
 }
 
 .footer-url-color a {
@@ -11,24 +18,24 @@
 }
 
 .footer-mail-color a {
-  color: #fff;
+  color: var(--text-color);
 }
 
 .footer-second-text {
-  color: #c3c3c3;
+  color: var(--secondary-text-color);
   font-weight: 400;
 }
 
 .footer-social a {
   display: flex;
-  color: #fff;
+  color: var(--text-color);
   font-size: 1.5em;
   text-decoration: none;
 }
 
 .footer-social-name {
   display: flex;
-  color: #c3c3c3;
+  color: var(--secondary-text-color);
   font-size: 0.8em;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-stretch: ultra-expanded;
@@ -49,8 +56,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 1em;
-  background-color: #302c2c;
-  color: #fff;
+  background-color: var(--background-color);
+  color: var(--text-color);
   font-size: 0.6em;
 }
 
@@ -64,7 +71,7 @@
   flex: 2;
   display: flex;
   justify-content: flex-end;
-  color: #fff;
+  color: var(--text-color);
 }
 
 .footer-social-cont {
@@ -76,7 +83,7 @@
 .footer-social-name-cont {
   display: flex;
   flex-direction: column;
-  color: #fff;
+  color: var(--text-color);
   padding-top: 10%;
   padding-bottom: 10%;
 }
@@ -94,7 +101,7 @@
 
 .footer-menu a {
   text-decoration: none;
-  color: #fff;
+  color: var(--text-color);
   font-size: 1em;
 }
 
@@ -107,13 +114,13 @@
   align-items: center;
   justify-content: space-between;
   padding: 1em;
-  color: #fff;
+  color: var(--text-color);
   font-size: 1em;
 }
 
 .footer-socialurls {
   text-decoration: none;
-  color: #fff;
+  color: var(--text-color);
   font-size: 1em;
 }
 
