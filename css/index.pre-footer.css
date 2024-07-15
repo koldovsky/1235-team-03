@@ -1,26 +1,26 @@
 .image-gallery {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; 
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 90px 22px;
-    padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 90px 22px;
+  padding-top: 50px;
 }
 
 .image-gallery__item {
-    width: 100%;
-    max-width: 178px; /* Зменшуємо максимальну ширину */
-    height: 178px; /* Зменшуємо висоту */
-    object-fit: cover;
+  width: 100%;
+  max-width: 178px; /* Зменшуємо максимальну ширину */
+  height: 178px; /* Зменшуємо висоту */
+  object-fit: cover;
 }
 
-.logo-line{
-    box-sizing: border-box; 
-    margin: 0px 18px;
+.logo-line {
+  box-sizing: border-box;
+  margin: 0px 18px;
 }
 
 /*.articles__carousel{
@@ -28,17 +28,102 @@
     max-width: 1800px;
 } */
 
-.articles{
-    display: flex;
-    justify-content: space-between; /* Розташування елементів з максимальною відстанню між ними */
-    /*align-items: center; /* Вирівнювання елементів по вертикалі */
-    width: 100%; /* Ширина контейнера */
-
+.articles {
+  display: flex;
+  justify-content: space-between; /* Розташування елементів з максимальною відстанню між ними */
+  /*align-items: center; /* Вирівнювання елементів по вертикалі */
+  width: 100%; /* Ширина контейнера */
 }
 
-.articles__news, .articles__carousel{
-    padding: 10px;
-    padding-top: 125px;
+.articles__news,
+.articles__carousel {
+  padding: 22px;
+  padding-top: 125px;
 }
 
+.articles-news__logo {
+  background-image: url("../img/pre-footer/articles.png");
+  background-position: center center;
+  width: 100%;
+  height: 10vh;
+  position: relative; /* або absolute, залежно від вашої потреби */
+  top: 10px; /* зсуває об'єкт від верхньої границі на 20px */
+  left: 5px; /* зсуває об'єкт від лівої границі на 30px */
+  right: 10px;
+  max-width: 1500px;
+  margin-bottom: 10px;
+  background-size: cover;
+  position: relative;
+  background-position: right;
+}
 
+.articles-news__title {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 800px;
+  font-size: 50px;
+  font-weight: 600; 
+}
+
+.articles-news__description{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #686868;
+}
+
+.articles-news__text{
+  margin-top: 30px;
+  margin-bottom: 90px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #989898;
+}
+
+.articles-news__link{
+  background-color: #ea9449;
+  color: white;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  
+}
+
+.price-list__intro{
+  display: flex;
+  justify-content: space-between; /* Розташування елементів з максимальною відстанню між ними */
+  /*align-items: center; /* Вирівнювання елементів по вертикалі */
+  width: 75%; /* Ширина контейнера */
+}
+
+.price-list__intro-image, .price-list__details{
+  padding: 22px;
+  padding-top: 125px;
+}
+
+.price-list__intro-image{
+  margin-left: 20px;
+  margin-bottom: 65px;
+  max-width: 1800px;
+  width: 675px;
+  height: 675px;
+}
+
+.price-list__title{
+  width: 500px;
+  text-align: left;
+  margin: auto 30px;
+  max-width: 800px;
+  font-size: 50px;
+  font-weight: 600; 
+}
+
+.price-list__description{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #686868;
+}
