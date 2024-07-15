@@ -243,14 +243,15 @@
   color: white;
   padding: 10px 20px; 
   text-decoration: none;
-  font-size: 0.875em; 
+  font-size: 1em; 
   display: inline-block;
-  border: none;
+  border: none; 
   transition: background-color 0.3s ease;
   text-align: center; 
   width: auto; 
-  font-family: Arial, sans-serif;
-  font-weight: bold; 
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 700;
+  line-height: 1; 
 }
 
 .cta-section__button:hover {
