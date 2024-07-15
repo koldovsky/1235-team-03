@@ -1,8 +1,7 @@
-/* CSS for the video section */
 .video-section {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
 }
@@ -15,10 +14,10 @@
   height: 100%;
   border: 0;
 }
-/* CSS for the reviews section */
+
 .reviews {
   position: relative;
-  background-image: url('img/infrastructure/picture/background.png');
+  background-image: url("../img//infrastructure/picture/background.png");
   background-size: cover;
   background-position: center;
   padding: 50px 0;
@@ -104,7 +103,7 @@
 .reviews__button--right {
   right: 10px;
 }
-/* CSS for the Camp Infrastructure section */
+
 .camp-infrastructure {
   padding: 50px 20px;
   font-family: Arial, sans-serif;
@@ -201,9 +200,9 @@
   height: 40px;
   margin-bottom: 10px;
 }
-/* CSS for the CTA section */
+
 .cta-section {
-  background: url('img/infrastructure/picture/background1.png') no-repeat center center;
+  background: url("../img/infrastructure/picture/background1.png") no-repeat center center;
   background-size: cover;
   padding: 100px 0;
   text-align: left;
