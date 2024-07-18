@@ -10,3 +10,11 @@
         grid-template-columns: 1fr 1fr;
     }
   }
+  
+  .habitations__card-section {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 50px;
+    text-align: left;
+  }
