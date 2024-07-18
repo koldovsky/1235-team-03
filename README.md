@@ -31,3 +31,4 @@ Marian Shtangret
 Robert Hubskyi
 Natalia Zaretska 
 Nazarii Shchur
+Andrew Tandyriak
