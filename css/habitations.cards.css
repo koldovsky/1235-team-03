@@ -28,3 +28,13 @@
     aspect-ratio: 4 / 3;
     object-fit: cover;
   }
+
+  .habitations__capacity {
+    font-size: 12px;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    line-height: 16.8px;
+    color: var(--dark-accent-color);
+    margin-top: 20px;
+  }
