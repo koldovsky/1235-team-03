@@ -54,3 +54,34 @@
   .habitations__a:hover  {
     color: var(--link-hover-color);
   }
+
+  .habitations__amenities {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: left;
+    margin-top: 20px;
+  }
+  
+  .amenity {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    text-align: left;
+    padding-right: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .amenity__icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    
+  }
+  
+  .amenity__description {
+    font-size: 15px;
+    color: var(--subtitle-color);
+    font-family: Inter, sans-serif;
+    font-style: italic;
+  }
