@@ -91,3 +91,11 @@
     position: relative;
     color: var(--dark-shade-color);
   }
+
+  .habitations__description {
+    font-size: 17px;
+    color: var(--subtitle-color);
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    line-height: 25.5px;
+  }
