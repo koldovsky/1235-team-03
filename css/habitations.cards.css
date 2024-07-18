@@ -99,3 +99,22 @@
     font-weight: 400;
     line-height: 25.5px;
   }
+
+  .habitations__button {
+    background-color: var(--dark-accent-color);
+    color: var(--link-color-light);
+    border: none;
+    cursor: pointer;
+    padding-top: 18px ;
+    padding-bottom: 18px ;
+    padding-left: 30px ;
+    padding-right: 30px ;
+    font-size: 13.2px;
+    font-family: Inter, sans-serif;
+    margin-top: 40px;
+    font-weight: 700;
+  }
+  
+  .habitations__button:hover {
+    background-color: var(--accent-color);
+  }
