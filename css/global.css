@@ -37,6 +37,10 @@
   margin: auto;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 img {
   width: 100%;
   display: block;
