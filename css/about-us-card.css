@@ -1,0 +1,35 @@
+.stats-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--link-color-light);
+    text-align: center;
+}
+
+.card {
+    background-color: var(--link-color-light);
+    border: none;
+    margin: 10px 0;
+    width: 18rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card-title {
+    font-size: 2rem;
+    color: var(--accent-color);
+    margin: 0;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: var(--dark-text-color);
+    margin: 5px 0 0 0;
+    text-transform: uppercase;
+}
