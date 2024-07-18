@@ -38,3 +38,19 @@
     color: var(--dark-accent-color);
     margin-top: 20px;
   }
+
+  .habitations__name {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31.2px;
+    margin-top: 20px;
+  }
+
+  .habitations__a {
+    color: var(--link-color);
+    text-decoration: none; 
+  }
+  
+  .habitations__a:hover  {
+    color: var(--link-hover-color);
+  }
