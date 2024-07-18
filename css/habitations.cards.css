@@ -1,0 +1,15 @@
+.cards__list{
+    display: grid;
+    gap: 5px;
+
+    .habitations__card-section{
+        border: 1p solid var(--border-color);
+        padding: 5px;
+    }
+}
+
+@media (min-width: 480px) {
+    .cards__list{
+        grid-template-columns: 1fr 1fr;
+    }
+}
