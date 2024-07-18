@@ -85,3 +85,9 @@
     font-family: Inter, sans-serif;
     font-style: italic;
   }
+
+  .habitations__separator {
+    width: 100%;
+    position: relative;
+    color: var(--dark-shade-color);
+  }
