@@ -10,7 +10,9 @@ Note: the input will always be valid.
 
 For example:
 
-5, 10, 2  -->  17 */
+5, 10, 2  -->  17 
+https://www.codewars.com/kata/grasshopper-messi-goals-function/train/javascript
+*/
 
 function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
   return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
