@@ -74,6 +74,7 @@
     width: 100%;
     align-items: flex-start;
     margin-top: 20px;
+    gap: 24px;
 }
 
 .amenity {
@@ -81,9 +82,7 @@
     flex-direction: row;
     align-items: center;
     text-align: left;
-    padding-right: 24px;
     margin-bottom: 16px;
-    flex: 1 1 30%; 
 }
 
 .amenity__icon {
