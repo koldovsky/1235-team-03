@@ -243,15 +243,15 @@
 .cta-section__button {
   background-color: var(--book-now-button-color);
   color: var(--light-text-color);
-  padding: 10px 20px;
+  padding: 18px 30px;
   text-decoration: none;
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-button);
+  font-family: var(--font-family-inter);
   display: inline-block;
   border: none;
   transition: background-color 0.3s ease;
   text-align: center;
   max-width: 150px;
-  font-family: var(--font-family-alt);
   font-weight: var(--font-weight-bold);
   line-height: normal;
   white-space: nowrap;
