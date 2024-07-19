@@ -7,9 +7,21 @@
   
   @media (min-width: 480px) {
     .cards__list{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: minmax(0, 1fr)
+        minmax(0, 1fr);
     }
   }
+
+  @media (max-width: 600px) {
+    .habitations__amenities {
+        flex-direction: column;
+    }
+
+    .amenity {
+        padding-right: 0;
+        flex: 1 1 auto; 
+    }
+}
 
   .habitations__card-section {
     display: flex;
@@ -58,33 +70,34 @@
   .habitations__amenities {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
-    align-items: left;
+    align-items: flex-start;
     margin-top: 20px;
-  }
-  
-  .amenity {
+    gap: 24px;
+}
+
+.amenity {
     display: flex;
     flex-direction: row;
-    align-items: left;
+    align-items: center;
     text-align: left;
-    padding-right: 24px;
     margin-bottom: 16px;
-  }
-  
-  .amenity__icon {
+}
+
+.amenity__icon {
     width: 20px;
     height: 20px;
     margin-right: 10px;
     
-  }
-  
-  .amenity__description {
+}
+
+.amenity__description {
     font-size: 15px;
     color: var(--subtitle-color);
     font-family: Inter, sans-serif;
     font-style: italic;
-  }
+}
 
   .habitations__separator {
     width: 100%;

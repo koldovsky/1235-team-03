@@ -28,9 +28,22 @@
   --subtitle-color: #686868;
   --dark-text-color: #808080;
   --light-text-color: #ffffff;
-  --book-now-button-color: #7c782f; 
+  --book-now-button-color: #7c782f;
+
+  --font-family: "Work Sans", sans-serif;
+  --font-family-alt: "Roboto", sans-serif;
+  --font-family-inter: "Inter", sans-serif;
+
+  --font-size-base: 16px;
+  --font-size-large: 2.5em;
+  --font-size-medium: 1.25em;
+  --font-size-small: 0.875em;
+  --font-size-button: 12.8px;
+
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+
   scroll-behavior: smooth;
-  font-family: "Work Sans", sans-serif;
   word-wrap: break-word;
   min-width: 320px;
 }
