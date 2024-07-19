@@ -134,3 +134,18 @@
 .discount{
   color: #ea9449;;
 }
+
+.price-list__item-price{
+  text-align: left;
+  margin: 0 auto;
+  max-width: 800px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #808080;
+}
+ 
+.price-list__item-name{
+  
+  font-weight: 600;
+  font-size: 19px;
+}
