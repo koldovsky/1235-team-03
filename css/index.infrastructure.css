@@ -10,7 +10,8 @@
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
-  margin: 0;
+  margin: 0; 
+  padding: 0; 
 }
 
 .video-section__iframe {
@@ -28,7 +29,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 0;
+  margin: 0; 
+  padding: 0 0 50px 0; 
   font-family: var(--font-family);
   display: flex;
   flex-direction: column;
