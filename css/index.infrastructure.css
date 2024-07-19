@@ -62,20 +62,20 @@
 }
 
 .reviews__rating {
-  font-size: 20px;
+  font-size: var(--font-size-medium);
   color: var(--dark-accent-color);
 }
 
 .reviews__text {
-  font-size: 16px;
+  font-size: var(--font-size-base);
   margin: 10px 0;
   color: var(--dark-text-color);
 }
 
 .reviews__author {
-  font-size: 14px;
+  font-size: var(--font-size-small);
   color: var(--link-color);
-  font-weight: bold;
+  font-weight: var(--font-weight-bold);
 }
 
 .reviews__button {
@@ -128,6 +128,7 @@
   margin: 0;
   position: relative;
   color: var(--block-title-color);
+  font-family: var(--font-family-alt);
 }
 
 .camp-infrastructure__title::before {
@@ -143,7 +144,7 @@
 
 .camp-infrastructure__contact {
   margin-top: 20px;
-  font-size: 16px;
+  font-size: var(--font-size-base);
   color: var(--link-color);
   display: flex;
   justify-content: center;
@@ -151,7 +152,7 @@
 }
 
 .camp-infrastructure__contact-title {
-  font-weight: bold;
+  font-weight: var(--font-weight-bold);
   margin-right: 5px;
 }
 
@@ -186,13 +187,13 @@
 }
 
 .camp-infrastructure__subtitle {
-  font-size: 20px;
+  font-size: var(--font-size-medium);
   margin: 10px 0;
   color: var(--subtitle-color);
 }
 
 .camp-infrastructure__text {
-  font-size: 16px;
+  font-size: var(--font-size-base);
   color: var(--dark-text-color);
 }
 
@@ -232,11 +233,11 @@
 }
 
 .cta-section__title {
-  font-size: 2.5em;
+  font-size: var(--font-size-large);
   margin-bottom: 20px;
   line-height: 1.2;
   max-width: 500px;
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-family-alt);
 }
 
 .cta-section__button {
@@ -244,14 +245,14 @@
   color: var(--light-text-color);
   padding: 10px 20px;
   text-decoration: none;
-  font-size: 0.875em;
+  font-size: var(--font-size-small);
   display: inline-block;
   border: none;
   transition: background-color 0.3s ease;
   text-align: center;
   max-width: 150px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+  font-family: var(--font-family-alt);
+  font-weight: var(--font-weight-bold);
   line-height: normal;
   white-space: nowrap;
 }
