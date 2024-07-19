@@ -22,7 +22,7 @@
 .reviews {
   position: relative;
   background-image: url("../img/infrastructure/picture/background.png");
-  background-size: contain; /* або cover, залежно від потрібного результату */
+  background-size: cover; 
   background-repeat: no-repeat;
   background-position: center;
   padding: 50px 0;
