@@ -22,7 +22,8 @@
 .reviews {
   position: relative;
   background-image: url("../img/infrastructure/picture/background.png");
-  background-size: cover;
+  background-size: contain; /* або cover, залежно від потрібного результату */
+  background-repeat: no-repeat;
   background-position: center;
   padding: 50px 0;
   font-family: var(--font-family);
@@ -60,7 +61,7 @@
   padding: 20px;
   margin: 0 5px;
   border-radius: 10px;
-  box-shadow: 0 5px 15px var(--dark-shade-color);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
   flex: 1;
 }
@@ -91,7 +92,7 @@
   border-radius: 50%;
   padding: 10px;
   cursor: pointer;
-  box-shadow: 0 5px 15px var(--dark-shade-color);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .reviews__button img {
