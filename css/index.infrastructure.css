@@ -6,12 +6,12 @@
   overflow: hidden;
 }
 
-.video-section__iframe {
+.video-section__thumbnail {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 80%;
+  height: 100%;
   border: 0;
 }
 
