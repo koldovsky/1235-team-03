@@ -1,7 +1,5 @@
 .video-and-reviews {
   width: 100%;
-  display: flex;
-  flex-direction: column;
 }
 
 .video-section {
@@ -23,11 +21,11 @@
 
 .reviews {
   position: relative;
-  background-image: url("../img/infrastructure/picture/back.jpg");
+  background-image: url("../img/infrastructure/picture/background.png");
   background-size: contain; 
   background-repeat: no-repeat;
   background-position: center;
-  padding: 50px 0;
+  padding: 60px 0 60px 0;
   font-family: var(--font-family);
   display: flex;
   justify-content: center;
@@ -230,7 +228,7 @@
 .cta-section__content {
   position: relative;
   display: inline-block;
-  background-image: url("../img/infrastructure/picture/background1.png");
+  background-image: url("../img/infrastructure/picture/imagectasection.png");
   background-size: cover;
   background-position: center;
   width: 100%;
