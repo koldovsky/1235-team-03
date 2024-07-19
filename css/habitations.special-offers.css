@@ -1,0 +1,78 @@
+.special-offers {
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+  
+  .amenity__icon {
+    margin-bottom: 20px;
+  }
+  
+  .special-offers__title {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .special-offers__description,
+  .special-offers__description_continue {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .special-offers__items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .special-offers__item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+  }
+  
+  .special-offers__item-title {
+    font-size: 14px;
+    color: #ff7f50;
+    margin-bottom: 5px;
+  }
+  
+  .special-offers__item-name {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .special-offers__item-features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .special-offers__item-features li {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 5px;
+  }
+  
+  .special-offers__button {
+    display: block;
+    background-color: #6b8e23;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .special-offers__button:hover {
+    background-color: #556b2f;
+  }
+  
