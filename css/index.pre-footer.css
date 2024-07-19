@@ -13,8 +13,8 @@
 
 .image-gallery__item {
   width: 100%;
-  max-width: 178px; /* Зменшуємо максимальну ширину */
-  height: 178px; /* Зменшуємо висоту */
+  max-width: 178px; 
+  height: 178px; 
   object-fit: cover;
 }
 
@@ -26,9 +26,9 @@
 @media (min-width: 600px) {
   .articles {
     display: flex;
-    justify-content: space-between; /* Розташування елементів з максимальною відстанню між ними */
-    /*align-items: center; /* Вирівнювання елементів по вертикалі */
-    width: 100%; /* Ширина контейнера */
+    justify-content: space-between;
+    /*align-items: center; 
+    width: 100%; */
   }
 }
 
@@ -40,18 +40,11 @@
 
 .articles-news__logo {
   background-image: url("../img/pre-footer/articles.png");
-  background-position: center center;
   width: 100%;
   height: 10vh;
-  position: relative; /* або absolute, залежно від вашої потреби */
-  top: 10px; /* зсуває об'єкт від верхньої границі на 20px */
-  left: 5px; /* зсуває об'єкт від лівої границі на 30px */
-  right: 10px;
-  max-width: 1500px;
-  margin-bottom: 10px;
-  background-size: cover;
-  position: relative;
-  background-position: right;
+  background-position: top left;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .articles-news__title {
@@ -67,7 +60,7 @@
   margin-bottom: 30px;
   font-weight: 500;
   font-size: 20px;
-  color: #686868;
+  color: var(--subtitle-color);
 }
 
 .articles-news__text {
@@ -75,33 +68,41 @@
   margin-bottom: 90px;
   font-weight: 400;
   font-size: 18px;
-  color: #989898;
+  color: var(--color-under-block-header)
 }
 
 .articles-news__link {
-  background-color: #ea9449;
-  color: white;
+  background-color: var(--accent-color);
+  color: var(--light-shade-color);
   padding: 20px 30px;
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
 }
+
+.price-list__image {
+  display: block;
+  width: 100%;
+  margin-top: 100px;
+}
+
 @media (min-width: 600px) {
   .price-list__intro {
-    display: flex; /* Встановлює flex-контейнер */
-    justify-content: flex-start; /* Розташування елементів з максимальною відстанню між ними */
-    align-items: center; /* Вирівнювання елементів по вертикалі */
-    width: 100%; /* Ширина контейнера */
+    display: flex;
+    justify-content: flex-start;
+    text-align: right;
+    width: 100%;
   }
 }
 
 .price-list__intro-image {
-  max-width: 50%; /* Максимальна ширина зображення */
-  height: auto; /* Автоматична висота, щоб зберегти пропорції зображення */
+  max-width: 50%;
+  display: block;
+  height: auto;
 }
 
 .price-list__details {
-  max-width: 50%; /* Максимальна ширина контейнера з деталями */
+  max-width: 50%;
 }
 
 .price-list__intro-image,
@@ -124,28 +125,49 @@
   margin-bottom: 30px;
   font-weight: 500;
   font-size: 20px;
-  color: #686868;
+  color: var(--subtitle-color);
 }
 
-.price_tag{
-  color: #7c782f;
+.price_tag {
+  color: var(--link-hover-color);
 }
 
-.discount{
-  color: #ea9449;;
+.discount {
+  color: var(--accent-color);
 }
 
-.price-list__item-price{
-  text-align: left;
-  margin: 0 auto;
+.price-list__item-price {
+  float: right;
+  text-align: right;
+  /*margin: 0 auto;*/
   max-width: 800px;
   font-size: 14px;
   font-weight: 600;
-  color: #808080;
+  color: var(--dark-text-color);
 }
- 
-.price-list__item-name{
-  
+
+.price-list__item-name {
   font-weight: 600;
   font-size: 19px;
+}
+
+@media (min-width: 600px) {
+  .price-list__item {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 10px 0;
+  }
+}
+
+.price-lists {
+  max-width: 800px;
+  /*margin: 0 auto;*/
+}
+
+.price-list__details {
+  background-image: url("../img/pre-footer/prising.png");
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
