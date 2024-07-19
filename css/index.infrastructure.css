@@ -258,5 +258,5 @@
 }
 
 .cta-section__button:hover {
-  background-color: var(--dark-accent-color);
+  background-color: var(--accent-color);
 }
