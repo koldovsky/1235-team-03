@@ -150,6 +150,79 @@ html {
     height: 351px;
   }
 
+  .main__amenities {
+    padding-bottom: 120px;
+  }
+  
+  .main__amenities-title {
+    font-size: 38px;
+    width: 1200px;
+    position: relative;
+    left: 370px;
+    color: #2d2d2d;
+  }
+
+  .main__amenities svg {
+    position: relative;
+    left: 370px;
+    padding-bottom: 55px;
+  }
+  
+  .main__amenities-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0 360px;
+    list-style: none;
+  }
+  
+  .main__amenities-item {
+    flex: 1;
+    margin: 0 10px;
+    min-width: 200px; 
+  }
+  
+  .main__amenities-subtitle {
+    font-size: 14px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    color: #808080;
+    margin-bottom: 25px;
+  }
+  
+  .main__amenities-sublist {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .main__amenities-subitem {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+  }
+  
+  .main__amenities-icon {
+    margin-right: 8px;
+    vertical-align: middle;
+    width: 26px;
+    height: 22px;
+  }
+  
+  .main__amenities-subitem p {
+    margin: 0;
+    font-size: 18px;
+    text-wrap: nowrap;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    color: #808080;
+  }
+
   @media (max-width: 1550px) {
     .header__nav {
         padding-left: 180px;
