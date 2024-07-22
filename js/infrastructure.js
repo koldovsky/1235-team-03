@@ -1,17 +1,42 @@
-function init() {
-    import('./header-nav.js');
+document.addEventListener("DOMContentLoaded", () => {
+    const track = document.querySelector('.reviews__track');
+    const slides = Array.from(track.children);
+    const nextButton = document.querySelector('.reviews__button--right');
+    const prevButton = document.querySelector('.reviews__button--left');
+    const slideWidth = slides[0].getBoundingClientRect().width;
   
-    const totalPartials = document.querySelectorAll('[hx-trigger="load"], [data-hx-trigger="load"]').length;
-    let loadedPartialsCount = 0;
+    // Arrange slides next to one another
+    const setSlidePosition = (slide, index) => {
+      slide.style.left = slideWidth * index + 'px';
+    };
+    slides.forEach(setSlidePosition);
   
-    document.body.addEventListener('htmx:afterOnLoad', () => {
-      loadedPartialsCount++;
-      if (loadedPartialsCount === totalPartials) {
-        init();
+    const moveToSlide = (track, currentSlide, targetSlide) => {
+      track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
+      currentSlide.classList.remove('reviews__slide--current');
+      targetSlide.classList.add('reviews__slide--current');
+    };
+  
+    // When I click left, move slides to the left
+    prevButton.addEventListener('click', e => {
+      const currentSlide = track.querySelector('.reviews__slide--current');
+      const prevSlide = currentSlide.previousElementSibling;
+  
+      if (prevSlide) {
+        moveToSlide(track, currentSlide, prevSlide);
       }
     });
-  }
   
-  init();  
+    // When I click right, move slides to the right
+    nextButton.addEventListener('click', e => {
+      const currentSlide = track.querySelector('.reviews__slide--current');
+      const nextSlide = currentSlide.nextElementSibling;
+  
+      if (nextSlide) {
+        moveToSlide(track, currentSlide, nextSlide);
+      }
+    });
+  });
+  
   
   
