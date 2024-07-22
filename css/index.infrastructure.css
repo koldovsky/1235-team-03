@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.video-section {
+.video__section {
   width: 100%;
   position: relative;
   padding-bottom: 56.25%;
@@ -17,7 +17,7 @@
 }
 
 .reviews {
-  background-image: url("../img/infrastructure/picture/background.png");
+  background-image: url("img/infrastructure/picture/background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -93,12 +93,6 @@
   padding: 10px;
   cursor: pointer;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-.reviews__button img {
-  display: block;
-  width: 24px;
-  height: 24px;
 }
 
 .reviews__button--left {
