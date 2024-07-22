@@ -19,7 +19,7 @@
 .reviews {
   background: url("img/infrastructure/picture/background.png") no-repeat center center;
   background-size: cover;
-  padding: 40px;
+  padding: 40px 20px;
   font-family: var(--font-family);
   display: flex;
   flex-direction: column;
@@ -29,6 +29,7 @@
 
 .reviews__carousel {
   max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
@@ -57,7 +58,7 @@
 .reviews__item {
   background: var(--light-accent-color);
   padding: 20px;
-  margin: 0 5px;
+  margin: 0 10px;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
