@@ -1,7 +1,5 @@
 .video-and-reviews {
   width: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 .video-section {
@@ -10,7 +8,6 @@
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
-  margin: 0;
 }
 
 .video-section iframe {
@@ -27,7 +24,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 20px 0;
+  padding-top: 20px;
+  padding-right: 0;
+  padding-bottom: 20px;
+  padding-left: 0;
   font-family: var(--font-family);
   display: flex;
   flex-direction: column;
@@ -37,7 +37,10 @@
 
 .reviews__carousel {
   max-width: 1200px;
-  margin: 0 auto;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
   overflow: hidden;
   position: relative;
 }
@@ -51,8 +54,14 @@
   display: flex;
   transition: transform 0.5s ease;
   list-style: none;
-  padding: 0;
-  margin: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
 }
 
 .reviews__slide {
@@ -64,8 +73,14 @@
 
 .reviews__item {
   background: var(--light-accent-color);
-  padding: 20px;
-  margin: 0 5px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-top: 0;
+  margin-right: 5px;
+  margin-bottom: 0;
+  margin-left: 5px;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -79,7 +94,10 @@
 
 .reviews__text {
   font-size: var(--font-size-base);
-  margin: 10px 0;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 10px;
+  margin-left: 0;
   color: var(--dark-text-color);
 }
 
@@ -96,7 +114,10 @@
   background: var(--light-accent-color);
   border: none;
   border-radius: 50%;
-  padding: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
   cursor: pointer;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
