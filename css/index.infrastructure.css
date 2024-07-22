@@ -136,10 +136,6 @@
   right: 10px;
 }
 
-* {
-  outline: 1px solid red;
-}
-
 .camp-infrastructure {
   padding: 50px 20px;
   font-family: var(--font-family);
