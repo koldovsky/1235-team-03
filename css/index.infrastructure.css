@@ -25,6 +25,7 @@
   align-items: center;
   justify-content: center;
   height: 300px;
+  margin: 0; 
 }
 
 .reviews__carousel {
@@ -50,14 +51,14 @@
 
 .reviews__slide {
   display: flex;
-  flex: 0 0 33.33%; /* Покажемо три відгуки одночасно */
+  flex: 0 0 33.33%; 
   justify-content: space-between;
   box-sizing: border-box;
   padding: 10px;
 }
 
 .reviews__item {
-  background: transparent; /* Видалимо прозору картку */
+  background: transparent; 
   padding: 20px;
   margin: 0;
   text-align: center;
