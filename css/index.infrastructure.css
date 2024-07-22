@@ -36,7 +36,7 @@
 
 .reviews {
   background: url("../img/infrastructure/picture/background.png") no-repeat center center;
-  background-size: cover;
+  background-size: contain;
   padding: 20px 10px;
   display: flex;
   flex-direction: column;
@@ -44,6 +44,7 @@
   justify-content: center;
   height: 300px;
   margin: 0;
+  overflow: hidden; 
 }
 
 .reviews__carousel {
@@ -69,14 +70,14 @@
 
 .reviews__slide {
   display: flex;
-  flex: 0 0 33.33%;
+  flex: 0 0 33.33%; 
   justify-content: space-between;
   box-sizing: border-box;
   padding: 10px;
 }
 
 .reviews__item {
-  background: transparent;
+  background: transparent; 
   padding: 20px;
   margin: 0;
   text-align: center;
@@ -119,6 +120,7 @@
 .reviews__button--right {
   right: 10px;
 }
+
 
 .camp-infrastructure {
   padding: 50px 20px;
