@@ -7,13 +7,12 @@
 .video-section {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%;
-  height: 0;
+  padding-top: 40%; /* Зміна значення padding-top */
   overflow: hidden;
   margin: 0;
 }
 
-.video-section__iframe {
+.video-section iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -23,17 +22,17 @@
 }
 
 .reviews {
-  position: relative;
   background-image: url("../img/infrastructure/picture/background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 0;
+  padding: 20px 0;
   font-family: var(--font-family);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: -4px; /* Додано для уникнення пробілу */
 }
 
 .reviews__carousel {
