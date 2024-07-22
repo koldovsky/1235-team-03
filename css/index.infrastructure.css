@@ -36,13 +36,13 @@
 
 .reviews {
   background: url("../img/infrastructure/picture/background.png") no-repeat center center;
-  background-size: contain;
+  background-size: cover;
   padding: 20px 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 300px;
+  height: 100vh; 
   margin: 0;
   overflow: hidden; 
 }
@@ -125,7 +125,7 @@
   .reviews {
     padding-top: 40px;
     padding-bottom: 60px;
-    height: 400px;
+    height: 100vh; 
   }
 }
 
