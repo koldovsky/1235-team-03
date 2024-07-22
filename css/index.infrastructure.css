@@ -2,23 +2,18 @@
   width: 100%;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .video-section {
+  width: 100%;
   position: relative;
-  width: 100%;
-  padding-top: 100%; 
+  padding-bottom: 56.25%;
+  height: 0;
   overflow: hidden;
-  margin: 0;
-}
-
-.video-section iframe {
-  position: fixed;
-  top: 100%;
-  left: 100%;
-  width: 100%;
-  height: 100%;
-  border: 0;
+  margin: 0 0 20px;
 }
 
 .reviews {
@@ -26,7 +21,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 20px 0;
+  padding: 20px;
   font-family: var(--font-family);
   display: flex;
   flex-direction: column;
