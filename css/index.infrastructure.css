@@ -36,7 +36,7 @@
 
 .reviews {
   background: url("../img/infrastructure/picture/background.png") no-repeat center center;
-  background-size: contain; /* Можна спробувати contain або 100% 100% для перевірки */
+  background-size: 100% 100%; /* Можна спробувати contain або 100% 100% для перевірки */
   padding: 20px 10px;
   display: flex;
   flex-direction: column;
