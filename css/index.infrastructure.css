@@ -13,7 +13,7 @@
   padding: 0;
   height: 0;
   overflow: hidden;
-  padding-bottom: 50%; /* Співвідношення сторін 2:1 */
+  padding-bottom: 70%; 
 }
 
 .video__container {
