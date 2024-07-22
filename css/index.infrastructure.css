@@ -36,7 +36,8 @@
 
 .reviews {
   background: url("../img/infrastructure/picture/background.png") no-repeat center center;
-  background-size: contain;
+  background-size: cover;
+  background-attachment: fixed;
   padding: 20px 10px;
   display: flex;
   flex-direction: column;
@@ -120,7 +121,6 @@
 .reviews__button--right {
   right: 10px;
 }
-
 
 .camp-infrastructure {
   padding: 50px 20px;
