@@ -17,11 +17,9 @@
 }
 
 .reviews {
-  background-image: url("img/infrastructure/picture/background.png");
+  background: url("img/infrastructure/picture/background.png") no-repeat center center;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 20px;
+  padding: 40px;
   font-family: var(--font-family);
   display: flex;
   flex-direction: column;
