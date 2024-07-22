@@ -12,8 +12,8 @@
   position: relative;
   padding-top: 400px;
   padding-bottom: 400px;
-  padding-right: 400px;
-  padding-left: 400px;
+  padding-right: 1000px;
+  padding-left: 1000px;
   height: 0;
   overflow: hidden;
 }
