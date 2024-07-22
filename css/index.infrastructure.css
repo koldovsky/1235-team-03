@@ -36,13 +36,13 @@
 
 .reviews {
   background: url("../img/infrastructure/picture/background.png") no-repeat center center;
-  background-size: cover; /* Можна спробувати contain або 100% 100% для перевірки */
+  background-size: 100% 100%; /* Можна спробувати contain або 100% 100% для перевірки */
   padding: 20px 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 300px; /* Можна збільшити значення для перевірки */
+  height: 400px; /* Можна збільшити значення для перевірки */
   margin: 0;
   overflow: hidden; 
 }
@@ -125,7 +125,7 @@
   .reviews {
     padding-top: 40px;
     padding-bottom: 60px;
-    height: 400px; /* Можна збільшити значення для перевірки */
+    height: 500px; /* Можна збільшити значення для перевірки */
   }
 }
 
