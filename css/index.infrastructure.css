@@ -10,10 +10,10 @@
 .video__section {
   width: 100%;
   position: relative;
-  padding: 0;
+  padding-top: 400px;
+  padding-bottom: 400px;
   height: 0;
   overflow: hidden;
-  padding-bottom: 52%; 
 }
 
 .video__container {
