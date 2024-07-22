@@ -21,7 +21,7 @@
   --link-color-light: #ffffff;
   --link-hover-color: #7c782f;
 
-  --color-under-block-header:#989898;
+  --color-under-block-header: #989898;
 
   --block-title-color: #f9f9f7;
   --block-subtitle-color: #e2e0dd;
@@ -71,4 +71,14 @@ a:visited {
 ul,
 ol {
   list-style: none;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.video-and-reviews, .video-section, .reviews {
+  margin: 0;
+  padding: 0;
 }
