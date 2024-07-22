@@ -19,12 +19,12 @@
 .reviews {
   background: url("../img/infrastructure/picture/background.png") no-repeat center center;
   background-size: cover;
-  padding: 40px 20px;
+  padding: 20px 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  height: 300px;
 }
 
 .reviews__carousel {
