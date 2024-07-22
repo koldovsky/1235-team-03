@@ -24,7 +24,7 @@
   height: 100%;
 }
 
-.video__section iframe {
+.video__iframe {
   position: absolute;
   top: 0;
   left: 0;
