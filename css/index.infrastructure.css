@@ -1,12 +1,10 @@
 .video {
-  width: 100vw;
-  height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow: hidden;
 }
 
 .video__section {
@@ -15,7 +13,7 @@
   padding: 0;
   height: 0;
   overflow: hidden;
-  padding-bottom: 52%;
+  padding-bottom: 52%; 
 }
 
 .video__container {
