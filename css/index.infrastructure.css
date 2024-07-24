@@ -1,7 +1,5 @@
 .video {
   width: 100%;
-  margin: 0;
-  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,7 +12,7 @@
   padding: 0;
   height: 0;
   overflow: hidden;
-  padding-bottom: 52.88%; /* Збереження пропорції 16:9 */
+  padding-bottom: 52.88%; 
 }
 
 .video__container {
@@ -36,8 +34,8 @@
 
 .reviews {
   position: relative;
-  background: url("../img/infrastructure/picture/background.png") no-repeat center center;
-  background-size: cover;
+  background: url("../img/infrastructure/picture/background.png");
+  background-size: auto auto;
   display: flex;
   flex-direction: column;
   align-items: center;
