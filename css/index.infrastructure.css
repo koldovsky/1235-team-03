@@ -42,7 +42,7 @@
 }
 
 .reviews {
-  background: url("../img/infrastructure/picture/background.png") no-repeat center center;
+  background: url("../img/infrastructure/picture/background.png");
   background-size: auto auto;
   display: flex;
   flex-direction: column;
