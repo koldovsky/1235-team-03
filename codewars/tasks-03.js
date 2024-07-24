@@ -41,12 +41,12 @@ function circleCircumference(circle) {
 
 function giveMeFive(obj) {
   const arr = [];
-  for (var key in obj) {
+  for (const key in obj) {
     if (key.length === 5) {
       arr.push(key);
     }
   }
-  for (var key in obj) {
+  for (const key in obj) {
     if (obj[key].length === 5) {
       arr.push(obj[key]);
     }
