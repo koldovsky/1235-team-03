@@ -1,7 +1,8 @@
 @media (min-width: 992px) {
   .video {
-    padding-top: 100px; 
-    padding-bottom: 100px; 
+    background-size: 1700px;
+    background-clip: padding-box;
+    background-position-x: 40%;
   }
 }
 
@@ -42,13 +43,46 @@
 }
 
 .reviews {
-  background: url("../img/infrastructure/picture/background.png");
-  background-size: auto auto;
+  position: relative;
+  background: url("../img/infrastructure/picture/background.png") no-repeat center center;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  overflow: hidden; 
+  overflow: hidden;
+}
+
+.reviews::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.6); /* Білий колір з прозорістю 0.6 */
+  z-index: 1;
+}
+
+.reviews__carousel,
+.reviews__track-container,
+.reviews__track,
+.reviews__slide,
+.reviews__item,
+.reviews__rating,
+.reviews__text,
+.reviews__author,
+.reviews__button {
+  position: relative; /* Зберігає позицію елементів вище псевдоелемента */
+  z-index: 2; /* Забезпечує, що контент знаходиться поверх фону */
+}
+
+@media (min-width: 992px) {
+  .reviews {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    height: 300px;
+  }
 }
 
 .reviews__carousel {
@@ -122,14 +156,6 @@
 
 .reviews__button--right {
   right: 10px;
-}
-
-@media (min-width: 992px) {
-  .reviews {
-    padding-top: 40px;
-    padding-bottom: 60px;
-    height: 300px;
-  }
 }
 
 .camp-infrastructure {
