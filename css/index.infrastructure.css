@@ -30,6 +30,12 @@
   height: 100%;
 }
 
+@media (min-width: 992px) {
+  .video__section {
+    padding-bottom: 40%;
+  }
+}
+
 .reviews {
   position: relative;
   background: url("../img/infrastructure/picture/background.png");
