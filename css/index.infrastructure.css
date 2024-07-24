@@ -10,7 +10,7 @@
   width: 100%;
   height: 0;
   overflow: hidden;
-  position: relative;
+  position: sticky;
   inset: 0px 0px 0px 0px;
 }
 
