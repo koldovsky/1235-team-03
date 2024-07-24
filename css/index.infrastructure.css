@@ -1,9 +1,10 @@
 @media (min-width: 992px) {
   .video {
-    padding-top: 400px;
-    padding-bottom: 400px;
+    padding-top: 100px; 
+    padding-bottom: 100px; 
   }
 }
+
 .video {
   width: 100%;
   margin: 0;
@@ -20,7 +21,7 @@
   padding: 0;
   height: 0;
   overflow: hidden;
-  padding-bottom: 52.88%; 
+  padding-bottom: 52.88%;
 }
 
 .video__container {
@@ -42,13 +43,13 @@
 
 .reviews {
   background: url("../img/infrastructure/picture/background.png") no-repeat center center;
-  background-size: 100% 100%; /* Можна спробувати contain або 100% 100% для перевірки */
+  background-size: 100% 100%;
   padding: 20px 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 700px; /* Можна збільшити значення для перевірки */
+  height: 700px;
   margin: 0;
   overflow: hidden; 
 }
@@ -76,14 +77,14 @@
 
 .reviews__slide {
   display: flex;
-  flex: 0 0 33.33%; 
+  flex: 0 0 33.33%;
   justify-content: space-between;
   box-sizing: border-box;
   padding: 10px;
 }
 
 .reviews__item {
-  background: transparent; 
+  background: transparent;
   padding: 20px;
   margin: 0;
   text-align: center;
@@ -131,7 +132,7 @@
   .reviews {
     padding-top: 40px;
     padding-bottom: 60px;
-    height: 200px; /* Можна збільшити значення для перевірки */
+    height: 300px;
   }
 }
 
