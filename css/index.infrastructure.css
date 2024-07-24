@@ -30,7 +30,7 @@
 }
 
 @media (min-width: 992px) {
-  .video {
+  .video__section {
     padding-bottom: 52.88%; 
   }
 }
