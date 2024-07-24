@@ -1,9 +1,9 @@
 .video {
-  width: 100%;
+  width: 100%; /* Відео займає всю ширину контейнера */
+  max-width: 100%; /* Забезпечує, що відео не виходить за межі контейнера */
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow: hidden;
+  justify-content: center; /* Центрує відео по горизонталі */
+  overflow: hidden; /* Приховує все, що виходить за межі контейнера */
 }
 
 .video__section {
