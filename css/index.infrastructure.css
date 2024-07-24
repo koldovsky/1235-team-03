@@ -1,11 +1,3 @@
-@media (min-width: 992px) {
-  .video {
-    background-size: 1700px;
-    background-clip: padding-box;
-    background-position-x: 40%;
-  }
-}
-
 .video {
   width: 100%;
   margin: 0;
