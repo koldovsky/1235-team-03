@@ -42,7 +42,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 900px; /* Можна збільшити значення для перевірки */
+  height: 800px; /* Можна збільшити значення для перевірки */
   margin: 0;
   overflow: hidden; 
 }
@@ -125,7 +125,7 @@
   .reviews {
     padding-top: 40px;
     padding-bottom: 60px;
-    height: 500px; /* Можна збільшити значення для перевірки */
+    height: 600px; /* Можна збільшити значення для перевірки */
   }
 }
 
