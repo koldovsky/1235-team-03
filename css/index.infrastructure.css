@@ -1,3 +1,10 @@
+@media (min-width: 992px) {
+  .video {
+    padding-top: 100px; 
+    padding-bottom: 100px; 
+  }
+}
+
 .video {
   width: 100%;
   margin: 0;
@@ -6,16 +13,15 @@
   flex-direction: column;
   align-items: center;
   overflow: hidden;
-  position: relative; 
-  height: auto; 
 }
 
 .video__section {
   width: 100%;
   position: relative;
+  padding: 0;
+  height: 0;
   overflow: hidden;
-  padding-bottom: 58.25%;
-  height: 0; 
+  padding-bottom: 52.88%;
 }
 
 .video__container {
@@ -33,12 +39,6 @@
   width: 100%;
   height: 100%;
   border: none;
-}
-
-@media (min-width: 992px) {
-  .video {
-    height: 800px; /* Ви можете змінити це значення відповідно до вашого дизайну */
-  }
 }
 
 .reviews {
