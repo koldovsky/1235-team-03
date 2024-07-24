@@ -6,16 +6,16 @@
   flex-direction: column;
   align-items: center;
   overflow: hidden;
-  position: relative; /* Додано для правильного позиціонування дочірніх елементів */
-  height: auto; /* Видалено фіксовану висоту */
+  position: relative; 
+  height: auto; 
 }
 
 .video__section {
   width: 100%;
   position: relative;
   overflow: hidden;
-  padding-bottom: 56.25%; /* Співвідношення 16:9 для відео (9/16 = 0.5625) */
-  height: 0; /* Додано для коректного позиціонування контейнера */
+  padding-bottom: 58.25%;
+  height: 0; 
 }
 
 .video__container {
@@ -37,7 +37,7 @@
 
 @media (min-width: 992px) {
   .video {
-    height: 600px; /* Ви можете змінити це значення відповідно до вашого дизайну */
+    height: 800px; /* Ви можете змінити це значення відповідно до вашого дизайну */
   }
 }
 
