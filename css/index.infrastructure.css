@@ -11,16 +11,12 @@
 .video__section {
   width: 100%;
   position: relative;
-  padding: 0;
-  height: 0;
   overflow: hidden;
   padding-bottom: 52.88%;
 }
 
 .video__container {
   position: absolute;
-  top: 0;
-  left: 0;
 }
 
 .video__iframe {
@@ -32,7 +28,7 @@
   border: none;
 }
 @media (min-width: 992px) {
-  .video__container {
+  .video {
     height: 600px;
   }
 }
