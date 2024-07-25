@@ -2,6 +2,7 @@
 @import "index.header.css";
 @import "global.header-nav.css";
 @import "index.header-hero.css";
+@import "index.welcome-section.css";
 @import "index.infrastructure.css";
 @import "footer.css";
-@import "index.pre-footer.css"
+@import "index.pre-footer.css";
