@@ -1,5 +1,6 @@
 function init() {
     import("./header-nav.js");
+    import ("./contact-form.button.js")
 }
 
 const totalPartials = document.querySelectorAll('[hx-trigger="load"], [data-hx-trigger="load"]').length;
