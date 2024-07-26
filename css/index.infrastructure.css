@@ -158,47 +158,46 @@
 }
 
 .camp-infrastructure__header {
+  text-align: left; 
+  margin-bottom: 30px;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 30px;
-  position: relative;
-}
-
-.camp-infrastructure__title-section {
-  display: flex;
-  align-items: center;
 }
 
 .camp-infrastructure__icon {
+  display: inline-block;
+  margin-right: 20px; 
   width: 40px;
   height: 40px;
-  margin-right: 10px;
 }
 
 .camp-infrastructure__title {
   font-size: 36px;
   margin: 0;
-  font-family: var(--font-family-alt);
-  color: var(--dark-shade-color);
   position: relative;
+  font-family: var(--font-family-alt);
+  color: var(--dark-shade-color); 
 }
 
 .camp-infrastructure__title::before {
   content: 'Infrastructure';
   position: absolute;
   top: -40px;
-  left: 0;
+  left: 0; /* Вирівнювання зліва */
+  transform: translateX(0);
   font-size: 72px;
   color: var(--overlay-color);
   z-index: -1;
 }
 
 .camp-infrastructure__contact {
-  display: flex;
-  align-items: center;
+  margin-top: 0; 
   font-size: var(--font-size-base);
   color: var(--link-color);
+  display: flex;
+  align-items: center;
 }
 
 .camp-infrastructure__contact-title {
@@ -207,6 +206,7 @@
 }
 
 .camp-infrastructure__mail-icon {
+  vertical-align: middle;
   margin: 0 5px;
   width: 20px;
   height: 20px;
@@ -215,6 +215,7 @@
 .camp-infrastructure__email {
   color: var(--book-now-button-color);
   text-decoration: none;
+  margin-left: 5px;
 }
 
 .camp-infrastructure__grid {
