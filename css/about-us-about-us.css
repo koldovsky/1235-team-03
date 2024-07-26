@@ -1,10 +1,12 @@
 
+/* styles.css */
 .about-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 20px;
+    background-color: #f9f9f9;
 }
 
 .about-section__image-container {
@@ -30,19 +32,19 @@
 .about-section__title {
     font-size: 2rem;
     margin-bottom: 10px;
-    color: var(--dark-shade-color);
+    color: #333;
 }
 
 .about-section__subtitle {
     font-size: 1.2rem;
     margin-bottom: 20px;
-    color: var(--dark-text-color);
+    color: #777;
 }
 
 .about-section__text {
     font-size: 1rem;
     margin-bottom: 20px;
-    color: var(--dark-text-color);
+    color: #555;
 }
 
 .about-section__features {
@@ -64,7 +66,7 @@
 
 .about-section__feature-text {
     font-size: 1rem;
-    color: var(--dark-text-color);
+    color: #555;
 }
 
 .about-section__book-now {
@@ -74,8 +76,8 @@
 .about-section__book-now-link {
     display: inline-block;
     padding: 10px 20px;
-    background-color: var(--book-now-button-color);
-    color: var(--light-text-color);
+    background-color: #6b8e23;
+    color: #fff;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;

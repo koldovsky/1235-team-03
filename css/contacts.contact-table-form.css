@@ -49,8 +49,6 @@
   align-items: center;
 }
 .contact-table__icon {
-  color: var(--accent-color); /* doesn't change the color again*/
-  fill: var(--accent-color); /* doesn't change the color again*/
   width: 26px;
   height: 26px;
 }
@@ -131,8 +129,6 @@
 }
 
 @media (min-width: 768px) {
-  .contacts__table-form-background-container {
-  }
   .contacts__table-form-container {
     padding-left: 32px;
     padding-right: 32px;
@@ -144,6 +140,17 @@
   }
   .contact-table__title {
     font-size: 40px;
+  }
+  .contact-table__icon-decorator {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 15px;
+    margin-right: 7.5px;
+  }
+  .contact-table__icon {
+    width: 40px;
+    height: 40px;
   }
   .contact-form__container {
     flex: 1;
