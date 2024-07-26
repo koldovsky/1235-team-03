@@ -155,41 +155,67 @@
   padding: 50px 20px;
   font-family: var(--font-family);
   overflow-x: hidden;
-  position: relative;
 }
 
 .camp-infrastructure__header {
-  position: relative;
+  text-align: left; 
   margin-bottom: 30px;
-  text-align: center;
-  background-image: url("../img/infrastructure/picture/infrastructure.png");
-  background-position: top center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.camp-infrastructure__title-section {
-  display: inline-flex;
-  align-items: center;
   position: relative;
-  z-index: 2;
-}
-
-.camp-infrastructure__icon-wrapper {
-  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .camp-infrastructure__icon {
+  display: inline-block;
+  margin-right: 20px; 
   width: 40px;
   height: 40px;
-  margin-bottom: 10px;
 }
 
 .camp-infrastructure__title {
   font-size: 36px;
   margin: 0;
+  position: relative;
   font-family: var(--font-family-alt);
-  color: var(--dark-shade-color);
+  color: var(--dark-shade-color); 
+}
+
+.camp-infrastructure__title::before {
+  content: 'Infrastructure';
+  position: absolute;
+  top: -40px;
+  left: 0; /* Вирівнювання зліва */
+  transform: translateX(0);
+  font-size: 72px;
+  color: var(--overlay-color);
+  z-index: -1;
+}
+
+.camp-infrastructure__contact {
+  margin-top: 0; 
+  font-size: var(--font-size-base);
+  color: var(--link-color);
+  display: flex;
+  align-items: center;
+}
+
+.camp-infrastructure__contact-title {
+  font-weight: var(--font-weight-bold);
+  margin-right: 5px;
+}
+
+.camp-infrastructure__mail-icon {
+  vertical-align: middle;
+  margin: 0 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.camp-infrastructure__email {
+  color: var(--book-now-button-color);
+  text-decoration: none;
+  margin-left: 5px;
 }
 
 .camp-infrastructure__grid {
@@ -218,6 +244,12 @@
 .camp-infrastructure__text {
   font-size: var(--font-size-base);
   color: var(--dark-text-color);
+}
+
+.camp-infrastructure__icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
 }
 
 .cta-section {
