@@ -66,8 +66,8 @@
 .reviews__text,
 .reviews__author,
 .reviews__button {
-  position: relative; /* Зберігає позицію елементів вище псевдоелемента */
-  z-index: 2; /* Забезпечує, що контент знаходиться поверх фону */
+  position: relative; 
+  z-index: 2;
 }
 
 @media (min-width: 992px) {
@@ -163,36 +163,34 @@
   position: relative;
 }
 
-.camp-infrastructure__title-wrapper {
-  position: relative;
-  display: inline-block;
-}
-
 .camp-infrastructure__icon-wrapper {
-  position: absolute;
-  top: -20px; /* Регулює висоту іконки */
+  position: relative;
+  top: 0;
   left: 50%;
   transform: translateX(-50%);
+  margin-bottom: -30px; 
 }
 
 .camp-infrastructure__icon {
   width: 40px;
   height: 40px;
+  position: relative;
+  z-index: 1;
 }
 
 .camp-infrastructure__title {
   font-size: 36px;
-  margin-top: 40px; /* Відступ для заголовка */
+  margin: 0;
   font-family: var(--font-family-alt);
   color: var(--dark-shade-color);
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 .camp-infrastructure__title::before {
   content: 'Infrastructure';
   position: absolute;
-  top: -60px; /* Позиція для фонового тексту */
+  top: -50px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 72px;
