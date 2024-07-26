@@ -223,12 +223,6 @@
   color: var(--dark-text-color);
 }
 
-.camp-infrastructure__icon {
-  width: 40px;
-  height: 40px;
-  margin-bottom: 10px;
-}
-
 .cta-section {
   background-color: var(--light-shade-color);
   padding: 50px 0;
