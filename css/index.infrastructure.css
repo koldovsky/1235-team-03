@@ -185,7 +185,7 @@
   content: 'Infrastructure';
   position: absolute;
   top: -40px;
-  left: 0; /* Вирівнювання зліва */
+  left: 0; 
   transform: translateX(0);
   font-size: 72px;
   color: var(--overlay-color);
