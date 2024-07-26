@@ -174,7 +174,6 @@
   font-size: 36px;
   margin: 0;
   position: relative;
-  color: var(--block-title-color);
   font-family: var(--font-family-alt);
 }
 
@@ -185,7 +184,7 @@
   left: 50%;
   transform: translateX(-50%);
   font-size: 72px;
-  color: var(--overlay-color);
+  color: var(--block-title-color);
   z-index: -1;
 }
 
