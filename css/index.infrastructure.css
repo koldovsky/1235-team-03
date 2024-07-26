@@ -185,7 +185,7 @@
   left: 50%;
   transform: translateX(-50%);
   font-size: 72px;
-  color: rgba(0, 0, 0, 0.05);
+  color: var(--overlay-color);
   z-index: -1;
 }
 
