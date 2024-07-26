@@ -158,24 +158,22 @@
 }
 
 .camp-infrastructure__header {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-bottom: 30px;
   position: relative;
 }
 
-.camp-infrastructure__icon-wrapper {
-  position: relative;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-bottom: -30px; 
+.camp-infrastructure__title-section {
+  display: flex;
+  align-items: center;
 }
 
 .camp-infrastructure__icon {
   width: 40px;
   height: 40px;
-  position: relative;
-  z-index: 1;
+  margin-right: 10px;
 }
 
 .camp-infrastructure__title {
@@ -184,18 +182,39 @@
   font-family: var(--font-family-alt);
   color: var(--dark-shade-color);
   position: relative;
-  z-index: 2;
 }
 
 .camp-infrastructure__title::before {
   content: 'Infrastructure';
   position: absolute;
-  top: -50px;
-  left: 50%;
-  transform: translateX(-50%);
+  top: -40px;
+  left: 0;
   font-size: 72px;
   color: var(--overlay-color);
   z-index: -1;
+}
+
+.camp-infrastructure__contact {
+  display: flex;
+  align-items: center;
+  font-size: var(--font-size-base);
+  color: var(--link-color);
+}
+
+.camp-infrastructure__contact-title {
+  font-weight: var(--font-weight-bold);
+  margin-right: 5px;
+}
+
+.camp-infrastructure__mail-icon {
+  margin: 0 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.camp-infrastructure__email {
+  color: var(--book-now-button-color);
+  text-decoration: none;
 }
 
 .camp-infrastructure__grid {
@@ -224,6 +243,12 @@
 .camp-infrastructure__text {
   font-size: var(--font-size-base);
   color: var(--dark-text-color);
+}
+
+.camp-infrastructure__icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
 }
 
 .cta-section {
