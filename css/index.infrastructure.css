@@ -1,4 +1,4 @@
-.video {
+е.video {
   width: 100%;
   max-width: 100%; 
   display: flex;
@@ -304,5 +304,5 @@
 }
 
 .cta-section__button:hover {
-  background-color: var(--accent-color);
+  background-color: var(--accent-color); 
 }
