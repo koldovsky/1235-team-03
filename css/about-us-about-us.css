@@ -1,82 +1,90 @@
 
 .about-section {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    text-align: center;
     padding: 20px;
-}
-
-.about-section__image-container {
+    background-color: #f7f7f7;
+  }
+  
+  .about-section__image-container {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .about-section__image {
     width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.about-section__image {
-    max-width: 100%;
     height: auto;
     border-radius: 10px;
-}
-
-.about-section__tree-icon {
-    margin: 20px 0;
-}
-
-.about-section__content {
-    max-width: 800px;
-}
-
-.about-section__title {
-    font-size: 2rem;
+  }
+  
+  .about-section__tree-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: -1;
+    opacity: 0.1;
+  }
+  
+  .about-section__content {
+    flex: 1;
+  }
+  
+  .about-section__title {
+    font-size: 36px;
+    font-weight: bold;
     margin-bottom: 10px;
-    color: var(--dark-shade-color);
-}
-
-.about-section__subtitle {
-    font-size: 1.2rem;
+  }
+  
+  .about-section__subtitle {
+    font-size: 20px;
+    font-weight: bold;
     margin-bottom: 20px;
-    color: var(--dark-text-color);
-}
-
-.about-section__text {
-    font-size: 1rem;
+    color: #555;
+  }
+  
+  .about-section__text {
+    font-size: 16px;
     margin-bottom: 20px;
-    color: var(--dark-text-color);
-}
-
-.about-section__features {
+  }
+  
+  .about-section__features {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     margin-bottom: 20px;
-}
-
-.about-section__feature {
+  }
+  
+  .about-section__feature {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-}
-
-.about-section__icon {
+  }
+  
+  .about-section__icon {
+    width: 24px;
+    height: 24px;
     margin-right: 10px;
-}
-
-.about-section__feature-text {
-    font-size: 1rem;
-    color: var(--dark-text-color);
-}
-
-.about-section__book-now {
+  }
+  
+  .about-section__feature-text {
+    font-size: 16px;
+  }
+  
+  .about-section__book-now {
     margin-top: 20px;
-}
-
-.about-section__book-now-link {
+  }
+  
+  .about-section__book-now-link {
     display: inline-block;
     padding: 10px 20px;
-    background-color: var(--book-now-button-color);
-    color: var(--light-text-color);
+    background-color: #556b2f;
+    color: white;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
-}
+    text-align: center;
+  }
+  
+  .about-section__book-now-link:hover {
+    background-color: #6b8e23;
+  }
+  
