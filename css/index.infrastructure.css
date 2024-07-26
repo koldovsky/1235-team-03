@@ -163,9 +163,14 @@
   position: relative;
 }
 
+.camp-infrastructure__title-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
 .camp-infrastructure__icon-wrapper {
   position: absolute;
-  top: -40px; 
+  top: -20px; /* Регулює висоту іконки */
   left: 50%;
   transform: translateX(-50%);
 }
@@ -177,17 +182,17 @@
 
 .camp-infrastructure__title {
   font-size: 36px;
-  margin: 0;
+  margin-top: 40px; /* Відступ для заголовка */
   font-family: var(--font-family-alt);
   color: var(--dark-shade-color);
   position: relative;
-  display: inline-block;
+  z-index: 1;
 }
 
 .camp-infrastructure__title::before {
   content: 'Infrastructure';
   position: absolute;
-  top: -40px; 
+  top: -60px; /* Позиція для фонового тексту */
   left: 50%;
   transform: translateX(-50%);
   font-size: 72px;
