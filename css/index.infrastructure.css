@@ -158,17 +158,14 @@
 }
 
 .camp-infrastructure__header {
-  text-align: left; 
+  text-align: center;
   margin-bottom: 30px;
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .camp-infrastructure__icon {
-  display: inline-block;
-  margin-right: 20px; 
+  display: block;
+  margin: 0 auto 10px;
   width: 40px;
   height: 40px;
 }
@@ -178,25 +175,25 @@
   margin: 0;
   position: relative;
   font-family: var(--font-family-alt);
-  color: var(--dark-shade-color); 
 }
 
 .camp-infrastructure__title::before {
   content: 'Infrastructure';
   position: absolute;
   top: -40px;
-  left: 0; 
-  transform: translateX(0);
+  left: 50%;
+  transform: translateX(-50%);
   font-size: 72px;
-  color: var(--overlay-color);
+  color: var(--block-title-color);
   z-index: -1;
 }
 
 .camp-infrastructure__contact {
-  margin-top: 0; 
+  margin-top: 20px;
   font-size: var(--font-size-base);
   color: var(--link-color);
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
