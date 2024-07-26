@@ -155,12 +155,13 @@
   padding: 50px 20px;
   font-family: var(--font-family);
   overflow-x: hidden;
+  position: relative;
 }
 
 .camp-infrastructure__header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-bottom: 30px;
   position: relative;
 }
@@ -168,12 +169,18 @@
 .camp-infrastructure__title-section {
   display: flex;
   align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.camp-infrastructure__icon-wrapper {
+  margin-right: 10px;
 }
 
 .camp-infrastructure__icon {
   width: 40px;
   height: 40px;
-  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .camp-infrastructure__title {
@@ -181,40 +188,24 @@
   margin: 0;
   font-family: var(--font-family-alt);
   color: var(--dark-shade-color);
-  position: relative;
 }
 
-.camp-infrastructure__title::before {
-  content: 'Infrastructure';
+.camp-infrastructure__background {
   position: absolute;
-  top: -40px;
+  top: 0;
   left: 0;
-  font-size: 72px;
-  color: var(--overlay-color);
-  z-index: -1;
-}
-
-.camp-infrastructure__contact {
+  right: 0;
+  bottom: 0;
   display: flex;
   align-items: center;
-  font-size: var(--font-size-base);
-  color: var(--link-color);
+  justify-content: center;
+  opacity: 0.1;
+  z-index: 1;
 }
 
-.camp-infrastructure__contact-title {
-  font-weight: var(--font-weight-bold);
-  margin-right: 5px;
-}
-
-.camp-infrastructure__mail-icon {
-  margin: 0 5px;
-  width: 20px;
-  height: 20px;
-}
-
-.camp-infrastructure__email {
-  color: var(--book-now-button-color);
-  text-decoration: none;
+.camp-infrastructure__background-img {
+  max-width: 100%;
+  height: auto;
 }
 
 .camp-infrastructure__grid {
@@ -243,12 +234,6 @@
 .camp-infrastructure__text {
   font-size: var(--font-size-base);
   color: var(--dark-text-color);
-}
-
-.camp-infrastructure__icon {
-  width: 40px;
-  height: 40px;
-  margin-bottom: 10px;
 }
 
 .cta-section {
