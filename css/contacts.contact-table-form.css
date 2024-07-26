@@ -49,8 +49,6 @@
   align-items: center;
 }
 .contact-table__icon {
-  color: var(--accent-color); /* doesn't change the color again*/
-  fill: var(--accent-color); /* doesn't change the color again*/
   width: 26px;
   height: 26px;
 }
@@ -131,8 +129,6 @@
 }
 
 @media (min-width: 768px) {
-  .contacts__table-form-background-container {
-  }
   .contacts__table-form-container {
     padding-left: 32px;
     padding-right: 32px;
