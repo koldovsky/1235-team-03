@@ -6,7 +6,7 @@ body {
 	justify-content: center;
 	flex-wrap: wrap;
 	min-height: 100vh;
-	padding: 24px;
+	padding: 0px;
 }
 
 .main-container {
