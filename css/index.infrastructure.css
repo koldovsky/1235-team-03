@@ -162,7 +162,6 @@
 }
 
 .camp-infrastructure__background {
-  content: '';
   background-image: url("../img/infrastructure/picture/infrastructure.png");
   background-position: top left; 
   background-size: cover; 
