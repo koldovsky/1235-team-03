@@ -130,7 +130,7 @@ html {
     bottom: 70px;
   }
 
-  .main__photo-block {
+  .main__photo-block1 {
     padding: 120px 0px 60px;
     position: static;
     display: flex;
@@ -145,7 +145,7 @@ html {
     height: 100px;
   }
 
-  .main__photo {
+  .main__photo1 {
     width: 570px;
     height: 351px;
   }
@@ -158,13 +158,13 @@ html {
     font-size: 38px;
     width: 1200px;
     position: relative;
-    left: 370px;
+    left: 470px;
     color: #2d2d2d;
   }
 
   .main__amenities svg {
     position: relative;
-    left: 370px;
+    left: 470px;
     padding-bottom: 55px;
   }
   
@@ -173,7 +173,7 @@ html {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0;
-    margin: 0 360px;
+    margin: 0 470px;
     list-style: none;
   }
   
@@ -222,6 +222,145 @@ html {
     font-family: sans-serif;
     color: #808080;
   }
+
+  .main__guidelines {
+    padding-bottom: 15px;
+  }
+
+  .main__guidelines-title {
+    font-size: 38px;
+    width: 1200px;
+    position: relative;
+    left: 470px;
+    color: #2d2d2d;
+  }
+
+  .main__guidelines svg {
+    position: relative;
+    left: 470px;
+    padding-bottom: 55px;
+}
+  
+  .main__guidelines-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+  }
+
+  .main__guidelines-item-list1 {
+    position: relative;
+    left: 470px;
+    width: 50%;
+    padding-right: 500px;
+    box-sizing: border-box;
+  }
+
+  .main__guidelines-item-list2 {
+    width: 50%;
+    padding-right: 480px;
+    padding-left: 30px;
+    box-sizing: border-box;
+  }
+
+  .main__guidelines-subtitle {
+    font-weight: bold;
+    color: #ea9449;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  .main__guidelines-content {
+    color: #888888;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  .main__photo2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55.5%;
+    height: 100%;
+    padding-bottom: 145px;
+  }
+
+  .main__services-prices-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+  }
+
+  .main__services-prices-item1 {
+    position: relative;
+    left: 470px;
+    width: 50%;
+    padding-right: 400px;
+    box-sizing: border-box;
+  }
+
+  .main__services-prices-item2 {
+    width: 50%;
+    padding-right: 480px;
+    padding-left: 30px;
+    box-sizing: border-box;
+  }
+  
+  .main__services-prices-title {
+    font-size: 38px;
+    color: #2d2d2d;
+  }
+
+  .main__services-prices-item1 svg {
+    position: relative;
+    top: -8px;
+  }
+
+  .main__services-prices-content {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    display: flex;
+    width: 550px;
+    text-wrap: nowrap;
+  }
+
+  .main__services-prices-subtitle {
+    color: #7c782f;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 2px;
+  }
+
+  .main__services-prices-amount {
+    color: #7c782f;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 2px;
+  }
+
+  .main__services-prices-item2 svg {
+    position: relative;
+    top: -8px;
+  }
+
+  .main__services-prices-item1 p {
+    font-size: 19px;
+    color: #888888;
+    padding-bottom: 20px;
+  }
+
+  .main__services-prices-item2 p {
+    font-size: 19px;
+    color: #888888;
+    padding-bottom: 20px;
+  }
+
+
 
   @media (max-width: 1550px) {
     .header__nav {
