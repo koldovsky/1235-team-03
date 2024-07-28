@@ -164,8 +164,8 @@
   width: 100%;
   padding: 20px 0;
   background-image: url("../img/infrastructure/picture/infrastructure.png");
-  background-position: center;
-  background-size: contain;
+  background-position: left top; /* Align background to the left */
+  background-size: contain; /* Ensure background fits within the container */
   background-repeat: no-repeat;
   text-align: center;
   position: relative;
@@ -270,6 +270,7 @@
   .camp-infrastructure__header {
     flex-direction: column;
     align-items: center;
+    background-position: center top; /* Adjust position for smaller screens */
   }
 
   .camp-infrastructure__contact-block {
