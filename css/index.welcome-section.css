@@ -204,8 +204,8 @@ body {
 }
 
 .book-now button {
-	background-color: var(--ui-btn-primary-bg-color);
-	color: var(--ui-btn-primary-color);
+	background-color: var(--book-now-button-color);
+	color: var(--light-text-color);
 	border: none;
 	width: 145.5px;
 	font-size: 13.2px;
@@ -218,7 +218,7 @@ body {
 }
 
 .book-now button:hover {
-	background-color: var(--ui-block-title-color);
+	background-color: var(--accent-color); 
 }
 
 
