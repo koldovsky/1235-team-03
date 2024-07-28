@@ -192,13 +192,13 @@
 }
 
 .camp-infrastructure__title {
-  font-size: 40px; /* Размер шрифта */
+  font-size: var(--font-size-large); 
   font-weight: var(--font-weight-bold);
   position: relative;
   margin: 0;
-  color: var(--dark-shade-color); /* Используем переменную для цвета текста */
+  color: var(--dark-shade-color); 
   line-height: 1.2;
-  font-family: var(--font-family); /* Шрифт Work Sans */
+  font-family: var(--font-family);
 }
 
 .camp-infrastructure__contact {
@@ -226,7 +226,7 @@
 }
 
 .camp-infrastructure__email {
-  color: var(--book-now-button-color);
+  color: var(--accent-color);
   text-decoration: none;
   margin-left: 5px;
 }
