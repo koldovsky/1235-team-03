@@ -159,13 +159,12 @@
 
 .camp-infrastructure__header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   width: 100%;
   padding: 20px 0;
   background-image: url("../img/infrastructure/picture/infrastructure.png");
-  background-position: left top; /* Align background to the left */
-  background-size: contain; /* Ensure background fits within the container */
+  background-position: left top; /* Aligns the background to the left */
+  background-size: contain; /* Ensures the background fits within the container */
   background-repeat: no-repeat;
   text-align: center;
   position: relative;
@@ -173,7 +172,7 @@
 
 .camp-infrastructure__title-block {
   display: flex;
-  align-items: center;
+  align-items: flex-start; /* Align items to the start of the flex container */
   gap: 10px;
   z-index: 1; /* Ensure it is above the background */
 }
@@ -182,6 +181,7 @@
   width: 50px;
   height: auto;
   fill: var(--accent-color);
+  align-self: flex-start; /* Align the icon to the top of the container */
 }
 
 .camp-infrastructure__title {
@@ -189,6 +189,7 @@
   font-weight: var(--font-weight-bold);
   color: var(--dark-shade-color);
   margin: 0;
+  align-self: flex-end; /* Align the title to the bottom of the container */
 }
 
 .camp-infrastructure__contact-block {
@@ -196,6 +197,7 @@
   align-items: center;
   gap: 15px;
   z-index: 1; /* Ensure it is above the background */
+  margin-left: auto; /* Push the contact block to the far right */
 }
 
 .camp-infrastructure__mail-icon {
