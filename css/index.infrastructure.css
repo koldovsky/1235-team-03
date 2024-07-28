@@ -185,31 +185,32 @@
 
 .camp-infrastructure__contact-block {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+
+.camp-infrastructure__mail-icon {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
 }
 
 .camp-infrastructure__contact {
-  font-size: var(--font-size-medium);
-  color: var(--dark-shade-color);
   display: flex;
-  align-items: center;
-  gap: 10px;
+  flex-direction: column;
 }
 
 .camp-infrastructure__contact-title {
   font-weight: var(--font-weight-bold);
-}
-
-.camp-infrastructure__mail-icon {
-  width: 24px;
-  height: 24px;
-  vertical-align: middle;
+  color: var(--subtitle-color);
+  margin: 0;
 }
 
 .camp-infrastructure__email {
   color: var(--accent-color);
   text-decoration: none;
   font-weight: var(--font-weight-bold);
+  margin: 0;
 }
 
 .camp-infrastructure__grid {
