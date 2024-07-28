@@ -167,7 +167,7 @@
   flex-direction: column;
   align-items: flex-start;
   padding-top: 50px;
-  z-index: 1; /* Убедитесь, что текст и иконка над фоном */
+  z-index: 1; /* Текст и иконка над фоном */
 }
 
 .camp-infrastructure__background {
@@ -178,10 +178,10 @@
   height: 100%;
   background-image: url("../img/infrastructure/picture/infrastructure.png");
   background-position: center; /* Центрирование изображения */
-  background-size: cover; /* Обеспечение, что изображение покрывает весь блок */
+  background-size: cover; /* Покрытие всего блока */
   background-repeat: no-repeat;
-  opacity: 0.1;
-  z-index: 0;
+  opacity: 0.05; /* Меняем прозрачность фона */
+  z-index: 0; /* Фон под текстом и иконками */
 }
 
 .camp-infrastructure__icon {
@@ -189,17 +189,17 @@
   height: 40px;
   position: relative;
   margin-bottom: 10px;
-  z-index: 2;
+  z-index: 2; /* Иконка над фоном */
 }
 
 .camp-infrastructure__title {
   font-size: 50px;
   font-weight: 600;
   position: relative;
-  z-index: 2;
+  z-index: 2; /* Текст над фоном */
   margin: 0;
   color: #333;
-  line-height: 1.2; /* Дистанция между строками */
+  line-height: 1.2;
 }
 
 .camp-infrastructure__contact {
@@ -209,7 +209,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  z-index: 2; 
+  z-index: 2;
 }
 
 .camp-infrastructure__contact-title {
@@ -277,8 +277,6 @@
     justify-content: space-between;
   }
 }
-
-
 
 .cta-section {
   background-color: var(--light-shade-color);
