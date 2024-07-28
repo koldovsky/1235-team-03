@@ -222,8 +222,8 @@
   max-width: calc(33.333% - 20px);
   background: #fff;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
   text-align: center;
 }
 
