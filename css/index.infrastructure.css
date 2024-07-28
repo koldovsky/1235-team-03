@@ -161,33 +161,43 @@
   position: relative;
 }
 
-/*.camp-infrastructure__background {
+.camp-infrastructure__background {
   position: relative;
   text-align: left;
   padding-left: 20px;
 }
 
-/*.camp-infrastructure__icon {
+.camp-infrastructure__icon {
   position: absolute;
   top: 0;
   left: 0;
   width: 40px;
   height: 40px;
-}*/
+}
 
 .camp-infrastructure__title {
   font-size: 50px;
   font-weight: 600;
   position: relative;
   z-index: 1;
+  margin-left: 50px; 
 }
 
 .camp-infrastructure__background::before {
+  content: '';
   background-image: url("../img/infrastructure/picture/infrastructure.png");
-  background-position: top center;
-  background-size: contain;
+  background-position: top left; 
+  background-size: cover; 
   background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.1; 
+  z-index: 0;
 }
+
 .camp-infrastructure__contact {
   margin-top: 20px;
   font-size: var(--font-size-base);
