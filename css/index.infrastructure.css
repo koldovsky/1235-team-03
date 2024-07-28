@@ -224,6 +224,7 @@
   text-align: left;
   display: flex;
   gap: 10px;
+  align-items: center;
 }
 
 .camp-infrastructure__item-icon {
