@@ -158,15 +158,16 @@
 }
 
 .camp-infrastructure__header {
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 40px;
 }
 
-.camp-infrastructure__icon-wrapper {
+.camp-infrastructure__title-block {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 20px;
+  gap: 10px;
 }
 
 .camp-infrastructure__icon {
@@ -182,14 +183,16 @@
   margin: 0;
 }
 
+.camp-infrastructure__contact-block {
+  text-align: right;
+}
+
 .camp-infrastructure__contact {
-  margin-top: 20px;
   font-size: var(--font-size-medium);
   color: var(--dark-shade-color);
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 }
 
 .camp-infrastructure__contact-title {
@@ -198,7 +201,6 @@
 
 .camp-infrastructure__mail-icon {
   vertical-align: middle;
-  margin-right: 5px;
   width: 20px;
   height: 20px;
 }
@@ -250,10 +252,20 @@
 }
 
 @media (max-width: 768px) {
-  .camp-infrastructure__item {
-    flex: 1 1 calc(100% - 20px);
-    max-width: calc(100% - 20px);
+  .camp-infrastructure__header {
     flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .camp-infrastructure__title-block,
+  .camp-infrastructure__contact-block {
+    width: 100%;
+    text-align: center;
+  }
+
+  .camp-infrastructure__item {
+    flex: 1 1 100%;
     align-items: flex-start;
   }
 
