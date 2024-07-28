@@ -180,7 +180,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.1; /* Достаточно, чтобы текст был заметен */
+  opacity: 0.05; /* Снижение прозрачности фонового изображения */
   z-index: 0;
 }
 
