@@ -163,11 +163,10 @@
   margin-bottom: 40px;
 }
 
-.camp-infrastructure__background {
+.camp-infrastructure__icon-wrapper {
   display: flex;
   align-items: center;
   gap: 20px;
-  position: relative;
 }
 
 .camp-infrastructure__icon {
@@ -181,7 +180,6 @@
   font-weight: var(--font-weight-bold);
   color: var(--dark-shade-color);
   margin: 0;
-  z-index: 1;
 }
 
 .camp-infrastructure__contact {
@@ -224,18 +222,19 @@
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
   text-align: left;
+  display: flex;
+  align-items: center;
 }
 
 .camp-infrastructure__item-icon {
   width: 40px;
   height: 40px;
-  margin-bottom: 15px;
-  vertical-align: middle;
+  margin-right: 15px;
 }
 
 .camp-infrastructure__subtitle {
   font-size: var(--font-size-medium);
-  margin: 10px 0;
+  margin: 0;
   color: var(--subtitle-color);
   font-weight: var(--font-weight-bold);
 }
@@ -251,7 +250,6 @@
     max-width: calc(100% - 20px);
   }
 }
-
 .cta-section {
   background-color: var(--light-shade-color);
   padding: 50px 0;
