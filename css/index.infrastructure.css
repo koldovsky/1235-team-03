@@ -177,10 +177,10 @@
   width: 100%;
   height: 100%;
   background-image: url("../img/infrastructure/picture/infrastructure.png");
-  background-position: center;
-  background-size: cover;
+  background-position: top right;
+  background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.03; /* Сниженная прозрачность фона */
+  opacity: 0.05; 
   z-index: 0;
 }
 
