@@ -180,7 +180,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.1; /* Увеличено значение opacity для фона */
+  opacity: 0.1; /* Достаточно, чтобы текст был заметен */
   z-index: 0;
 }
 
@@ -197,7 +197,7 @@
   font-weight: var(--font-weight-bold);
   position: relative;
   margin: 0;
-  color: var(--dark-shade-color); /* Используйте насыщенный цвет */
+  color: var(--dark-shade-color); /* Убедитесь, что цвет текста насыщенный */
   line-height: 1.2;
   font-family: var(--font-family);
   z-index: 2; /* Убедитесь, что текст над фоном */
@@ -283,7 +283,6 @@
     justify-content: space-between;
   }
 }
-
 
 .cta-section {
   background-color: var(--light-shade-color);
