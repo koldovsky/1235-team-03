@@ -164,8 +164,8 @@
   width: 100%;
   padding: 20px 0;
   background-image: url("../img/infrastructure/picture/infrastructure.png");
-  background-position: left;
-  background-size: cover;
+  background-position: left center;
+  background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
 }
