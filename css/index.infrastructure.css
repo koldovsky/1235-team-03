@@ -183,14 +183,10 @@
 }
 
 .camp-infrastructure__background::before {
-  content: 'Infrastructure';
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 100px;
-  color: rgba(0, 0, 0, 0.1);
-  z-index: 0;
-  line-height: 1;
+  background-image: url("../img/infrastructure/picture/infrastructure.png");
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .camp-infrastructure__contact {
   margin-top: 20px;
