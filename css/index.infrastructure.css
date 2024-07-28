@@ -162,10 +162,10 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 20px;
+  padding: 20px 0;
   background-image: url("../img/infrastructure/picture/infrastructure.png");
-  background-position: top center;
-  background-size: contain;
+  background-position: left center;
+  background-size: auto 100%;
   background-repeat: no-repeat;
   text-align: center;
 }
