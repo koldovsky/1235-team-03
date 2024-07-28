@@ -151,12 +151,15 @@
   right: 10px;
 }
 
+
 .camp-infrastructure {
-  padding: 50px 20px;
+  padding: 50px 22px;
   font-family: var(--font-family);
   overflow-x: hidden;
   position: relative;
   background-color: #fff;
+  max-width: 1400px; /* Максимальная ширина для центровки контента */
+  margin: 0 auto; /* Центровка по горизонтали */
 }
 
 .camp-infrastructure__header {
@@ -164,21 +167,21 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  z-index: 1; /* Убедитесь, что текст и иконка над фоном */
+  padding-top: 50px;
 }
 
 .camp-infrastructure__background {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
+  left: 22px; /* Отступ слева */
+  width: calc(100% - 44px); /* Отступы с обеих сторон */
   height: 100%;
   background-image: url("../img/infrastructure/picture/infrastructure.png");
-  background-position: center left; /* Центрируем изображение по левому краю */
-  background-size: contain; /* Убеждаемся, что изображение полностью помещается */
+  background-position: top left;
+  background-size: contain;
   background-repeat: no-repeat;
   opacity: 0.15; /* Чуть повысим видимость фона */
-  z-index: 0; /* Фон должен быть под текстом и иконками */
+  z-index: 0;
 }
 
 .camp-infrastructure__icon {
@@ -205,7 +208,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  z-index: 2; /* Контактная информация над фоном */
+  z-index: 2; 
 }
 
 .camp-infrastructure__contact-title {
@@ -244,6 +247,7 @@
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 4px 10px var(--dark-shade-color);
+  margin: 10px; /* Отступы между карточками */
 }
 
 .camp-infrastructure__subtitle {
@@ -262,6 +266,14 @@
   height: 40px;
   margin-bottom: 10px;
 }
+
+@media (min-width: 600px) {
+  .camp-infrastructure__grid {
+    flex-wrap: nowrap; /* Карточки будут выстраиваться в одну линию при ширине экрана от 600px */
+    justify-content: space-between; /* Равномерное распределение карточек */
+  }
+}
+
 
 .cta-section {
   background-color: var(--light-shade-color);
