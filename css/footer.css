@@ -1,24 +1,17 @@
-:root {
-  --background-color: #302c2c;
-  --accent-colors: #1f2023; /* Припустимо, що це значення змінної */
-  --text-color: #fff;
-  --secondary-text-color: #c3c3c3;
-}
-
 .footer-main {
   max-width: 100%;
   padding: 2%;
   padding-right: 15%;
   padding-left: 15%;
-  background-color: var(--background-color);
+  background-color: var(--dark-background-color);
 }
 
 .footer-url-color a {
-  color: var(--accent-colors);
+  color: var(--black-accent-color);
 }
 
 .footer-mail-color a {
-  color: var(--text-color);
+  color: var(--light-text-color);
 }
 
 .footer-second-text {
@@ -28,7 +21,7 @@
 
 .footer-social a {
   display: flex;
-  color: var(--text-color);
+  color: var(--light-text-color);
   font-size: 1.5em;
   text-decoration: none;
 }
@@ -46,7 +39,7 @@
   align-items: center;
   justify-content: center;
   padding-right: 0.5em;
-  color: var(--accent-colors);
+  color: var(--black-accent-color);
   width: 45px;
   height: 45px;
 }
@@ -56,8 +49,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 1em;
-  background-color: var(--background-color);
-  color: var(--text-color);
+  background-color: var(--dark-background-color);
+  color: var(--light-text-color);
   font-size: 0.6em;
 }
 
@@ -71,7 +64,7 @@
   flex: 2;
   display: flex;
   justify-content: flex-end;
-  color: var(--text-color);
+  color: var(--light-text-color);
 }
 
 .footer-social-cont {
@@ -83,7 +76,7 @@
 .footer-social-name-cont {
   display: flex;
   flex-direction: column;
-  color: var(--text-color);
+  color: var(--light-text-color);
   padding-top: 10%;
   padding-bottom: 10%;
 }
@@ -101,7 +94,7 @@
 
 .footer-menu a {
   text-decoration: none;
-  color: var(--text-color);
+  color: var(--light-text-color);
   font-size: 1em;
 }
 
@@ -114,13 +107,13 @@
   align-items: center;
   justify-content: space-between;
   padding: 1em;
-  color: var(--text-color);
+  color: var(--light-text-color);
   font-size: 1em;
 }
 
 .footer-socialurls {
   text-decoration: none;
-  color: var(--text-color);
+  color: var(--light-text-color);
   font-size: 1em;
 }
 
