@@ -156,24 +156,28 @@
   font-family: var(--font-family);
   overflow-x: hidden;
   position: relative;
+  background-color: #fff;
 }
 
 .camp-infrastructure__header {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .camp-infrastructure__background {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
+  left: 20px;
+  width: calc(100% - 40px); 
   height: 100%;
   background-image: url("../img/infrastructure/picture/infrastructure.png");
-  background-position: top left;
+  background-position: left center;
   background-size: contain;
   background-repeat: no-repeat;
   opacity: 0.1;
-  z-index: -1;
+  z-index: 0;
 }
 
 .camp-infrastructure__icon {
@@ -181,13 +185,14 @@
   height: 40px;
   position: relative;
   margin-bottom: 10px;
+  z-index: 1;
 }
 
 .camp-infrastructure__title {
   font-size: 50px;
   font-weight: 600;
   position: relative;
-  z-index: 1;
+  z-index: 1; 
   margin: 0;
 }
 
@@ -196,8 +201,9 @@
   font-size: var(--font-size-base);
   color: var(--link-color);
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  z-index: 1; 
 }
 
 .camp-infrastructure__contact-title {
@@ -223,7 +229,9 @@
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  margin-top: 20px; 
+  margin-top: 20px;
+  position: relative;
+  z-index: 1;
 }
 
 .camp-infrastructure__item {
