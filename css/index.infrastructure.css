@@ -169,12 +169,12 @@
 .camp-infrastructure__background {
   position: absolute;
   top: 0;
-  left: 20px;
-  width: calc(100% - 40px); 
+  left: 0;
+  width: 100%; 
   height: 100%;
   background-image: url("../img/infrastructure/picture/infrastructure.png");
-  background-position: left center;
-  background-size: contain;
+  background-position: top left;
+  background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.1;
   z-index: 0;
@@ -194,6 +194,7 @@
   position: relative;
   z-index: 1; 
   margin: 0;
+  color: #333; /* Убедитесь, что цвет текста контрастирует с фоном */
 }
 
 .camp-infrastructure__contact {
