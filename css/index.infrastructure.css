@@ -189,11 +189,11 @@
   height: 40px;
   position: relative;
   margin-bottom: 10px;
-  z-index: 2;
+  z-index: 2; /* Убедитесь, что иконки над фоном */
 }
 
 .camp-infrastructure__title {
-  font-size: var(--font-size-large);
+  font-size: var(--font-size-large); 
   font-weight: var(--font-weight-bold);
   position: relative;
   margin: 0;
@@ -283,6 +283,7 @@
     justify-content: space-between;
   }
 }
+
 
 .cta-section {
   background-color: var(--light-shade-color);
