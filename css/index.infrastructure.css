@@ -184,14 +184,6 @@
   z-index: 0;
 }
 
-.camp-infrastructure__icon {
-  width: 40px;
-  height: 40px;
-  position: relative;
-  margin-bottom: 10px;
-  z-index: 2;
-}
-
 .camp-infrastructure__title {
   font-size: var(--font-size-large);
   font-weight: var(--font-weight-bold);
