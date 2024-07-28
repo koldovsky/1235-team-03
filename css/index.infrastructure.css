@@ -189,14 +189,12 @@
   height: 40px;
   position: relative;
   margin-bottom: 10px;
-  z-index: 2;
 }
 
 .camp-infrastructure__title {
   font-size: 40px; /* Размер шрифта */
   font-weight: var(--font-weight-bold);
   position: relative;
-  z-index: 2;
   margin: 0;
   color: var(--dark-shade-color); /* Используем переменную для цвета текста */
   line-height: 1.2;
