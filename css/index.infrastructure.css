@@ -187,18 +187,17 @@
   font-size: var(--font-size-medium);
   color: var(--dark-shade-color);
   display: flex;
-  justify-content: flex-end;
   align-items: center;
+  gap: 10px;
 }
 
 .camp-infrastructure__contact-title {
   font-weight: var(--font-weight-bold);
-  margin-right: 5px;
 }
 
 .camp-infrastructure__mail-icon {
   vertical-align: middle;
-  margin: 0 5px;
+  margin-right: 5px;
   width: 20px;
   height: 20px;
 }
@@ -223,13 +222,17 @@
   box-shadow: var(--box-shadow);
   text-align: left;
   display: flex;
-  align-items: center;
+  gap: 10px;
 }
 
 .camp-infrastructure__item-icon {
   width: 40px;
   height: 40px;
-  margin-right: 15px;
+}
+
+.camp-infrastructure__content {
+  display: flex;
+  flex-direction: column;
 }
 
 .camp-infrastructure__subtitle {
@@ -248,8 +251,15 @@
   .camp-infrastructure__item {
     flex: 1 1 calc(100% - 20px);
     max-width: calc(100% - 20px);
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .camp-infrastructure__item-icon {
+    margin-bottom: 10px;
   }
 }
+
 .cta-section {
   background-color: var(--light-shade-color);
   padding: 50px 0;
