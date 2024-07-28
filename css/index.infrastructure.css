@@ -184,7 +184,8 @@
 }
 
 .camp-infrastructure__contact-block {
-  text-align: right;
+  display: flex;
+  align-items: center;
 }
 
 .camp-infrastructure__contact {
@@ -200,7 +201,6 @@
 }
 
 .camp-infrastructure__mail-icon {
-  vertical-align: middle;
   width: 20px;
   height: 20px;
 }
@@ -208,6 +208,7 @@
 .camp-infrastructure__email {
   color: var(--accent-color);
   text-decoration: none;
+  font-weight: var(--font-weight-bold);
 }
 
 .camp-infrastructure__grid {
