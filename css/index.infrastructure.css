@@ -156,7 +156,7 @@
   font-family: var(--font-family);
   overflow-x: hidden;
   position: relative;
-  background-color: #fff;
+  background-color: var(--light-shade-color);
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -193,13 +193,14 @@
 }
 
 .camp-infrastructure__title {
-  font-size: 50px;
-  font-weight: 600;
+  font-size: 40px; /* Размер шрифта */
+  font-weight: var(--font-weight-bold);
   position: relative;
   z-index: 2;
   margin: 0;
-  color: #333;
+  color: var(--dark-shade-color); /* Используем переменную для цвета текста */
   line-height: 1.2;
+  font-family: var(--font-family); /* Шрифт Work Sans */
 }
 
 .camp-infrastructure__contact {
@@ -207,11 +208,11 @@
   font-size: var(--font-size-base);
   color: var(--link-color);
   display: flex;
-  justify-content: flex-end; /* Выравнивание вправо */
+  justify-content: flex-end;
   align-items: center;
-  width: 100%; /* Занимаем всю ширину для выравнивания */
+  width: 100%;
   z-index: 2;
-  text-align: right; /* Выравнивание текста вправо */
+  text-align: right;
 }
 
 .camp-infrastructure__contact-title {
@@ -265,7 +266,7 @@
   font-size: var(--font-size-medium);
   margin: 10px 0;
   color: var(--subtitle-color);
-  font-weight: 600;
+  font-weight: var(--font-weight-bold);
 }
 
 .camp-infrastructure__text {
