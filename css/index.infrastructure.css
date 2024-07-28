@@ -151,15 +151,14 @@
   right: 10px;
 }
 
-
 .camp-infrastructure {
-  padding: 50px 22px;
+  padding: 50px 20px;
   font-family: var(--font-family);
   overflow-x: hidden;
   position: relative;
   background-color: #fff;
-  max-width: 1400px; /* Максимальная ширина для центровки контента */
-  margin: 0 auto; /* Центровка по горизонтали */
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .camp-infrastructure__header {
@@ -173,14 +172,14 @@
 .camp-infrastructure__background {
   position: absolute;
   top: 0;
-  left: 22px; /* Отступ слева */
-  width: calc(100% - 44px); /* Отступы с обеих сторон */
+  left: 0;
+  width: 100%;
   height: 100%;
   background-image: url("../img/infrastructure/picture/infrastructure.png");
   background-position: top left;
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.15; /* Чуть повысим видимость фона */
+  opacity: 0.1;
   z-index: 0;
 }
 
@@ -189,16 +188,16 @@
   height: 40px;
   position: relative;
   margin-bottom: 10px;
-  z-index: 2; /* Иконка над фоном и текстом */
+  z-index: 2;
 }
 
 .camp-infrastructure__title {
   font-size: 50px;
   font-weight: 600;
   position: relative;
-  z-index: 2; /* Текст над фоном */
+  z-index: 2;
   margin: 0;
-  color: #333; /* Убедитесь, что текст контрастирует с фоном */
+  color: #333;
 }
 
 .camp-infrastructure__contact {
@@ -208,7 +207,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  z-index: 2; 
+  z-index: 2;
 }
 
 .camp-infrastructure__contact-title {
@@ -233,8 +232,8 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: center;
-  margin-top: 20px;
+  justify-content: space-between;
+  margin-top: 40px;
   position: relative;
   z-index: 1;
 }
@@ -244,33 +243,36 @@
   max-width: calc(33.333% - 20px);
   background: var(--light-shade-color);
   padding: 20px;
-  text-align: center;
+  text-align: left;
   border-radius: 10px;
   box-shadow: 0 4px 10px var(--dark-shade-color);
-  margin: 10px; /* Отступы между карточками */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.camp-infrastructure__item-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 15px;
 }
 
 .camp-infrastructure__subtitle {
   font-size: var(--font-size-medium);
   margin: 10px 0;
   color: var(--subtitle-color);
+  font-weight: 600;
 }
 
 .camp-infrastructure__text {
   font-size: var(--font-size-base);
   color: var(--dark-text-color);
-}
-
-.camp-infrastructure__icon {
-  width: 40px;
-  height: 40px;
-  margin-bottom: 10px;
+  text-align: center;
 }
 
 @media (min-width: 600px) {
   .camp-infrastructure__grid {
-    flex-wrap: nowrap; /* Карточки будут выстраиваться в одну линию при ширине экрана от 600px */
-    justify-content: space-between; /* Равномерное распределение карточек */
+    justify-content: space-between;
   }
 }
 
