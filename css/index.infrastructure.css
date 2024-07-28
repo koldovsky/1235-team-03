@@ -159,18 +159,21 @@
 
 .camp-infrastructure__header {
   position: relative;
-  text-align: center;
+  text-align: left;
   margin-bottom: 40px;
 }
 
 .camp-infrastructure__background {
+  display: flex;
+  align-items: center;
+  gap: 20px;
   position: relative;
-  padding-bottom: 20px;
 }
 
 .camp-infrastructure__icon {
-  display: inline-block;
-  vertical-align: middle;
+  width: 50px;
+  height: auto;
+  fill: var(--accent-color);
 }
 
 .camp-infrastructure__title {
@@ -178,6 +181,7 @@
   font-weight: var(--font-weight-bold);
   color: var(--dark-shade-color);
   margin: 0;
+  z-index: 1;
 }
 
 .camp-infrastructure__contact {
@@ -185,7 +189,7 @@
   font-size: var(--font-size-medium);
   color: var(--dark-shade-color);
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
