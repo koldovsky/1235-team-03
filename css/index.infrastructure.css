@@ -165,6 +165,10 @@
   position: relative;
   text-align: left;
   padding-left: 20px;
+  background-image: url("../img/infrastructure/picture/infrastructure.png");
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .camp-infrastructure__title {
@@ -175,7 +179,7 @@
   margin-left: 50px; 
 }
 
-.camp-infrastructure__background::before {
+/*.camp-infrastructure__background::before {
   content: '';
   background-image: url("../img/infrastructure/picture/infrastructure.png");
   background-position: top left; 
@@ -188,7 +192,7 @@
   bottom: 0;
   opacity: 0.1; 
   z-index: 0;
-}
+}*/
 
 .camp-infrastructure__contact {
   margin-top: 20px;
