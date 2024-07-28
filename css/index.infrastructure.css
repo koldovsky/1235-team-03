@@ -180,7 +180,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.05; /* Снижение прозрачности фонового изображения */
+  opacity: 0.03; /* Сниженная прозрачность фона */
   z-index: 0;
 }
 
@@ -189,7 +189,7 @@
   height: 40px;
   position: relative;
   margin-bottom: 10px;
-  z-index: 2; /* Убедитесь, что иконки над фоном */
+  z-index: 2;
 }
 
 .camp-infrastructure__title {
@@ -197,10 +197,10 @@
   font-weight: var(--font-weight-bold);
   position: relative;
   margin: 0;
-  color: var(--dark-shade-color); /* Убедитесь, что цвет текста насыщенный */
+  color: var(--dark-shade-color); 
   line-height: 1.2;
   font-family: var(--font-family);
-  z-index: 2; /* Убедитесь, что текст над фоном */
+  z-index: 2;
 }
 
 .camp-infrastructure__contact {
