@@ -287,19 +287,6 @@
 }
 
 .cta-section__button {
-	background-color: var(--book-now-button-color);
-	color: var(--light-text-color);
-	border: none;
-	width: 145.5px;
-	font-size: 13.2px;
-	font-weight: 700;
-	height: 53px;
-	transition: background-color 0.3s ease, transform 0.3s ease;
-	cursor: pointer;
-	margin-top: 20px;
-}
-
-/*.cta-section__button {
   background-color: var(--book-now-button-color);
   color: var(--light-text-color);
   padding: 18px 30px;
@@ -314,7 +301,7 @@
   font-weight: var(--font-weight-bold);
   line-height: normal;
   white-space: nowrap;
-}*/
+}
 
 .cta-section__button:hover {
   background-color: var(--accent-color); 
