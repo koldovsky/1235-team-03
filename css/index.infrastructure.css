@@ -155,20 +155,28 @@
   padding: 50px 20px;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: var(--light-shade-color);
+  background-image: url("../img/infrastructure/picture/infrastructure.png");
+  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .camp-infrastructure__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 40px;
+  width: 100%;
 }
 
 .camp-infrastructure__title-block {
   display: flex;
   align-items: center;
   gap: 10px;
+  position: relative;
+  z-index: 1;
 }
 
 .camp-infrastructure__icon {
@@ -188,6 +196,8 @@
   display: flex;
   align-items: center;
   gap: 15px;
+  position: relative;
+  z-index: 1;
 }
 
 .camp-infrastructure__mail-icon {
@@ -203,8 +213,9 @@
 
 .camp-infrastructure__contact-title {
   font-weight: var(--font-weight-bold);
-  color: var(--subtitle-color);
+  color: var(--secondary-text-color);
   margin: 0;
+  font-size: var(--font-size-small);
 }
 
 .camp-infrastructure__email {
@@ -256,16 +267,19 @@
 }
 
 @media (max-width: 768px) {
-  .camp-infrastructure__header {
+  .camp-infrastructure {
     flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
+    align-items: center;
+    text-align: center;
   }
 
-  .camp-infrastructure__title-block,
+  .camp-infrastructure__header {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .camp-infrastructure__contact-block {
-    width: 100%;
-    text-align: center;
+    align-items: center;
   }
 
   .camp-infrastructure__item {
