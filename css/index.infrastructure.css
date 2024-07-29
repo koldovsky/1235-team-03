@@ -47,7 +47,7 @@
 }
 
 .reviews::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -66,7 +66,7 @@
 .reviews__text,
 .reviews__author,
 .reviews__button {
-  position: relative;
+  position: relative; 
   z-index: 2;
 }
 
@@ -132,25 +132,23 @@
   font-weight: var(--font-weight-bold);
 }
 
-.slider-arrow {
-  position: absolute; width: 100%; height: 100%; top: 50%; left: 50%; transform: translate(-50%,-50%); z-index: 1;
+.reviews__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--light-accent-color);
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
 }
 
-.slider-arrow svg {
-  width: 20px; 
-  height: 20px;
+.reviews__button--left {
+  left: 10px;
 }
 
-.slider-arrow svg path {
-  fill: var(--dark-accent-color); 
-}
-
-.slider-arrow--left {
-  left: 20px; 
-}
-
-.slider-arrow--right {
-  right: 20px; 
+.reviews__button--right {
+  right: 10px;
 }
 
 .camp-infrastructure {
