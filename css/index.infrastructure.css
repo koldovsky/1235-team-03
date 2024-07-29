@@ -66,7 +66,7 @@
 .reviews__text,
 .reviews__author,
 .reviews__button {
-  position: relative; 
+  position: relative;
   z-index: 2;
 }
 
@@ -140,6 +140,18 @@
   border-radius: 50%;
   padding: 10px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reviews__button svg {
+  width: 20px;
+  height: 20px; 
+}
+
+.reviews__button svg path {
+  fill: var(--dark-accent-color);
 }
 
 .reviews__button--left {
