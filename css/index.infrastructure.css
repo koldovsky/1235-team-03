@@ -133,38 +133,24 @@
 }
 
 .slider-arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: var(--arrow-background); /* Білий фон для кнопок */
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px; /* Ширина кнопки */
-  height: 40px; /* Висота кнопки */
-  z-index: 10;
-  border-radius: 50%; /* Заокруглення кнопок для кращого вигляду */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Додати тінь для виділення */
+  position: absolute; width: 100%; height: 100%; top: 50%; left: 50%; transform: translate(-50%,-50%); z-index: 1;
 }
 
 .slider-arrow svg {
-  width: 20px; /* Розмір іконки */
-  height: 20px; /* Розмір іконки */
+  width: 20px; 
+  height: 20px;
 }
 
 .slider-arrow svg path {
-  fill: var(--dark-accent-color); /* Використання змінної кольору */
+  fill: var(--dark-accent-color); 
 }
 
 .slider-arrow--left {
-  left: 10px; /* Відступ зліва */
+  left: 20px; 
 }
 
 .slider-arrow--right {
-  right: 10px; /* Відступ справа */
+  right: 20px; 
 }
 
 .camp-infrastructure {
