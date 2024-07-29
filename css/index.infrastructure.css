@@ -138,7 +138,7 @@
   transform: translateY(-50%);
   border: none;
   background: none;
-  padding: 0;
+  padding: 8px;
   cursor: pointer;
   width: 40px; 
   height: 40px; 
