@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>GALLERY: Hidden Heaven Glamping</title>
+    <link rel="shortcut icon" type="image/png"
+        href="https://res2.weblium.site/res/65a4dd651ae638000e4a167b/65c5f7ddbd7a9b000f341560_optimized"
+        sizes="16x16" />
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
+    <link rel="stylesheet" href="css/gallery.css">
+    <style>
+        .gallery img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.2s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+    <script src="https://unpkg.com/htmx.org@1.9.10"
+        integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.header-nav.partial.html"></nav>
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.header-hero.partial.html"></section>
+    </header>
+
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="3000px" height="33" style="width: 100%">
+        <path d="M0 16.5 L3000 16.5" style="fill: none; stroke: #7c782f; stroke-width: 3px"></path>
+    </svg>-->
+
+    <div class="svg-container">
+        <svg xmlns="http://www.w3.org/2000/svg" width="3000px" height="65" style="width: 100%">
+            <path d="M0 16.5 L3000 16.5" style="fill: none; stroke: #7c782f; stroke-width: 3px"></path>
+       
+            <text x="50%" y="65" text-anchor="middle" fill="#7c782f" font-size="50">
+                Geodesic Dome
+            </text>
+        </svg>
+    </div>
+    
+
+    <div class="gallery">
+        <div class="gallery-first">
+            <img src="img/geodesic_dome/pictures/interier1.jpg" alt="Image 1" class="gallery-item gallery-item-large">
+        </div>
+
+        <div class="gallery-down">
+            <img src="img/geodesic_dome/pictures/interier2.jpg" alt="Image 2" class="gallery-item">
+            <img src="img/geodesic_dome/pictures/interier3.jpg" alt="Image 3" class="gallery-item">
+            <img src="img/geodesic_dome/pictures/interier4.jpg" alt="Image 4" class="gallery-item">
+        </div>
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content">
+        <div class="lightbox-controls">
+            <span class="prev">&lsaquo;</span>
+            <span class="next">&rsaquo;</span>
+        </div>
+    </div>
+
+
+    ///
+    
+
+    <div class="svg-container">
+        <svg xmlns="http://www.w3.org/2000/svg" width="3000px" height="70" style="width: 100%">
+            <path d="M0 16.5 L3000 16.5" style="fill: none; stroke: #7c782f; stroke-width: 3px"></path>
+       
+            <text x="50%" y="70" text-anchor="middle" fill="#7c782f" font-size="50">
+                Wood Cabin
+            </text>
+        </svg>
+    </div>
+    
+
+    <div class="gallery">
+        <div class="gallery-first">
+            <img src="img/bid-wood-cabin/photo/roof.jpeg" alt="Image 1" class="gallery-item gallery-item-large">
+        </div>
+
+        <div class="gallery-down">
+            <img src="img/bid-wood-cabin/photo/geodesic-dome.webp" alt="Image 2" class="gallery-item">
+            <img src="img/bid-wood-cabin/photo/kitchen.jpg" alt="Image 3" class="gallery-item">
+            <img src="img/bid-wood-cabin/photo/room.jpg" alt="Image 4" class="gallery-item">
+        </div>
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content">
+        <div class="lightbox-controls">
+            <span class="prev">&lsaquo;</span>
+            <span class="next">&rsaquo;</span>
+        </div>
+    </div>
+
+    <div class="contact-form-main-container">
+        <div class="form-container">
+            <h1>Booking Form</h1>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" id="full-name" name="full-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="comment">Comment</label>
+                    <textarea id="comment" name="comment" rows="4" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="js/gallary.js"></script>
+
+
+    <footer data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.footer.partial.html"></footer>
+</body>
+<script type="module" src="./js/index.js"></script>
+
+</html>
