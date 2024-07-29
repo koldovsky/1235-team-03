@@ -171,3 +171,105 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+.articles__carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.clients-carousel__track-container {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.clients-carousel__track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.clients-carousel__slide {
+  width: 50%;
+  flex-shrink: 0;
+  margin-right: 20px; 
+  transition: transform 0.5s ease; 
+}
+
+.carousel__item {
+  position: relative;
+  width: 100%;
+  height: 400px; 
+}
+
+.carousel__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel__link {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--dark-accent-color);
+  color: var(--light-accent-color);
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.clients-carousel__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.clients-carousel__button--left {
+  left: 10px;
+}
+
+.clients-carousel__button--right {
+  right: 10px;
+}
+
+.carousel-item_card{
+  z-index: 1;
+}
+
+.clients-carousel__nav {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  z-index: 10;
+}
+
+.clients-carousel__indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--secondary-text-color);
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.clients-carousel__indicator--active {
+  background-color: var(--dark-background-color); 
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .clients-carousel__slide {
+      width: 100%;
+      margin-right: 0;
+  }
+}
