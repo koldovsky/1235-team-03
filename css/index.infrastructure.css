@@ -140,8 +140,8 @@
   background: none;
   padding: 5px;
   cursor: pointer;
-  width: 60px; 
-  height: 60px; 
+  width: 40px; 
+  height: 40px; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -154,11 +154,11 @@
 }
 
 .reviews__button--left {
-  left: 10px;
+  left: 20px;
 }
 
 .reviews__button--right {
-  right: 10px;
+  right: 20px;
 }
 
 .camp-infrastructure {
