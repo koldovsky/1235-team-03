@@ -1,8 +1,8 @@
 е.video {
   width: 100%;
-  max-width: 100%; 
+  max-width: 100%;
   display: flex;
-  justify-content: stretch; 
+  justify-content: stretch;
   overflow: hidden;
 }
 
@@ -31,7 +31,7 @@
 
 @media (min-width: 992px) {
   .video__section {
-    padding-bottom: 52.88%; 
+    padding-bottom: 52.88%;
   }
 }
 
@@ -47,7 +47,7 @@
 }
 
 .reviews::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -66,7 +66,7 @@
 .reviews__text,
 .reviews__author,
 .reviews__button {
-  position: relative; 
+  position: relative;
   z-index: 2;
 }
 
@@ -136,19 +136,33 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: var(--light-accent-color);
+  background: none;
   border: none;
-  border-radius: 50%;
-  padding: 10px;
+  padding: 0;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px; /* Збільшуємо ширину кнопки */
+  height: 60px; /* Збільшуємо висоту кнопки */
+  z-index: 10; /* Переконайтеся, що кнопки видимі над іншими елементами */
+}
+
+.reviews__button svg {
+  width: 30px; /* Розмір іконки */
+  height: 30px; /* Розмір іконки */
+}
+
+.reviews__button svg path {
+  fill: var(--dark-accent-color); /* Використання змінної кольору */
 }
 
 .reviews__button--left {
-  left: 10px;
+  left: 10px; /* Відступ зліва */
 }
 
 .reviews__button--right {
-  right: 10px;
+  right: 10px; /* Відступ справа */
 }
 
 .camp-infrastructure {
@@ -335,5 +349,5 @@
 }
 
 .cta-section__button:hover {
-  background-color: var(--accent-color); 
+  background-color: var(--accent-color);
 }
