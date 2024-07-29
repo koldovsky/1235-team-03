@@ -42,6 +42,8 @@
 
   --arrow-background: #ffffff;
 
+  --semi-transparent-white: rgba(255, 255, 255, 0.6);
+  
   --font-family: "Work Sans", sans-serif;
   --font-family-alt: "Roboto", sans-serif;
   --font-family-inter: "Inter", sans-serif;
