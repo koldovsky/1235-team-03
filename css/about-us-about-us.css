@@ -1,16 +1,18 @@
-
 .about-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 20px;
+    background-color: var(--contact-form-boder-color);
 }
 
 .about-section__image-container {
     width: 100%;
     display: flex;
     justify-content: center;
+    flex: 1;
+  margin-right: 20px;
 }
 
 .about-section__image {
@@ -28,21 +30,20 @@
 }
 
 .about-section__title {
-    font-size: 2rem;
-    margin-bottom: 10px;
-    color: var(--dark-shade-color);
+    font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .about-section__subtitle {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    color: var(--dark-text-color);
+    font-size: 16px;
+  margin-bottom: 20px;
 }
 
 .about-section__text {
     font-size: 1rem;
     margin-bottom: 20px;
-    color: var(--dark-text-color);
+    color: var(--link-color);
 }
 
 .about-section__features {
@@ -59,12 +60,13 @@
 }
 
 .about-section__icon {
-    margin-right: 10px;
+    width: 24px;
+  height: 24px;
+  margin-right: 10px;
 }
 
 .about-section__feature-text {
-    font-size: 1rem;
-    color: var(--dark-text-color);
+    font-size: 16px;
 }
 
 .about-section__book-now {

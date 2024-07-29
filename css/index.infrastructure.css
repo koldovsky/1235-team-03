@@ -1,4 +1,4 @@
-.video {
+е.video {
   width: 100%;
   max-width: 100%; 
   display: flex;
@@ -66,8 +66,8 @@
 .reviews__text,
 .reviews__author,
 .reviews__button {
-  position: relative; /* Зберігає позицію елементів вище псевдоелемента */
-  z-index: 2; /* Забезпечує, що контент знаходиться поверх фону */
+  position: relative; 
+  z-index: 2;
 }
 
 @media (min-width: 992px) {
@@ -153,67 +153,76 @@
 
 .camp-infrastructure {
   padding: 50px 20px;
-  font-family: var(--font-family);
-  overflow-x: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .camp-infrastructure__header {
+  display: flex;
+  align-items: flex-start; /* Align to the start to keep icon and text at the same level */
+  width: 100%;
+  padding: 20px 0;
+  background-image: url("../img/infrastructure/picture/infrastructure.png");
+  background-position: left top; /* Align the background to the top left */
+  background-size: contain; /* Ensure background fits within the container */
+  background-repeat: no-repeat;
   text-align: center;
-  margin-bottom: 30px;
   position: relative;
+}
+
+.camp-infrastructure__title-block {
+  display: flex;
+  align-items: center; /* Align items in the center of the flex container */
+  gap: 10px;
+  z-index: 1; /* Ensure it is above the background */
 }
 
 .camp-infrastructure__icon {
-  display: block;
-  margin: 0 auto 10px;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: auto;
+  fill: var(--accent-color);
+  margin-top: 15px; /* Adjust margin to align icon with background */
 }
 
 .camp-infrastructure__title {
-  font-size: 36px;
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-bold);
+  color: var(--dark-shade-color);
   margin: 0;
-  position: relative;
-  color: var(--block-title-color);
-  font-family: var(--font-family-alt);
 }
 
-.camp-infrastructure__title::before {
-  content: 'Infrastructure';
-  position: absolute;
-  top: -40px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 72px;
-  color: rgba(0, 0, 0, 0.05);
-  z-index: -1;
+.camp-infrastructure__contact-block {
+  display: flex;
+  align-items: flex-end; /* Align contact block to the bottom for better alignment */
+  gap: 15px;
+  z-index: 1; /* Ensure it is above the background */
+  margin-left: auto; /* Push the contact block to the far right */
+}
+
+.camp-infrastructure__mail-icon {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
 }
 
 .camp-infrastructure__contact {
-  margin-top: 20px;
-  font-size: var(--font-size-base);
-  color: var(--link-color);
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  text-align: left;
 }
 
 .camp-infrastructure__contact-title {
   font-weight: var(--font-weight-bold);
-  margin-right: 5px;
-}
-
-.camp-infrastructure__mail-icon {
-  vertical-align: middle;
-  margin: 0 5px;
-  width: 20px;
-  height: 20px;
+  color: var(--secondary-text-color);
+  margin: 0;
+  font-size: var(--font-size-small);
 }
 
 .camp-infrastructure__email {
-  color: var(--book-now-button-color);
+  color: var(--accent-color);
   text-decoration: none;
-  margin-left: 5px;
+  font-weight: var(--font-weight-bold);
+  margin: 0;
 }
 
 .camp-infrastructure__grid {
@@ -221,22 +230,36 @@
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .camp-infrastructure__item {
-  flex: 1 1 calc(33.333% - 20px);
-  max-width: calc(33.333% - 20px);
+  flex: 1 1 calc(32% - 20px);
   background: var(--light-shade-color);
   padding: 20px;
-  text-align: center;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px var(--dark-shade-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  text-align: left;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.camp-infrastructure__item-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.camp-infrastructure__content {
+  display: flex;
+  flex-direction: column;
 }
 
 .camp-infrastructure__subtitle {
   font-size: var(--font-size-medium);
-  margin: 10px 0;
+  margin: 0;
   color: var(--subtitle-color);
+  font-weight: var(--font-weight-bold);
 }
 
 .camp-infrastructure__text {
@@ -244,11 +267,27 @@
   color: var(--dark-text-color);
 }
 
-.camp-infrastructure__icon {
-  width: 40px;
-  height: 40px;
-  margin-bottom: 10px;
+@media (max-width: 768px) {
+  .camp-infrastructure__header {
+    flex-direction: column;
+    align-items: center;
+    background-position: center top; /* Adjust position for smaller screens */
+  }
+
+  .camp-infrastructure__contact-block {
+    align-items: center;
+  }
+
+  .camp-infrastructure__item {
+    flex: 1 1 100%;
+    align-items: flex-start;
+  }
+
+  .camp-infrastructure__item-icon {
+    margin-bottom: 10px;
+  }
 }
+
 
 .cta-section {
   background-color: var(--light-shade-color);
@@ -291,7 +330,6 @@
   background-color: var(--book-now-button-color);
   color: var(--light-text-color);
   padding: 18px 30px;
-  text-decoration: none;
   font-size: var(--font-size-button);
   font-family: var(--font-family-inter);
   display: inline-block;
@@ -305,5 +343,5 @@
 }
 
 .cta-section__button:hover {
-  background-color: var(--accent-color);
+  background-color: var(--accent-color); 
 }
