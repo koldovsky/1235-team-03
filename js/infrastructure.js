@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const carousel = document.querySelector(".reviews__carousel");
   if (!carousel) {
-    console.error("Carousel not found");
+    console.error("Carousel element not found");
     return;
   }
 
@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const nextButton = carousel.querySelector(".reviews__button--right");
 
   if (!carouselTrack || !prevButton || !nextButton) {
-    console.error("One or more required elements not found");
+    console.error("Required elements not found within carousel");
     return;
   }
 
@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let slides = Array.from(carouselTrack.children);
   let currentIndex = slidesPerView;
 
+  console.log("Initial slides:", slides.length);
   setupCarousel();
 
   function getSlidesPerView() {
@@ -32,10 +33,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const clonesStart = slides.slice(-slidesPerView).map(cloneSlide);
     const clonesEnd = slides.slice(0, slidesPerView).map(cloneSlide);
 
+    console.log("Cloning slides:", clonesStart.length, clonesEnd.length);
+
     carouselTrack.append(...clonesStart, ...slides, ...clonesEnd);
 
     slides = Array.from(carouselTrack.children);
 
+    console.log("Total slides after cloning:", slides.length);
     updateCarousel();
   }
 
@@ -46,6 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function updateCarousel() {
+    carouselTrack.style.transition = "transform 0.5s ease";
     carouselTrack.style.transform = `translateX(-${
       (currentIndex * 100) / slidesPerView
     }%)`;
@@ -61,12 +66,12 @@ document.addEventListener("DOMContentLoaded", () => {
           carouselTrack.style.transition = "";
         });
       });
+    } else {
+      updateCarousel();
     }
-    updateCarousel();
   });
 
   nextButton.addEventListener("click", () => {
-    carouselTrack.style.transition = "";
     if (++currentIndex >= slides.length - slidesPerView) {
       currentIndex = slidesPerView;
       carouselTrack.style.transition = "none";
@@ -76,8 +81,9 @@ document.addEventListener("DOMContentLoaded", () => {
           carouselTrack.style.transition = "";
         });
       });
+    } else {
+      updateCarousel();
     }
-    updateCarousel();
   });
 
   window.addEventListener("resize", () => {
