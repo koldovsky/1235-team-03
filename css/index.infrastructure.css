@@ -155,34 +155,30 @@
   padding: 50px 20px;
   max-width: 1200px;
   margin: 0 auto;
-  position: relative;
 }
 
 .camp-infrastructure__header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start; 
-  width: 100%;
+  align-items: center;
   padding: 20px 0;
   background-image: url("../img/infrastructure/picture/infrastructure.png");
-  background-position: left top; 
+  background-position: left top;
   background-size: contain;
   background-repeat: no-repeat;
-  position: relative;
+  border-bottom: 2px solid var(--border-color); /* Розділяюча лінія */
 }
 
 .camp-infrastructure__title-block {
   display: flex;
   align-items: center;
   gap: 10px;
-  z-index: 2; 
 }
 
 .camp-infrastructure__icon {
   width: 50px;
   height: auto;
   fill: var(--accent-color);
-  margin-top: -15px; 
 }
 
 .camp-infrastructure__title {
@@ -190,16 +186,12 @@
   font-weight: var(--font-weight-bold);
   color: var(--dark-shade-color);
   margin: 0;
-  position: relative;
-  z-index: 3; 
 }
 
 .camp-infrastructure__contact-block {
   display: flex;
   align-items: center;
   gap: 15px;
-  z-index: 3;
-  margin-left: auto;
 }
 
 .camp-infrastructure__mail-icon {
@@ -210,7 +202,6 @@
 .camp-infrastructure__contact {
   display: flex;
   flex-direction: column;
-  text-align: left;
 }
 
 .camp-infrastructure__contact-title {
@@ -227,6 +218,7 @@
   margin: 0;
 }
 
+/* Сітка для елементів інфраструктури */
 .camp-infrastructure__grid {
   display: flex;
   flex-wrap: wrap;
