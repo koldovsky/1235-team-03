@@ -137,21 +137,20 @@
   top: 50%;
   transform: translateY(-50%);
   border: none;
-  border-radius: 50%;
-  padding: 10px;
+  background: none;
+  padding: 0;
   cursor: pointer;
+  width: 40px; 
+  height: 40px; 
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .reviews__button svg {
-  width: 20px;
-  height: 20px; 
-}
-
-.reviews__button svg path {
-  fill: var(--dark-accent-color);
+  width: 24px; 
+  height: 24px; 
+  stroke: var(--dark-accent-color); 
 }
 
 .reviews__button--left {
