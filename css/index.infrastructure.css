@@ -1,4 +1,4 @@
-е.video {
+.video {
   width: 100%;
   max-width: 100%;
   display: flex;
@@ -132,36 +132,38 @@
   font-weight: var(--font-weight-bold);
 }
 
-.reviews__button {
+.slider-arrow {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: none;
+  background: var(--arrow-background); /* Білий фон для кнопок */
   border: none;
   padding: 0;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60px; /* Збільшуємо ширину кнопки */
-  height: 60px; /* Збільшуємо висоту кнопки */
-  z-index: 10; /* Переконайтеся, що кнопки видимі над іншими елементами */
+  width: 40px; /* Ширина кнопки */
+  height: 40px; /* Висота кнопки */
+  z-index: 10;
+  border-radius: 50%; /* Заокруглення кнопок для кращого вигляду */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Додати тінь для виділення */
 }
 
-.reviews__button svg {
-  width: 30px; /* Розмір іконки */
-  height: 30px; /* Розмір іконки */
+.slider-arrow svg {
+  width: 20px; /* Розмір іконки */
+  height: 20px; /* Розмір іконки */
 }
 
-.reviews__button svg path {
+.slider-arrow svg path {
   fill: var(--dark-accent-color); /* Використання змінної кольору */
 }
 
-.reviews__button--left {
+.slider-arrow--left {
   left: 10px; /* Відступ зліва */
 }
 
-.reviews__button--right {
+.slider-arrow--right {
   right: 10px; /* Відступ справа */
 }
 
