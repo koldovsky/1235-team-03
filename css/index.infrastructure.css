@@ -164,9 +164,9 @@
   max-width: 1200px;
   margin: 0 auto;
   text-align: left;
-  z-index: 1; /* Убедиться, что контент выше фона */
+  z-index: 1; 
   display: flex;
-  flex-direction: column; /* Убедиться, что элементы идут друг за другом */
+  flex-direction: column; 
 }
 
 .background-wrapper {
@@ -175,25 +175,25 @@
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 0; /* Убедиться, что фон находится за контентом */
+  z-index: 0; 
   background-image: url("../img/infrastructure/picture/infrastructure.png");
-  background-size: cover; /* Обеспечить покрытие фоном всей области */
+  background-size: cover; 
   background-repeat: no-repeat;
-  opacity: 0.2; /* Увеличить прозрачность для лучшей видимости */
-  pointer-events: none; /* Предотвратить взаимодействие с фоном */
+  opacity: 0.5; 
+  pointer-events: none; 
 }
 
 .camp-infrastructure__title-block, 
 .camp-infrastructure__contact-block {
   position: relative;
-  z-index: 2; /* Убедиться, что эти блоки находятся выше фона */
+  z-index: 2;
 }
 
 .camp-infrastructure__icon {
   width: 50px;
   height: auto;
   fill: var(--accent-color);
-  margin-bottom: 10px; /* Отступ снизу, чтобы немного поднять иконку над текстом */
+  margin-bottom: 10px; 
 }
 
 .camp-infrastructure__title {
