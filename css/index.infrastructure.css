@@ -164,6 +164,9 @@
   max-width: 1200px;
   margin: 0 auto;
   text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Вирівнювання іконки та тексту */
 }
 
 .background-wrapper {
@@ -183,6 +186,8 @@
 .camp-infrastructure__contact-block {
   position: relative;
   z-index: 2;
+  display: flex;
+  align-items: center;
 }
 
 .camp-infrastructure__icon {
@@ -293,7 +298,6 @@
     margin-bottom: 10px;
   }
 }
-
 
 .cta-section {
   background-color: var(--light-shade-color);
