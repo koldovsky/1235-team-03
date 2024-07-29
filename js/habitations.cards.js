@@ -1,5 +1,3 @@
-console.log("habitations.cards.js loaded successfully");
-
 const habitationsData = [
   {
     imgSrc: "img/habitations/prev/habitations-img-prev-1.webp",
@@ -115,11 +113,9 @@ function generateCardHTML(data) {
 function renderCards() {
   const container = document.getElementById("cards-list");
   if (container) {
-    console.log("Container found:", container);
     container.innerHTML = ""; 
     habitationsData.forEach(data => {
       const cardHTML = generateCardHTML(data);
-      console.log("Generated card HTML:", cardHTML);
       container.innerHTML += cardHTML;
     });
   } else {
