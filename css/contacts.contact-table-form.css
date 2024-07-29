@@ -92,7 +92,7 @@
 .contact-form__input-field {
   margin-bottom: 24px;
   border-bottom-width: 2px;
-  border-bottom-color: var(--contact-form-boder-color);
+  border-bottom-color: var(--contact-form-border-color);
   border-bottom-style: solid;
 }
 
@@ -109,7 +109,24 @@
   font-weight: 400;
   text-overflow: ellipsis;
   /* placeholder color should be lighter */
-  /* borders of active field should be blue */
+}
+
+.contact-form__input-field:focus {
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--contact-form-focus-color);
+}
+
+.success {
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--contact-form-success-color);
+}
+
+.error {
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--contact-form-error-color);
 }
 
 .contact-form__button {
@@ -119,6 +136,23 @@
   background-color: var(--dark-accent-color);
   font-weight: 700;
   color: var(--link-color-light);
+}
+
+.contact-form__button:hover {
+  outline: 2px solid var(--dark-accent-color);
+}
+
+.contact-form__error-message {
+  visibility: hidden;
+}
+
+.error .contact-form__error-message {
+  visibility: visible;
+  color: var(--contact-form-error-color);
+}
+
+.contact-form__status {
+  color: var(--contact-form-error-color);
 }
 
 .contacts__illustration-container {

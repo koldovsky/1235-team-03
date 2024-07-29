@@ -21,7 +21,10 @@
   --link-color-light: #ffffff;
   --link-hover-color: #7c782f;
 
-  --contact-form-boder-color: #e6e6e4;
+  --contact-form-border-color: #e6e6e4;
+  --contact-form-focus-color: #3366cc;
+  --contact-form-success-color: #44bb66;
+  --contact-form-error-color: #ba3030;
 
   --color-under-block-header: #989898;
 

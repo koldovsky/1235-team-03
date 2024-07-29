@@ -38,22 +38,26 @@
     <div class="contact-form__container">
       <div class="contact-form__background-container">
         <div class="contact-form__form-container">
-          <form class="contact-form__form" action="https://formspree.io/f/xpwazjbr" method="post">
+          <form class="contact-form__form" id="form" action="https://formspree.io/f/xpwazjbr" method="POST">
             <div class="contact-form__input-field">
-              <input class="contact-form__input" type="text" id="name" required placeholder="Enter your full name*">
+              <small class="contact-form__error-message">Error message</small>
+              <input class="contact-form__input" type="text" id="name" name="name" placeholder="Enter your full name*">
             </div>
             <div class="contact-form__input-field">
-              <input class="contact-form__input" type="phone" id="phone" required
+              <small class="contact-form__error-message">Error message</small>
+              <input class="contact-form__input" type="phone" id="phone" name="phone"
                 placeholder="Enter your phone number*">
             </div>
             <div class="contact-form__input-field">
-              <input class="contact-form__input" type="email" id="email" required placeholder="Enter your e-mail*">
+              <small class="contact-form__error-message">Error message</small>
+              <input class="contact-form__input" id="email" name="email" placeholder="Enter your e-mail*">
             </div>
             <div class="contact-form__input-field">
-              <input class="contact-form__input" type="text" id="message" placeholder="Your Message" value
-                maxlength="2000">
+              <small class="contact-form__error-message">Error message</small>
+              <input class="contact-form__input" type="text" id="message" name="message" placeholder="Your Message">
             </div>
-            <input class="contact-form__button" type="submit" value="SEND">
+            <input class="contact-form__button" type="submit" id="form-button" value="SEND">
+            <p class="contact-form__status" id="form-status"></p>
           </form>
         </div>
       </div>
