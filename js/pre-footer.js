@@ -1,5 +1,5 @@
 const slides = [
-  '<li class="clients-carousel__slide"><div class="carousel__item"><img class="carousel__image" src="img/pre-footer/car.jpeg" alt="Girls Trip" /><a class="carousel__link" href="index.html">READ MORE →</a></div></li>',
+  '<li class="clients-carousel__slide"><div class="carousel__item"><img class="carousel__image" src="img/pre-footer/car.jpeg" alt="Girls Trip" /><div class="carousel-item_card"><p class="carousel-item-card_text">Girls Trip</p><a class="carousel__link" href="index.html">READ MORE →</a></div></div></li>',
   '<li class="clients-carousel__slide"><div class="carousel__item"><img class="carousel__image" src="img/pre-footer/sunbed.jpeg" alt="Cozy Winter in a Dome" /><a class="carousel__link" href="index.html">READ MORE →</a></div></li>',
   '<li class="clients-carousel__slide"><div class="carousel__item"><img class="carousel__image" src="img/pre-footer/spa.jpeg" alt="SPA for Two" /><a class="carousel__link" href="index.html">READ MORE →</a></div></li>',
 ];
