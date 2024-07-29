@@ -136,7 +136,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  border: solid;
+  border: none;
   background: none;
   padding: 5px;
   cursor: pointer;
@@ -148,8 +148,8 @@
 }
 
 .reviews__button svg {
-  width: 24px; 
-  height: 24px; 
+  width: 36px; 
+  height: 36px; 
   stroke: var(--dark-accent-color); 
 }
 
