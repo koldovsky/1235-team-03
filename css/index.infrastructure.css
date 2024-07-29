@@ -159,24 +159,28 @@
 }
 
 .camp-infrastructure__header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end; 
-  width: 100%;
-  padding: 20px 0;
-  background-image: url("../img/infrastructure/picture/infrastructure.png");
-  background-position: left top;
-  background-size: contain;
-  background-repeat: no-repeat;
-  text-align: center;
   position: relative;
-  z-index: 1;
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
 }
 
-.camp-infrastructure__title-block {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+.background-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-image: url("../img/infrastructure/picture/infrastructure.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.1; 
+}
+
+.camp-infrastructure__title-block, 
+.camp-infrastructure__contact-block {
   position: relative;
   z-index: 2;
 }
@@ -185,7 +189,6 @@
   width: 50px;
   height: auto;
   fill: var(--accent-color);
-  margin-top: 15px; 
 }
 
 .camp-infrastructure__title {
@@ -193,16 +196,12 @@
   font-weight: var(--font-weight-bold);
   color: var(--dark-shade-color);
   margin: 0;
-  position: relative;
-  z-index: 2;
 }
 
 .camp-infrastructure__contact-block {
   display: flex;
-  align-items: center; 
+  align-items: center;
   gap: 15px;
-  position: relative;
-  z-index: 2;
   margin-left: auto;
 }
 
