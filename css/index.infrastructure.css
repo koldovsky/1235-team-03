@@ -177,7 +177,7 @@
   background-image: url("../img/infrastructure/picture/infrastructure.png");
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.1; /* Adjust opacity to ensure readability of foreground text */
+  opacity: 0.2; /* Increase opacity for better visibility */
 }
 
 .camp-infrastructure__title-block, 
