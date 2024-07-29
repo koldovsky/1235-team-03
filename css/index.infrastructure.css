@@ -160,11 +160,10 @@
 
 .camp-infrastructure__header {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: flex-start;
   position: relative;
   padding: 50px 20px;
-  max-width: 1200px;
+  max-width: 600px; /* Обмежити ширину заголовка */
   margin: 0 auto;
   text-align: left;
   z-index: 1;
@@ -174,16 +173,16 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 50%; /* Обмеження ширини фону */
+  width: 600px; /* Обмежити ширину фону */
   height: 100%;
   z-index: 0;
   background-image: url("../img/infrastructure/picture/infrastructure.png");
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.4; /* Збільшена непрозорість для кращої видимості */
+  opacity: 0.4;
 }
 
-.camp-infrastructure__title-block, 
+.camp-infrastructure__title-block,
 .camp-infrastructure__contact-block {
   position: relative;
   z-index: 2;
@@ -206,7 +205,7 @@
   display: flex;
   align-items: center;
   gap: 15px;
-  margin-left: auto;
+  margin-left: 0; /* Вирівняти з заголовком */
 }
 
 .camp-infrastructure__mail-icon {
@@ -297,6 +296,7 @@
     margin-bottom: 10px;
   }
 }
+
 
 .cta-section {
   background-color: var(--light-shade-color);
