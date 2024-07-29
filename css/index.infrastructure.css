@@ -136,7 +136,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  border: none;
+  border: 2.5vw solid;
   background: none;
   padding: 5px;
   cursor: pointer;
