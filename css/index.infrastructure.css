@@ -154,11 +154,11 @@
 }
 
 .reviews__button--left {
-  left: -40px; 
+  left: 0px; 
 }
 
 .reviews__button--right {
-  right: -40px; 
+  right: 0px; 
 }
 
 .camp-infrastructure {
