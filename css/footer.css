@@ -7,7 +7,7 @@
 }
 
 .footer-url-color a {
-  color: var(--black-accent-color);
+  color: var(--accent-color);
 }
 
 .footer-mail-color a {
@@ -39,7 +39,7 @@
   align-items: center;
   justify-content: center;
   padding-right: 0.5em;
-  color: var(--black-accent-color);
+  color: var(--accent-color);
   width: 45px;
   height: 45px;
 }
