@@ -2,6 +2,8 @@
     background-image: url("/img/habitations/bg1.png"), url("/img/habitations/special-offers.png");
     background-position: bottom center, top left;
     background-repeat: no-repeat, no-repeat;
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 
   .grid-container {
@@ -48,7 +50,20 @@
 }
 
 .special-offers__description{
+    font-size: 19px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    line-height: 28.5px;
+    color: var(--dark-text-color);
+}
 
+.special-offers__description--continue{
+    font-size: 17px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    line-height: 25.5px;
+    color: var(--dark-text-color);
+    margin-top: 25px;
 }
 
 .special-offers__items{
