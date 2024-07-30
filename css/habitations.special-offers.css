@@ -4,6 +4,34 @@
     background-repeat: no-repeat, no-repeat;
   }
 
+  .grid-container {
+    max-width: 1200px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-rows: auto;
+    margin: 0 auto;
+  }
+  
+  .grid-item {
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  
+  @media (min-width: 600px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 599px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  
 .special-offers__icon {
     width: 50px;
     height: 50px;
@@ -12,9 +40,9 @@
 .special-offers__title{
     font-size: 46px;
     font-family: Work Sans, sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 2.4px;
-    line-height: 16.8px;
+    line-height: 55.2px;
     color: var(--link-color);
     margin-top: 20px;
 }
