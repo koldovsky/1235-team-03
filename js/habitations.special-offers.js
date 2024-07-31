@@ -8,7 +8,7 @@ const specialOffersData = [
         "Campfire exclusive access;",
         "Free souvenir Camp mug."
       ],
-      link: "https://bookish-space-garbanzo-4jqrpx997g6qfw4-3000.app.github.dev/contacts"
+      link: "contacts.html"
     },
     {
       title: "FREE ACTIVITIES",
@@ -19,7 +19,7 @@ const specialOffersData = [
         "Breakfast included;",
         "Free souvenir Camp mug."
       ],
-      link: "https://bookish-space-garbanzo-4jqrpx997g6qfw4-3000.app.github.dev/contacts"
+      link: "contacts.html"
     },
     {
       title: "ENJOY 15% OFF",
@@ -30,7 +30,7 @@ const specialOffersData = [
         "Campfire access;",
         "Breakfast included."
       ],
-      link: "https://bookish-space-garbanzo-4jqrpx997g6qfw4-3000.app.github.dev/contacts"
+      link: "contacts.html"
     }
   ];
   

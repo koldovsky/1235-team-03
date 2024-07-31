@@ -1,6 +1,6 @@
 .special-offers--bg {
     background-image: url("/img/habitations/bg1.png"), url("/img/habitations/special-offers.png");
-    background-position: bottom center, top left;
+    background-position: bottom center, 200px 100px;
     background-repeat: no-repeat, no-repeat;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -68,14 +68,15 @@
   
   .special-offers__items {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px; 
     max-width: 1200px;
+    margin: 0 auto;
   }
   
   .special-offers__item {
-    background-color: #fff;
+    background-color:var(--light-accent-color);
     padding: 40px;
     margin: 10px;
     width: calc(33.333% - 40px);
@@ -109,7 +110,7 @@
     font-size: 17px;
     margin-bottom: 16px;
     position: relative;
-    padding-left: 40px;
+    padding-left: 35px;
     color: var(--dark-text-color);
     font-family: Inter, sans-serif;
     font-weight: 400;
