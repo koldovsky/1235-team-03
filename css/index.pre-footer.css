@@ -9,7 +9,7 @@
   margin: 0 auto;
   padding: 90px 22px;
   padding-top: 50px;
-}
+} 
 
 .image-gallery__item { 
   width: 100%;
@@ -215,7 +215,7 @@
   transform: translateX(-50%);
   background-color: var(--dark-accent-color);
   color: var(--light-accent-color);
-  padding: 10px 20px;
+  padding: 20px 20px;
   text-decoration: none;
   display: inline-block;
 }
@@ -276,7 +276,6 @@
   background-color: var(--dark-background-color); 
 }
 
-/* Mobile View */
 @media (max-width: 768px) {
   .clients-carousel__slide {
       width: 100%;
