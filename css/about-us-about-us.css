@@ -46,17 +46,18 @@ p {
   margin-right: 10px;
 }
 about-section__book-now-link {
-        background-color: var(--book-now-button-color); 
-        color: var(--light-text-color); 
-        padding: 15px 30px; 
-        border: none; 
-        font-size: 16px;
-        font-weight: bold; 
-        cursor: pointer;
-        text-transform: uppercase; 
-        display: inline-block;
+    background-color: var(--dark-accent-color);
+    color: var(--link-color-light);
+    border: none;
+    width: 145.5px;
+    font-size: 13.2px;
+    font-weight: 700;
+    height: 53px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    margin-top: 20px;
       }
-      .about-section__features {
+      .flex{
         display: flex;
         align-items: center;
         margin-bottom: 10px;
