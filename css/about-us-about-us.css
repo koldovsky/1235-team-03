@@ -12,14 +12,7 @@
       width: 100%;}
     }
 .about-section__tree-icon {
-    max-height: 100%;
-    max-width: 100%;
-    display: inline;
-    position: absolute;
-    top: -70px;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 50px;
+    width: 50px;
     background-image: url(../img/about-us/aboutusfonphoto.png);
 }
 h2 {
@@ -48,14 +41,12 @@ p {
     margin-bottom: 20px;
 }
 .about-section__icon {
-    max-width: 50px; 
+    max-width: 20px; 
   max-height: 50px; 
   color: var(--dark-accent-color);
 }
 babout-section__book-now-link {
-    background-color: var(--dark-accent-color)
-    color: var(--light-accent-color); 
+    background-color: var(--dark-accent-color) 
     padding: 10px 20px; 
-    border: none; 
     cursor: pointer; 
   }
