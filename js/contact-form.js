@@ -43,7 +43,7 @@ function checkRequiredCorrect(inputArr) {
   let requiredCorrect = true;
   inputArr.forEach(function (input) {
     if (input.value.trim() === "") {
-      showError(input, `${getFieldName(input)} is required:`);
+      showError(input, `${getFieldName(input)} is required`);
       requiredCorrect = false;
     }
   });
