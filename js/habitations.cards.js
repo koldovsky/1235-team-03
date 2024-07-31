@@ -4,7 +4,7 @@ const habitationsData = [
     imgAlt: "Habitations prev type 1",
     capacity: "1-2 PERSONS | 25M<sup>2</sup>",
     name: "Geodesic Dome",
-    link: "https://bookish-space-garbanzo-4jqrpx997g6qfw4-3000.app.github.dev/big-wood-cabin",
+    link: "big-wood-cabin.html",
     amenities: [
       { icon: "img/habitations/icons/pet_paw_icon.svg", alt: "Pets allowed", description: "Pets allowed" },
       { icon: "img/habitations/icons/wi-fi_icon.svg", alt: "Wi-fi", description: "Wi-fi" },
