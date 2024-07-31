@@ -46,7 +46,7 @@ const specialOffersData = [
         <ul class="special-offers__item-features">
           ${featuresHTML}
         </ul>
-        <a href="${offer.link}" class="special-offers__button">Request</a>
+        <a href="${offer.link}" class="special-offers__button">REQUEST</a>
       </div>
     `;
   }

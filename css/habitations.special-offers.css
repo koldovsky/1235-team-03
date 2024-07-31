@@ -5,7 +5,7 @@
     padding-top: 120px;
     padding-bottom: 120px;
   }
-
+  
   .grid-container {
     max-width: 1200px;
     display: grid;
@@ -34,12 +34,12 @@
     }
   }
   
-.special-offers__icon {
+  .special-offers__icon {
     width: 50px;
     height: 50px;
-}
-
-.special-offers__title{
+  }
+  
+  .special-offers__title {
     font-size: 46px;
     font-family: Work Sans, sans-serif;
     font-weight: 600;
@@ -47,25 +47,112 @@
     line-height: 55.2px;
     color: var(--link-color);
     margin-top: 20px;
-}
-
-.special-offers__description{
+  }
+  
+  .special-offers__description {
     font-size: 19px;
     font-family: Inter, sans-serif;
     font-weight: 500;
     line-height: 28.5px;
     color: var(--dark-text-color);
-}
-
-.special-offers__description--continue{
+  }
+  
+  .special-offers__description--continue {
     font-size: 17px;
     font-family: Inter, sans-serif;
     font-weight: 400;
     line-height: 25.5px;
     color: var(--dark-text-color);
     margin-top: 25px;
-}
-
-.special-offers__items{
-
-}
+  }
+  
+  .special-offers__items {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 20px; 
+    max-width: 1200px;
+  }
+  
+  .special-offers__item {
+    background-color: #fff;
+    padding: 40px;
+    margin: 10px;
+    width: calc(33.333% - 40px);
+  }
+  
+  .special-offers__item-title {
+    font-size: 12px;
+    color: var(--dark-text-color);
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    line-height: 16.8px;
+    letter-spacing: 2.4px;
+  }
+  
+  .special-offers__item-name {
+    margin-top: 20px;
+    font-size: 24px;
+    color: var(--link-color);
+    font-family: Work Sans, sans-serif;
+    font-weight: 600;
+    line-height: 31.2px;
+  }
+  
+  .special-offers__item-features {
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;
+  }
+  
+  .special-offers__item-feature {
+    font-size: 17px;
+    margin-bottom: 16px;
+    position: relative;
+    padding-left: 40px;
+    color: var(--dark-text-color);
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    line-height: 25.5px;
+  }
+  
+  .special-offers__item-feature:before {
+    content: "✱"; 
+    color: var(--accent-color);
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 24px;
+    margin-right: 30px;
+  }
+  
+  .special-offers__button {
+    background-color: var(--dark-accent-color);
+    color: var(--light-accent-color);
+    font-size: 12px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    line-height: 15.6px;
+    letter-spacing: 1.2px;
+    padding: 15px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .special-offers__button:hover {
+    background-color: var(--accent-color);
+  }
+  
+  @media (max-width: 768px) {
+    .special-offers__item {
+      width: calc(50% - 40px); 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .special-offers__item {
+      width: calc(100% - 40px); 
+    }
+  }
+  
