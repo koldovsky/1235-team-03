@@ -42,11 +42,23 @@ p {
 }
 .about-section__icon {
     max-width: 20px; 
-  max-height: 50px; 
-  color: var(--dark-accent-color);
+  max-height: 50px;
+  margin-right: 10px;
 }
-babout-section__book-now-link {
-    background-color: var(--dark-accent-color) 
-    padding: 10px 20px; 
-    cursor: pointer; 
-  }
+about-section__book-now-link {
+        background-color: var(--book-now-button-color); 
+        color: var(--light-text-color); 
+        padding: 15px 30px; 
+        border: none; 
+        font-size: 16px;
+        font-weight: bold; 
+        cursor: pointer;
+        text-transform: uppercase; 
+        display: inline-block;
+      }
+      .about-section__features {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+    
