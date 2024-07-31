@@ -3,7 +3,7 @@ const specialOffersData = [
       title: "SAVE $50",
       name: "Starry Nights Package",
       features: [
-        "Complimentary stargazing tour;",
+        "Stargazing tour;",
         "Upgraded tent amenities;",
         "Campfire exclusive access;",
         "Free souvenir Camp mug."
