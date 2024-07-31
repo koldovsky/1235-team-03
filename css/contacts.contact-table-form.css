@@ -98,8 +98,8 @@
 
 .contact-form__input {
   margin-top: 12px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   padding-left: 26px;
   width: 100%;
   background-color: var(--light-accent-color);
@@ -108,7 +108,10 @@
   font-size: 15px;
   font-weight: 400;
   text-overflow: ellipsis;
-  /* placeholder color should be lighter */
+}
+
+.contact-form__input::placeholder {
+  color: var(--contact-form-placeholder-color);
 }
 
 .contact-form__input-field:focus {

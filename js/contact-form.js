@@ -57,7 +57,7 @@ function checkEmailCorrect(input) {
     showSuccess(input);
     return true;
   } else {
-    showError(input, "Email is not valid:");
+    showError(input, "Email is not valid");
     return false;
   }
 }
@@ -67,13 +67,13 @@ function checkLengthCorrect(input, min, max) {
   if (input.value.length < min) {
     showError(
       input,
-      `${getFieldName(input)} must be at least ${min} characters:`
+      `${getFieldName(input)} must be at least ${min} characters`
     );
     lengthCorrect = false;
   } else if (input.value.length > max) {
     showError(
       input,
-      `${getFieldName(input)} must be less than ${max} characters:`
+      `${getFieldName(input)} must be less than ${max} characters`
     );
     lengthCorrect = false;
   } else {
