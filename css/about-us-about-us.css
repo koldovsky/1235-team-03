@@ -1,0 +1,61 @@
+.about-section__image-container {
+    overflow: hidden;
+    width: 100%;}
+
+.about-section__image {
+    display: block;
+    position: relative;}
+
+@media (max-width: 767px) {
+    .about-section__image-container,
+    .about-section__image {
+      width: 100%;}
+    }
+.about-section__tree-icon {
+    max-height: 100%;
+    max-width: 100%;
+    display: inline;
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 50px;
+    background-image: url(../img/about-us/aboutusfonphoto.png);
+}
+h2 {
+    line-height: 1.6;
+    text-align: left;
+    color: var(--dark-shade-color);
+    font-family: "Work Sans", sans-serif;
+    font-size: 34px;
+    -webkit-font-smoothing: antialiased;
+    line-height: 40.8px;
+    vertical-align: baseline;
+    margin-top: 10px;
+    position: relative;
+    font-weight: 600
+}
+p {
+    margin-bottom: 1em;
+    text-align: left;
+    color: var(--dark-text-color);
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    line-height: 25.5px;
+    max-width: 770px;
+    vertical-align: baseline;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.about-section__icon {
+    max-width: 50px; 
+  max-height: 50px; 
+  color: var(--dark-accent-color);
+}
+babout-section__book-now-link {
+    background-color: var(--dark-accent-color)
+    color: var(--light-accent-color); 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+  }
