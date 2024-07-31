@@ -12,4 +12,26 @@
     top: 0;
     left: 0;
     z-index: 1;
+    max-width: 178px;
+    height: 178px;
+    object-fit: cover;
 }
+h2{
+    color: var(--dark-shade-color);
+    font-family: "Work Sans", sans-serif;
+    font-size: 34px;
+    -webkit-font-smoothing: antialiased;
+    line-height: 40.8px;
+    vertical-align: baseline;
+    margin-top: 10px;
+    position: relative;
+    font-weight: 600;
+}
+p {color: var(--dark-text-color);
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    line-height: 25.5px;
+    max-width: 770px;
+    vertical-align: baseline;
+    margin-top: 0;
+    margin-bottom: 20px;}
