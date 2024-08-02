@@ -79,12 +79,6 @@
     background-color: #eee;
 }
 
-.accordion-button:after {
-    content: '+';
-    float: right;
-    font-size: 16px;
-}
-
 .accordion-body {
     padding: 15px;
     background-color: #fff;
