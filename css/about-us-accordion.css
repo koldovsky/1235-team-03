@@ -85,10 +85,6 @@
     font-size: 16px;
 }
 
-.accordion-button[aria-expanded="true"]:after {
-    content: '-';
-}
-
 .accordion-body {
     padding: 15px;
     background-color: #fff;
