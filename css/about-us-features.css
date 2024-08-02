@@ -1,14 +1,15 @@
-
 .features-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 50px;
   background-color: #fff;
+  flex-wrap: wrap; 
 }
 
 .features-section__content {
   max-width: 600px;
+  flex: 1 1 100%; 
 }
 
 .features-section__heading {
@@ -51,10 +52,25 @@
 
 .features-section__image {
   flex-shrink: 0;
+  flex: 1 1 100%; 
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; 
 }
 
 .features-section__image-content {
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   height: auto;
   border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .features-section__content {
+    flex: 1 1 50%; 
+  }
+  .features-section__image {
+    flex: 1 1 50%; 
+    margin-top: 0; 
+  }
 }
