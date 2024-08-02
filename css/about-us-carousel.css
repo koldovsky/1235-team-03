@@ -1,38 +1,66 @@
 .history-section {
-    padding: 50px 0;
-    background-color: #f8f8f8;
-    text-align: center;
-  }
-  .carousel-inner {
-    display: flex;
-    justify-content: center;
-  }
+  padding: 50px 0;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.carousel-inner {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.carousel-item {
+  flex: 1 0 100%;
+  max-width: 300px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.6s ease;
+}
+
+.carousel-year {
+  font-size: 18px;
+  font-weight: bold;
+  color: #6c757d;
+}
+
+.carousel-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.carousel-description {
+  font-size: 16px;
+  color: #6c757d;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #6c757d;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #6c757d;
+}
+
+@media (min-width: 576px) {
   .carousel-item {
-    max-width: 300px;
-    margin: auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1 0 50%;
   }
-  .carousel-year {
-    font-size: 18px;
-    font-weight: bold;
-    color: #6c757d;
+}
+
+@media (min-width: 768px) {
+  .carousel-item {
+    flex: 1 0 33.333%;
   }
-  .carousel-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin: 10px 0;
+}
+
+@media (min-width: 992px) {
+  .carousel-item {
+    flex: 1 0 25%;
   }
-  .carousel-description {
-    font-size: 16px;
-    color: #6c757d;
-  }
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    background-color: #6c757d;
-  }
-  .carousel-indicators [data-bs-target] {
-    background-color: #6c757d;
-  }
+}
