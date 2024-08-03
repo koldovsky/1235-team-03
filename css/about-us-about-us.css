@@ -82,14 +82,14 @@
   display: inline-block;
   padding: 10px 20px;
   background-color: var(--book-now-button-color);
-  color: var(--overlay-color);
+  color: var(--light-shade-color);
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
 .about-section__book-now-link:hover {
-  background-color: var(--book-now-button-color);
+  background-color: var(--accent-color);
 }
 
 @media (max-width: 768px) {
