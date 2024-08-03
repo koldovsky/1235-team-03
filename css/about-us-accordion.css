@@ -4,8 +4,8 @@
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: var(--overlay-color);
+    box-shadow: 0 2px 8px var(--block-subtitle-color) (0, 0, 0, 0.1);
 }
 
 .events-image-container {
@@ -52,15 +52,15 @@
 }
 
 .accordion-item {
-    border: 1px solid #ddd;
+    border: 1px solid var(--block-subtitle-color);
     border-radius: 8px;
     margin-bottom: 10px;
     overflow: hidden;
 }
 
 .accordion-header {
-    background-color: #f7f7f7;
-    border-bottom: 1px solid #ddd;
+    background-color: var(--overlay-color);
+    border-bottom: 1px solid var(--block-subtitle-color);
 }
 
 .accordion-button {
@@ -76,12 +76,12 @@
 }
 
 .accordion-button:hover {
-    background-color: #eee;
+    background-color: var(--block-subtitle-color);
 }
 
 .accordion-body {
     padding: 15px;
-    background-color: #fff;
+    background-color: var(--overlay-color);
 }
 
 @media (max-width: 768px) {

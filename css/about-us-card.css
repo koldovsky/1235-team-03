@@ -3,8 +3,8 @@
   display: flex; 
   justify-content: space-between;
   padding: 40px;
-  background-color: #f9f9f9; 
-  font-family: Arial, sans-serif;
+  background-color: var(--overlay-color); 
+  font-family: Inter, sans-serif;
   text-align: center;
   flex-wrap: wrap;
 }
@@ -21,13 +21,13 @@
 
 .stats-card-title {
   font-size: 36px;
-  color: #f58634; 
+  color: var(--accent-color); 
   margin-bottom: 10px;
 }
 
 .stats-card-text {
   font-size: 14px;
-  color: #666; 
+  color: var(--color-under-block-header); 
 }
 
 @media (max-width: 768px) {

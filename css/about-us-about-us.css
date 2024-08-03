@@ -1,6 +1,6 @@
 .about-section {
   padding: 40px;
-  font-family: Arial, sans-serif;
+  font-family: Inter, sans-serif;
 }
 
 .about-section__flex {
@@ -36,20 +36,20 @@
 
 .about-section__title {
   font-size: 36px;
-  color: #333;
+  color: var(--dark-shade-color);
   margin-bottom: 10px;
 }
 
 .about-section__subtitle {
   font-size: 18px;
-  color: #666;
+  color: var(--subtitle-color);
   margin-bottom: 20px;
 }
 
 .about-section__text {
   font-size: 16px;
   line-height: 1.6;
-  color: #555;
+  color: var(--subtitle-color);
   margin-bottom: 20px;
 }
 
@@ -71,7 +71,7 @@
 
 .about-section__feature-text {
   font-size: 16px;
-  color: #333;
+  color: var(--dark-shade-color);
 }
 
 .about-section__book-now {
@@ -81,15 +81,15 @@
 .about-section__book-now-link {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #6b8e23;
-  color: white;
+  background-color: var(--book-now-button-color);
+  color: var(--overlay-color);
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
 .about-section__book-now-link:hover {
-  background-color: #556b2f;
+  background-color: var(--book-now-button-color);
 }
 
 @media (max-width: 768px) {

@@ -1,6 +1,6 @@
 .gallery-section {
     padding: 50px;
-    background-color: #fff;
+    background-color: var(--light-shade-color);
     text-align: center;
     position: relative;
   }

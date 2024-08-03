@@ -1,6 +1,6 @@
 .history-section {
   padding: 50px 0;
-  background-color: #f8f8f8;
+  background-color: var(--light-accent-color);
   text-align: center;
 }
 
@@ -15,16 +15,16 @@
   max-width: 300px;
   margin: auto;
   padding: 20px;
-  background-color: #fff;
+  background-color: var(--light-accent-color);
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px var(--secondary-text-color) (0, 0, 0, 0.1);
   transition: transform 0.6s ease;
 }
 
 .carousel-year {
   font-size: 18px;
   font-weight: bold;
-  color: #6c757d;
+  color: var(--color-under-block-header);
 }
 
 .carousel-title {
@@ -35,16 +35,16 @@
 
 .carousel-description {
   font-size: 16px;
-  color: #6c757d;
+  color: var(--color-under-block-header);
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: #6c757d;
+  background-color: var(--color-under-block-header);
 }
 
 .carousel-indicators [data-bs-target] {
-  background-color: #6c757d;
+  background-color: var(--color-under-block-header);
 }
 
 @media (min-width: 576px) {
