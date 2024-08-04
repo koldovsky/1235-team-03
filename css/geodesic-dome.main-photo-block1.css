@@ -1,0 +1,34 @@
+.main__photo-block1 {
+  padding: 60px 15px;
+  position: static;
+  display: flex;
+  justify-content: center;
+}
+
+.main__photo-block-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+}
+
+.main__photo-block-item {
+  height: 30vw;
+  max-height: 350px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.main__photo-block1 {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .main__photo-block1 {
+    padding: 120px 15px 60px 15px;
+  }
+
+  .main__photo-block-grid {
+    grid-gap: 30px;
+  }
+}
