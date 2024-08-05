@@ -24,15 +24,17 @@
   flex: 2;
   max-width: 600px;
 }
-
 .about-section__tree-icon {
+  background-image: url(../img/about-us/aboutusfonphoto.png);
+  background-size: contain;
+  background-repeat: no-repeat;
   margin-bottom: 20px;
 }
 
 .about-section__tree-icon-img {
   width: 40px;
   height: auto;
-}
+  }
 
 .about-section__title {
   font-size: 36px;
