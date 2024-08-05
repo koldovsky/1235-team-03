@@ -113,18 +113,6 @@
   padding: 2px;
 }
 
-@media (max-width: 768px) {
-  .reviews__slide {
-    flex: 0 0 100%;
-  }
-}
-
-@media (min-width: 768px) {
-  .reviews__slide {
-    flex: 0 0 50%;
-  }
-}
-
 .reviews__item {
   background: transparent;
   padding: 20px;
