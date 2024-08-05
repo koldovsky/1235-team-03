@@ -12,7 +12,7 @@ body {
 }
 
 .gallery-first {
-    width: 62%;
+    width: 38%;
 }
 
 .gallery-item-large {
@@ -24,8 +24,8 @@ body {
 .gallery-down {
     display: flex;
     gap: 10px;
-    width: 20%;
-    justify-content: center; /* Center items horizontally */
+    width: 12%;
+    justify-content: center; 
 }
 
 .gallery-item {
@@ -57,7 +57,7 @@ body {
 .lightbox-content {
     max-width: 90%;
     max-height: 90%;
-    object-fit: contain; /* Preserve aspect ratio of image */
+    object-fit: contain; 
     transition: transform 0.5s;
 }
 
@@ -88,7 +88,7 @@ body {
 }
 
 .gallary-headtext {
-    font-size: 2em; /* Adjust font size as needed */
+    font-size: 2em; 
     color: #7c782f;
     animation: fadeIn 4s;
 }
@@ -101,17 +101,23 @@ body {
     height: 10vh;
 }
 
+.galary-tree {
+    width: 50px;
+    height: auto;
+    align-items: center;
+  }
+
 svg {
     transition: all 0.3s ease;
 }
 
 svg:hover path {
-    stroke: #ea9449; /* Зміна кольору лінії при наведенні */
+    stroke: #ea9449; 
 }
 
 svg:hover text {
     
-    fill: #ea9449; /* Зміна кольору тексту при наведенні */
+    fill: #ea9449; 
 }
 
 @keyframes fadeIn {
@@ -123,7 +129,8 @@ svg:hover text {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    width: 100%;
+    padding: 20px;
     background-color: #f7f7f7;
 }
 
