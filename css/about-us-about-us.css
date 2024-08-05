@@ -30,11 +30,13 @@
 }
 
 .about-section__tree-icon-img {
-    width: 40px;
-    height: auto;
-    background-image: url(../img/about-us/aboutusfonphoto.png);
-    background-repeat: no-repeat; 
-    background-position: center;
+  width: 40px;
+  height: auto;
+  background-image: url(../img/about-us/aboutusfonphoto.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center; 
+  background-attachment: fixed;
   }
 
 }
