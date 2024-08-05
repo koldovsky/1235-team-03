@@ -1,9 +1,6 @@
 .contacts-header {
   background-color: var(--block-title-color);
-  background: linear-gradient(
-      rgba(var(--dark-shade-color), 0.5),
-      rgba(var(--dark-shade-color), 0.5)
-    ),
+  background: linear-gradient(var(--dimming-background-button), var(--dimming-background-button)),
     url("../img/contacts/hero.jpg");
   background-size: cover;
   background-position: 50% 75%;
