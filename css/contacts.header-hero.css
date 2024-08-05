@@ -1,7 +1,11 @@
 .contacts-header {
   background-color: var(--block-title-color);
-  background: linear-gradient(rgba(45, 45, 45, 0.56), rgba(45, 45, 45, 0.56)),
-    url(../img/contacts/hero.jpg);
+  background: linear-gradient(
+      rgba(var(--dark-shade-color), 0.5),
+      rgba(var(--dark-shade-color), 0.5)
+    ),
+    url("../img/contacts/hero.jpg");
+
   background-size: cover;
   background-position: 50% 75%;
 }
