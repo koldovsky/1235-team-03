@@ -4,18 +4,16 @@
     text-align: center;
     position: relative;
   }
-  
-  .background-image {
-    position: relative;
+  .galery-image {
+    background-image: url(../img/about-us/aboutusgallery.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
   }
-  
-  .background-image .tree {
-    position: absolute;
-    top: -20px;
-    left: calc(50% - 25px);
-    width: 50px;
-    height: auto;
-  }
+.tree {
+  width: 40px;
+  height: auto;
+}
   
   .section-title {
     font-size: 36px;
