@@ -1,0 +1,147 @@
+.main__related-habitations {
+  padding: 0 15px 120px 15px;
+}
+
+.main__related-habitations-line {
+  width: 100%;
+  height: 1px;
+  margin: 20px auto 55px auto;
+  background-color: rgba(128, 128, 128, 0.16);
+}
+
+.main__related-habitations-title {
+  font-size: 40px;
+  color: #2d2d2d;
+}
+
+.main__related-habitations-carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__related-habitations-wrapper {
+  width: 94vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.main__related-habitations-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 2vw;
+  position: relative;
+  left: 0px;
+}
+
+.main__related-habitations-item {
+  width: 94vw;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+.main__related-habitations-photo {
+  width: 100%;
+  height: 55vw;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    padding: 0;
+  }
+}
+
+.main__related-habitations-size {
+  color: #7c782f;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  padding-bottom: 25px;
+}
+
+.main__related-habitations-name {
+  font-size: 24px;
+  color: #2d2d2d;
+}
+
+.main__related-habitations-description {
+  height: 120px;
+  font-size: 19px;
+  color: #888888;
+  padding-bottom: 25px;
+}
+
+.main__related-habitations-button {
+  padding: 20px 35px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #7c782f;
+  border: 1px solid #7c782f;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.main__related-habitations-button:hover {
+  background-color: #ff8f33;
+  border: 1px solid #ff8f33;
+}
+
+.main__related-habitations-button:active {
+  background-color: #050505;
+  border: 1px solid #050505;
+}
+
+.arrow-svg_1j4-left, .arrow-svg_1j4-right {
+  position: absolute;
+  width: 30px;
+  fill: white;
+  background-color: rgba(45, 45, 45, 0.5);
+  border-radius: 15px;
+  z-index: 10;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.arrow-svg_1j4-left {
+  left: 0;
+}
+
+.arrow-svg_1j4-right {
+  right: 0;
+}
+
+@media (min-width: 768px) {
+  .main__related-habitations-photo {
+    height: 30vw;
+  }
+
+  .main__related-habitations-item {
+    width: 46vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main__related-habitations-photo {
+    height: 20vw;
+  }
+
+  .main__related-habitations-item {
+    width: 30vw;
+    max-width: 373px;  
+  }
+
+  .main__related-habitations-photo {
+    width: 100%;
+    max-height: 235px;
+  }
+}
