@@ -26,7 +26,7 @@
 }
 .about-section__tree-icon {
   background-image: url(../img/about-us/aboutusfonphoto.png);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   margin-bottom: 20px;
 }
