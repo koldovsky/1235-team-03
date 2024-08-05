@@ -205,6 +205,12 @@
   right: -17px;
 }
 
+.camp-infrastructure {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .camp-infrastructure__header {
   display: flex;
   justify-content: space-between;
