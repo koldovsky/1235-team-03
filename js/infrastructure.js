@@ -16,17 +16,13 @@ function getSlidesPerView() {
 }
 
 function setupCarousel() {
-    // Видаляємо клони, якщо вони існують
     slides = slides.filter(slide => !slide.classList.contains('clone'));
 
-    // Додаємо клони на початок і кінець для безкінечного циклу
     const clonesStart = slides.slice(-slidesPerView).map(cloneSlide);
     const clonesEnd = slides.slice(0, slidesPerView).map(cloneSlide);
 
-    // Додаємо всі слайди в карусель
     carouselTrack.append(...clonesStart, ...slides, ...clonesEnd);
 
-    // Оновлюємо слайди
     slides = Array.from(carouselTrack.children);
 
     updateCarousel();
