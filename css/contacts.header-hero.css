@@ -5,7 +5,6 @@
       rgba(var(--dark-shade-color), 0.5)
     ),
     url("../img/contacts/hero.jpg");
-
   background-size: cover;
   background-position: 50% 75%;
 }
