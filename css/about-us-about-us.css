@@ -33,9 +33,7 @@
     width: 40px;
     height: auto;
     background-image: url(../img/about-us/aboutusfonphoto.png);
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-position: center; 
+    background-repeat: no-repeat; 
   }
 
 }
