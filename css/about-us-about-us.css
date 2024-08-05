@@ -24,13 +24,10 @@
   flex: 2;
   max-width: 600px;
 }
-.about-section {
+.about-section__tree-icon {
   background-image: url(../img/about-us/aboutusfonphoto.png);
   background-size: cover;
   background-position: center;
-}
-
-.about-section__tree-icon {
   margin-bottom: 20px;
 }
 
