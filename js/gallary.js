@@ -35,3 +35,4 @@ function showNextImage() {
     currentIndex = (currentIndex === galleryItems.length - 1) ? 0 : currentIndex + 1;
     lightboxContent.src = galleryItems[currentIndex].src;
 }
+
