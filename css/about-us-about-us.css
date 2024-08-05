@@ -34,17 +34,7 @@
   height: auto;
   background-image: url(../img/about-us/aboutusfonphoto.png);
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center; 
-  background-attachment: fixed;
-  position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
   }
-
-}
 
 .about-section__title {
   font-size: 36px;
