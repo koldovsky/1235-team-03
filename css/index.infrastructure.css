@@ -114,6 +114,24 @@
   padding: 2px;
 }
 
+@media (max-width: 768px) {
+  .reviews__slide {
+    flex: 0 0 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .reviews__slide {
+    flex: 0 0 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .reviews__slide {
+    flex: 0 0 33.33%;
+  }
+}
+
 .reviews__item {
   background: transparent;
   padding: 20px;
@@ -185,12 +203,6 @@
 
 .reviews__button--right {
   right: -17px;
-}
-
-.camp-infrastructure {
-  padding: 50px 20px;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .camp-infrastructure__header {
